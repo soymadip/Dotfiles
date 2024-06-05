@@ -1,1 +1,0 @@
-# This is where my plasmoids' list is located.
