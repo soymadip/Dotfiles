@@ -1,0 +1,12 @@
+{
+  "accentColor": "#00ffff",
+  "cssTheme": "Obsidian Nord",
+  "theme": "system",
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "style button",
+    "Test",
+    "Footnote size fix"
+  ],
+  "baseFontSize": 16
+}

@@ -1,0 +1,71 @@
+1920x1080 screen: Height=1052
+1920x1080 screen: Width=1916
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=2
+1920x1080 screen: YPosition=26
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEOAAAD7vwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAAuAAAD7gAAAQ4BAAACAAAGMQAAA+4AAAAEAAAABAAAAAgAAAAI/AAAAAIAAAABAAAAAgAAACIAYQBuAG4AbwB0AGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAwAAAAAAAALCAAAAAAAAAAAAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAACwv////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAAAAA6oAAAAAAAAAAA==
+VGA-1=VGA-1
+
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[KFileDialog Settings]
+Recent Files[$e]=2nd sem syllabus.pdf,file:$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf,file:$HOME/Desktop/Study/physics/2.jpeg,file:$HOME/Desktop/Study/FEEE/Fundamentals of electrical and electronics engineering .pdf,file:$HOME/Desktop/Study/FEEE/WhatsApp Image 2024-05-22 at 9.54.55 AM.jpeg,file:$HOME/Desktop/Study/FEEE/FEEE\\, UNIT - 3\\, AC CIRCUIT .pdf,file:$HOME/gff.txt,file:$HOME/Desktop/Study/FEEE/digital electronics.pdf,file:$HOME/Desktop/Study/2nd sem syllabus.pdf
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Desktop/Study/,file:$HOME/,file:$HOME/Desktop/Study/FEEE/,file:$HOME/Documents/,file:$HOME/Desktop/Study/physics/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=700
+1920x1080 screen: Width=1276
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=474
+1920x1080 screen: YPosition=216
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEOAAAD7vwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAAuAAAD7gAAAAMBAAACAAAHQAAAA+4AAAAEAAAABAAAAAgAAAAI/AAAAAIAAAABAAAAAgAAACIAYQBuAG4AbwB0AGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAwAAAAAAAALCAAAAAAAAAAAAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAACwv////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAAAAA6oAAAAAAAAAAA==
+ToolBarsMovable=Disabled
+VGA-1=VGA-1
+
+[MainWindow][Toolbar annotationToolBar]
+IconSize=16
+
+[MainWindow][Toolbar quickAnnotationToolBar]
+IconSize=16
+
+[Notification Messages]
+ShowTabWarning=true
+
+[Recent Files]
+File1[$e]=$HOME/MF/-MEDIA/ANIME/[GigaCourse.Com] Udemy - The Complete 2024 Web Development Bootcamp/01 - Front-End Web Development/002 2023-Web-Dev-Syllabus.pdf
+File10[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
+File2[$e]=$HOME/Desktop/Study/FEEE/FEEE, UNIT - 3, AC CIRCUIT .pdf
+File3[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
+File4[$e]=$HOME/Desktop/Study/FEEE/digital electronics.pdf
+File5[$e]=$HOME/Desktop/Study/physics/2.jpeg
+File6[$e]=$HOME/Desktop/Study/IT/Suggestion.pdf
+File7[$e]=$HOME/Desktop/Study/IT/suggestion.pdf
+File8[$e]=$HOME/Desktop/Study/IT/Suggestion it solution.pdf
+File9[$e]=$HOME/Desktop/Study/IT/document.pdf
+Name1[$e]=002 2023-Web-Dev-Syllabus.pdf
+Name10[$e]=Basic About Semiconductor - Diodes .pdf
+Name2[$e]=FEEE, UNIT - 3, AC CIRCUIT .pdf
+Name3[$e]=2nd sem syllabus.pdf
+Name4[$e]=digital electronics.pdf
+Name5[$e]=2.jpeg
+Name6[$e]=Suggestion.pdf
+Name7[$e]=suggestion.pdf
+Name8[$e]=Suggestion it solution.pdf
+Name9[$e]=document.pdf
+
+[Toolbar annotationToolBar]
+IconSize=16
+
+[Toolbar quickAnnotationToolBar]
+IconSize=16
+
+[UiSettings]
+ColorScheme=Nordic-Darker

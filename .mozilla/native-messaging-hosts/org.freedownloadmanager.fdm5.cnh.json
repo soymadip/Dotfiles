@@ -1,0 +1,10 @@
+{
+  "allowed_extensions": [
+    "fdm_ffext@freedownloadmanager.org",
+    "fdm_ffext2@freedownloadmanager.org"
+  ],
+  "description": "Free Download Manager",
+  "name": "org.freedownloadmanager.fdm5.cnh",
+  "path": "\/opt\/freedownloadmanager\/wenativehost",
+  "type": "stdio"
+}

@@ -1,0 +1,22 @@
+{
+  "collapse-filter": false,
+  "search": "Day 1",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 1.3,
+  "nodeSizeMultiplier": 1.59296875,
+  "lineSizeMultiplier": 1.36328125,
+  "collapse-forces": false,
+  "centerStrength": 1,
+  "repelStrength": 11.5104166666667,
+  "linkStrength": 1,
+  "linkDistance": 242,
+  "scale": 2.219473337114252,
+  "close": false
+}

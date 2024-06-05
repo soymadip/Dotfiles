@@ -1,0 +1,190 @@
+{
+	"update.mode": "none",
+
+	"workbench.colorTheme": "Catppuccin Frappé",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.startupEditor": "none",
+
+	"files.autoSaveDelay": 500,
+	"files.autoSave": "afterDelay",
+
+	"editor.fontSize": 15.1,
+	"editor.wordWrap": "on",
+	"editor.indentSize": "tabSize",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "'FiraCode Nerd Font Ret','Droid Sans Mono', 'monospace', monospace",
+	"editor.acceptSuggestionOnCommitCharacter": true,
+	"editor.minimap.showSlider": "always",
+	"editor.minimap.size": "fill",
+	"editor.minimap.enabled": false,
+	"editor.stickyScroll.enabled": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"notebook.formatOnSave.enabled": true,
+
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"window.menuBarVisibility": "toggle",
+	"[properties]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[nix]": {
+		"editor.defaultFormatter": "jnoortheen.nix-ide"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+
+	"security.workspace.trust.untrustedFiles": "open",
+
+	"code-runner.runInTerminal": true,
+	"code-runner.saveFileBeforeRun": true,
+	"code-runner.languageIdToFileExtensionMap": {
+		"bat": ".bat",
+		"powershell": ".ps1",
+		"typescript": ".ts"
+	},
+	"code-runner.executorMap": {
+		"python": "python3 -u",
+		"javascript": "node"
+	},
+	"code-runner.enableAppInsights": false,
+	"code-runner.preserveFocus": false,
+
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"git.showPushSuccessNotification": true,
+	"git.closeDiffOnOperation": true,
+	"git.ignoreRebaseWarning": true,
+	"git.supportCancellation": true,
+	"git.pullBeforeCheckout": true,
+	"git.postCommitCommand": "sync",
+	"git.terminalGitEditor": true,
+	"git.inputValidationLength": 100,
+	"git.openRepositoryInParentFolders": "always",
+
+	"python.terminal.activateEnvInCurrentTerminal": true,
+	"python.terminal.focusAfterLaunch": true,
+	// "python.terminal.executeInFileDir": true,
+
+	"sync.quietSync": true,
+	"sync.autoUpload": true,
+	"sync.forceUpload": true,
+	"sync.removeExtensions": false,
+	"sync.gist": "099569b96662d29a561180fcc078e25c",
+
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+	"terminal.integrated.profiles.linux": {
+		"bash": {
+			"path": "bash",
+			"icon": "terminal-bash"
+		},
+		"zsh": {
+			"path": "zsh"
+		},
+		"fish": {
+			"path": "fish"
+		},
+		"tmux": {
+			"path": "tmux",
+			"icon": "terminal-tmux"
+		},
+		"pwsh": {
+			"path": "pwsh",
+			"icon": "terminal-powershell"
+		}
+	},
+	"terminal.integrated.confirmOnExit": "hasChildProcesses",
+	"terminal.integrated.enableImages": true,
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.localEchoExcludePrograms": [
+		"vim",
+		"vi",
+		"nano",
+		"tmux",
+		"nvim"
+	],
+	"terminal.integrated.stickyScroll.enabled": true,
+	"terminal.integrated.tabs.focusMode": "singleClick",
+
+	"auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+	"auto-close-tag.SublimeText3Mode": true,
+	"auto-close-tag.fullMode": true,
+	"auto-close-tag.activationOnLanguage": [
+		"xml",
+		"python",
+		"php",
+		"blade",
+		"ejs",
+		"jinja",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"plaintext",
+		"markdown",
+		"vue",
+		"liquid",
+		"erb",
+		"lang-cfml",
+		"cfml",
+		"HTML (EEx)",
+		"HTML (Eex)",
+		"plist",
+		"bash"
+	],
+
+	"vim.cursorStylePerMode.visual": "line-thin",
+	"vim.leader": " ",
+
+	"prettier.useTabs": true,
+	"prettier.enableDebugLogs": true,
+
+	"emmet.excludeLanguages": [],
+	"emmet.showSuggestionsAsSnippets": true,
+
+	"merge-conflict.autoNavigateNextConflict.enabled": true,
+
+	"indentRainbow.colors": [
+		"rgba(255,255,64,0.04)",
+		"rgba(127,255,127,0.04)",
+		"rgba(255,127,255,0.04)",
+		"rgba(79,236,236,0.04)"
+	],
+
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "librewolf",
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	"accessibility.dimUnfocused.enabled": true,
+	"accessibility.dimUnfocused.opacity": 0.75,
+	"sync.autoDownload": true
+}

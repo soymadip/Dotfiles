@@ -1,0 +1,17 @@
+[Event/CannotLoadSilently]
+Execute=
+Logfile=
+Sound=/usr/share/sounds/Oxygen-Sys-App-Negative.ogg
+TTS=
+
+[Event/MagnetLinkCopied]
+Execute=
+Logfile=
+Sound=
+TTS=
+
+[Event/MaxShareRatioReached]
+Execute=
+Logfile=
+Sound=
+TTS=

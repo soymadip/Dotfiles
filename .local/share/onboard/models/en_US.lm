@@ -1,0 +1,143 @@
+
+\data\
+ngram 1=45
+ngram 2=49
+ngram 3=36
+
+\1-grams:
+1 1 <unk>
+1 2 <s>
+1 3 </s>
+8 168 <num>
+20 199 <bot:txt>
+1 136 B
+1 131 Bfor
+1 125 Bicon
+1 113 Bkeyboard
+1 107 Bscreen
+1 119 Bvector
+1 22 HDD1
+1 19 Im
+1 174 aniwatch
+1 143 ar
+1 177 atta
+1 162 browser
+1 92 client
+4 210 com
+1 165 dd
+1 13 earth
+2 142 f
+2 161 firedragon
+1 95 firefox-b-d
+1 73 for
+3 153 garudalinux
+1 83 google
+6 202 https
+1 71 icon
+2 171 keyboard
+2 101 on
+3 156 org
+4 159 q
+1 62 screen
+1 16 sd
+1 89 search
+3 150 searx
+1 7 t
+1 10 tt
+1 68 vector
+1 80 www
+2 205 chat
+2 208 openai
+1 193 soumadip377
+1 196 gmail
+
+\2-grams:
+1 135 <num> B
+1 129 <num> Bfor
+1 123 <num> Bicon
+1 111 <num> Bkeyboard
+1 105 <num> Bscreen
+1 117 <num> Bvector
+1 167 <bot:txt> <num>
+1 21 <bot:txt> HDD1
+1 18 <bot:txt> Im
+1 173 <bot:txt> aniwatch
+1 176 <bot:txt> atta
+1 164 <bot:txt> dd
+1 12 <bot:txt> earth
+2 141 <bot:txt> f
+6 200 <bot:txt> https
+1 170 <bot:txt> keyboard
+1 15 <bot:txt> sd
+1 6 <bot:txt> t
+1 9 <bot:txt> tt
+1 191 <bot:txt> soumadip377
+1 132 Bfor <num>
+1 126 Bicon <num>
+1 114 Bkeyboard <num>
+1 108 Bscreen <num>
+1 120 Bvector <num>
+1 93 client firefox-b-d
+1 87 com search
+1 96 firefox-b-d q
+3 154 garudalinux org
+1 84 google com
+3 148 https searx
+1 78 https www
+2 203 https chat
+1 72 icon for
+1 66 keyboard vector
+1 102 on <num>
+1 60 on screen
+3 157 org q
+2 160 q firedragon
+2 99 q on
+1 63 screen keyboard
+1 90 search client
+3 151 searx garudalinux
+1 69 vector icon
+1 81 www google
+2 206 chat openai
+2 209 openai com
+1 194 soumadip377 gmail
+1 197 gmail com
+
+\3-grams:
+1 130 <num> Bfor <num>
+1 124 <num> Bicon <num>
+1 112 <num> Bkeyboard <num>
+1 106 <num> Bscreen <num>
+1 118 <num> Bvector <num>
+3 146 <bot:txt> https searx
+1 76 <bot:txt> https www
+2 201 <bot:txt> https chat
+1 192 <bot:txt> soumadip377 gmail
+1 133 Bfor <num> B
+1 127 Bicon <num> Bfor
+1 115 Bkeyboard <num> Bvector
+1 109 Bscreen <num> Bkeyboard
+1 121 Bvector <num> Bicon
+1 94 client firefox-b-d q
+1 88 com search client
+1 97 firefox-b-d q on
+3 155 garudalinux org q
+1 85 google com search
+3 149 https searx garudalinux
+1 79 https www google
+2 204 https chat openai
+1 67 keyboard vector icon
+1 103 on <num> Bscreen
+1 61 on screen keyboard
+2 158 org q firedragon
+1 55 org q on
+1 100 q on <num>
+1 58 q on screen
+1 64 screen keyboard vector
+1 91 search client firefox-b-d
+3 152 searx garudalinux org
+1 70 vector icon for
+1 82 www google com
+2 207 chat openai com
+1 195 soumadip377 gmail com
+
+\end\

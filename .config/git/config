@@ -1,0 +1,13 @@
+[user]
+	email = soumadip377@gmail.com
+	name = soymadip
+[commit]
+	template = /home/soymadip/.config/git/.gitmessage
+	rebase=true
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[color "diff"]
+	old = white
