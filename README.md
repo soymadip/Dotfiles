@@ -1,12 +1,11 @@
- <!-- <h1 align="center"> ⚠️ Work in progress ⚠️</h1> -->
-
-📚 Contents | Branches
-
+<details>
+  <summary>📚 Branches ↞</summary>
+ 
 - [🏠 Home][1]
 - [💻 dotfiles][2]
 - [🌐 Website][3]*
 <!-- - **🗜 Home Server  -** [HERE][2] -->
-
+</details>
 
 ![Welcome][wcm]
 
