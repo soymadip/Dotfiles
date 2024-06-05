@@ -20,6 +20,7 @@ detailViewIconSize=16
 [MainWindow]
 1920x1080 screen: Height=1052
 1920x1080 screen: Width=956
+1920x1080 screen: Window-Maximized=true
 1920x1080 screen: XPosition=962
 1920x1080 screen: YPosition=26
 MenuBar=Disabled

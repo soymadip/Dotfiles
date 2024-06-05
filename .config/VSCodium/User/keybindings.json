@@ -91,7 +91,11 @@
 		"command": "-code-runner.runByLanguage"
 	},
 	{
-		"key": "ctrl+shift+t",
+		"key": "f4",
 		"command": "workbench.action.terminal.newInActiveWorkspace"
+	},
+	{
+		"key": "shift+f4",
+		"command": "workbench.action.terminal.kill"
 	}
 ]
