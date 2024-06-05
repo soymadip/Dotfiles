@@ -21,7 +21,7 @@
 
 
 [wcm]:https://raw.githubusercontent.com/soymadip/Dotfiles/Website/Assets/welcome.gif
-[1]:https://github.com/soymadip/Dotfiles/
+[1]:https://github.com/soymadip/Dotfiles#%EF%B8%8F-my-configs--
 [2]:#%EF%B8%8F-my-dotfiles--
-[3]:https://github.com/soymadip/Dotfiles/tree/Website
-[4]:https://github.com/soymadip/Dotfiles/tree/Home-server
+[3]:https://github.com/soymadip/Dotfiles/tree/Website#%EF%B8%8F-my-website--
+[4]:https://github.com/soymadip/Dotfiles/tree/Home-server#%EF%B8%8F-my-home-server--
