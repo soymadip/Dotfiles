@@ -13,8 +13,8 @@
 <h1 align="center">⚙️ My-Configs 🔧 </h1>
 
 > Documentaion in progress.<br>
-> Org dotfiles are in different branches. Head to Branches section above for specific files.
-- This is my `Config` repo, for various customisations,projects I make at my PC/Other devices.
+> dotfiles are in different branches. Head to Branches section above for specific files.
+- This is my `Config` repo, for various customisations, projects I make at my PC/Other devices.
 
  <h2 align="center">-----: Setup Overview :-----</h2>
 
