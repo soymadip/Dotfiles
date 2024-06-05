@@ -119,7 +119,7 @@
 
 
 #_______Mozilla__________
-.mozilla/firefox
+.mozilla
 
 
 #________MPV____________
@@ -133,9 +133,7 @@
 
 
 #________Obsidian____________
-.config/obsidian/USER/*/plugins
-.config/obsidian/USER/*/themes
-.config/obsidian/USER/*/workspace*.json
+.config/
 
 
 
