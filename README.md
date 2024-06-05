@@ -1,5 +1,5 @@
 <details>
-  <summary>📚 Branches ↞</summary>
+  <summary>📚 Branches ⇽</summary>
  
 - [🏠 Home][1]
 - [💻 dotfiles][2]
