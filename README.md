@@ -1,14 +1,26 @@
-# 🌐 Website
-- This branch is Backend Repo for my Bio website, which is located at 
+ <!-- <h1 align="center"> ⚠️ Work in progress ⚠️</h1> -->
 
-➤ [soumadip.gitbook.io](https://soumadip.gitbook.io)
+📚 Contents | Branches
 
-<p align="center">
-
-  <img src="Assets/readme.gif">
-
-</p>
+- [🏠 Home][1]
+- [💻 dotfiles][2]
+- [🌐 Website][3]*
+<!-- - **🗜 Home Server  -** [HERE][2] -->
 
 
-## ℹ️ This Branch is Part of my Config Repository.
-👉🏻 [Go to Home Page ](https://github.com/soymadip/My-Configs/)
+![Welcome][wcm]
+
+<h1 align="center">⚙️ My-Website 🔧 </h1>
+
+- This is Website Branch, Part of [`My Config Repo`][1].
+- This branch is Backend Repo for my Bio website, which is located at [soumadip.gitbook.io][4]
+
+
+<!-- ________________LINKS_____________________ -->
+
+[wcm]:https://raw.githubusercontent.com/soymadip/Dotfiles/Website/Assets/welcome.gif
+[1]:https://github.com/soymadip/Dotfiles/
+[2]:https://github.com/soymadip/Dotfiles/tree/dotfiles   
+[3]:#%EF%B8%8F-my-website--
+[4]:https://github.com/soymadip/Dotfiles/tree/Home-server
+[5]:https://soumadip.gitbook.io
