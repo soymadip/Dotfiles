@@ -4,8 +4,8 @@
  <br>
  
 - [🏠 Home](#%EF%B8%8F-my-configs--)*
-- [💻 dotfiles](https://github.com/soymadip/Dotfiles/tree/dotfies)
-- [🌐 Website](https://github.com/soymadip/Dotfiles/tree/Website)
+- [💻 dotfiles](https://github.com/soymadip/Dotfiles/tree/dotfies#%EF%B8%8F-my-dotfiles--)
+- [🌐 Website](https://github.com/soymadip/Dotfiles/tree/Website#%EF%B8%8F-my-website--)
 <!-- - **🗜 Home Server  -** [HERE][2] -->
 </details>
 
