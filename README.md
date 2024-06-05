@@ -1,16 +1,20 @@
  <!-- <h1 align="center"> ⚠️ Work in progress ⚠️</h1> -->
+<details>
+  <summary>📚 Branches ⇽</summary>
+ <br>
+ 
+- [🏠 Home](#%EF%B8%8F-my-configs--)*
+- [💻 dotfiles](https://github.com/soymadip/Dotfiles/tree/dotfies)
+- [🌐 Website](https://github.com/soymadip/Dotfiles/tree/Website)
+<!-- - **🗜 Home Server  -** [HERE][2] -->
+</details>
 
-📚 Contents | Branches:-
-
-- **🌐 Website  -** [HERE][1]
-- **💻 PC  -** [HERE](#%EF%B8%8F-my-configs--)
-<!-- - **🗜 Home Server  -** [HERE]() -->
 
 <h1 align="center">⚙️ My-Configs 🔧 </h1>
 
->    Documentaion is in progress.
-- This is my `Dotfiles` repo aka my Backup For `most of the customisations` i make at my PC/Other devices.
-
+> Documentaion in progress.<br>
+> Org dotfiles are in different branches. Head to Branches section above for specific files.
+- This is my `Config` repo, for various customisations,projects I make at my PC/Other devices.
 
  <h2 align="center">-----: Setup Overview :-----</h2>
 
