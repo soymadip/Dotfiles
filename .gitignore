@@ -178,3 +178,4 @@
 #_______ZSH__________
 .config/zsh/------OLD------
 .config/zsh/zinit
+.config/zsh/.zsh_history
