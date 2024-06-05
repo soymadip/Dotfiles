@@ -19,7 +19,7 @@
 
 [wcm]:https://raw.githubusercontent.com/soymadip/Dotfiles/Website/Assets/welcome.gif
 [1]:https://github.com/soymadip/Dotfiles#%EF%B8%8F-my-configs--
-[2]:https://github.com/soymadip/Dotfiles/tree/#%EF%B8%8F-my-dotfiles--   
+[2]:https://github.com/soymadip/Dotfiles/tree/dotfiles#%EF%B8%8F-my-dotfiles--   
 [3]:#%EF%B8%8F-my-website--
 [4]:https://github.com/soymadip/Dotfiles/tree/Home-server##%EF%B8%8F-my-home-server--
 [5]:https://soumadip.gitbook.io
