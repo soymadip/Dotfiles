@@ -18,7 +18,7 @@ layout:
 
 <div align="center">
 
-<figure><img src="files/welcome .gif" alt="Welcome"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/welcome .gif" alt="Welcome"><figcaption></figcaption></figure>
 
 </div>
 
