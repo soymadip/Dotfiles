@@ -34,6 +34,10 @@
 .local/share/firefoxpwa/profiles
 
 
+#____________Kate______________
+.config/kate/externaltools
+
+
 #____________Konsole______________
 .local/share/konsole/bookmarks.xml
 
@@ -179,4 +183,5 @@
 .config/zsh/------OLD------
 .config/zsh/zinit
 .config/zsh/.zsh_history
+
 .themes

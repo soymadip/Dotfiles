@@ -70,11 +70,10 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Shell Integrations
-source /usr/share/fzf/shell/key-bindings.zsh
-
 if [ -f "$ZDOTDIR/.zsh_functions" ]; then
     source "$ZDOTDIR/.zsh_functions"    # . = source
 fi
+eval_fzf()
 
 
 # Aliases
