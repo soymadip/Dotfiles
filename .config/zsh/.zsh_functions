@@ -1,7 +1,0 @@
-
-
-# Start Apps silently from terminal
-function runbg {
-    $1 >/dev/null 2>&1
-}
-

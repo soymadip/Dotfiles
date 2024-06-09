@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
-BoldIntense=true
-ColorScheme=Catppuccin-Frappe
+BoldIntense=false
+ColorScheme=nord
 Font=FiraCode Nerd Font,11.5,-1,5,50,0,0,0,0,0
 UseFontLineChararacters=false
 
@@ -21,5 +21,7 @@ MiddleClickPasteMode=0
 KeyBindings=default
 
 [Scrolling]
+HistoryMode=2
 HistorySize=989
 ScrollBarPosition=1
+ScrollFullPage=true

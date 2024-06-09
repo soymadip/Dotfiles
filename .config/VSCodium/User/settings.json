@@ -1,7 +1,7 @@
 {
 	"update.mode": "none",
 
-	"workbench.colorTheme": "Catppuccin Frappé",
+	"workbench.colorTheme": "Nord Deep",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.startupEditor": "none",
@@ -34,7 +34,6 @@
 	"[ignore]": {
 		"editor.defaultFormatter": "foxundermoon.shell-format"
 	},
-	"window.menuBarVisibility": "toggle",
 	"[properties]": {
 		"editor.defaultFormatter": "foxundermoon.shell-format"
 	},
@@ -186,5 +185,6 @@
 
 	"accessibility.dimUnfocused.enabled": true,
 	"accessibility.dimUnfocused.opacity": 0.75,
-	"sync.autoDownload": true
+	"sync.autoDownload": true,
+	"diffEditor.maxComputationTime": 0
 }
