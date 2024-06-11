@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+  <style>
+    .form {
+      border: blue 3px solid;
+      border-radius: 10px;
+      margin: 50% 2px 30% 2px;
+      padding: 7px;
+      padding-left: 12px;
+      background-color: aqua;
+    }
+    
+    input {
+      border: white 1px solid;
+      border-radius: 7px;
+    }
+    
+    .submit {
+      border: 0px;
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      margin: 10px auto;
+      padding: 5px;
+    }
+  </style>
+  <script>
+    function showAlert(event) {
+      event.preventDefault();
+      alert("Form submitted!\nYou will be redirected to My GitHub");
+      window.location.href = "https://github.com/soymadip";
+    }
+  </script>
+</head>
+<body>
+  <div class="form">
+    <h2 align="center">Registration</h2>
+    <form onsubmit="showAlert(event)">
+      <p>First Name: <input type="text"></p>
+      <p>Last Name:  <input type="text"></p>
+      <p> Gender:
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+      </p>
+      <p>Employee ID:  <input type="text"></p>
+      <p>Designation:  <input type="text"></p>
+      <p>Phone Number: <input type="number"></p>
+      <button type="submit" class="submit">Submit Now</button>
+    </form>
+  </div>
+</body>
+</html>
