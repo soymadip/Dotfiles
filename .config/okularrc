@@ -12,7 +12,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=false
+ShowSidebar=true
 
 [KFileDialog Settings]
 Recent Files[$e]=2nd sem syllabus.pdf,file:$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf,file:$HOME/Desktop/Study/physics/2.jpeg,file:$HOME/Desktop/Study/FEEE/Fundamentals of electrical and electronics engineering .pdf,file:$HOME/Desktop/Study/FEEE/WhatsApp Image 2024-05-22 at 9.54.55 AM.jpeg,file:$HOME/Desktop/Study/FEEE/FEEE\\, UNIT - 3\\, AC CIRCUIT .pdf,file:$HOME/gff.txt,file:$HOME/Desktop/Study/FEEE/digital electronics.pdf,file:$HOME/Desktop/Study/2nd sem syllabus.pdf
@@ -27,7 +27,6 @@ detailViewIconSize=16
 1920x1080 screen: YPosition=189
 MenuBar=Disabled
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAEOAAAD7vwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAAuAAAD7gAAAAMBAAACAAAHQAAAA+4AAAAEAAAABAAAAAgAAAAI/AAAAAIAAAABAAAAAgAAACIAYQBuAG4AbwB0AGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAwAAAAAAAALCAAAAAAAAAAAAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAACwv////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAAAAA6oAAAAAAAAAAA==
 ToolBarsMovable=Disabled
 VGA-1=VGA-1
 
@@ -41,26 +40,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/MF/-MEDIA/ANIME/[GigaCourse.Com] Udemy - The Complete 2024 Web Development Bootcamp/01 - Front-End Web Development/002 2023-Web-Dev-Syllabus.pdf
-File10[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
-File2[$e]=$HOME/Desktop/Study/FEEE/FEEE, UNIT - 3, AC CIRCUIT .pdf
-File3[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
-File4[$e]=$HOME/Desktop/Study/FEEE/digital electronics.pdf
-File5[$e]=$HOME/Desktop/Study/physics/2.jpeg
-File6[$e]=$HOME/Desktop/Study/IT/Suggestion.pdf
-File7[$e]=$HOME/Desktop/Study/IT/suggestion.pdf
-File8[$e]=$HOME/Desktop/Study/IT/Suggestion it solution.pdf
-File9[$e]=$HOME/Desktop/Study/IT/document.pdf
-Name1[$e]=002 2023-Web-Dev-Syllabus.pdf
-Name10[$e]=Basic About Semiconductor - Diodes .pdf
-Name2[$e]=FEEE, UNIT - 3, AC CIRCUIT .pdf
-Name3[$e]=2nd sem syllabus.pdf
-Name4[$e]=digital electronics.pdf
-Name5[$e]=2.jpeg
-Name6[$e]=Suggestion.pdf
-Name7[$e]=suggestion.pdf
-Name8[$e]=Suggestion it solution.pdf
-Name9[$e]=document.pdf
+File1[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
+File10[$e]=$HOME/Desktop/Study/Mech/Engg. Mechanics Suggestion.pdf
+File2[$e]=$HOME/Desktop/Study/FEEE/digital electronics.pdf
+File3[$e]=$HOME/Desktop/Study/physics/2.jpeg
+File4[$e]=$HOME/Desktop/Study/IT/Suggestion.pdf
+File5[$e]=$HOME/Desktop/Study/IT/suggestion.pdf
+File6[$e]=$HOME/Desktop/Study/IT/Suggestion it solution.pdf
+File7[$e]=$HOME/Desktop/Study/IT/document.pdf
+File8[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
+File9[$e]=/run/media/soymadip/fedora/home/soymadip/Downloads/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
+Name1[$e]=2nd sem syllabus.pdf
+Name10[$e]=Engg. Mechanics Suggestion.pdf
+Name2[$e]=digital electronics.pdf
+Name3[$e]=2.jpeg
+Name4[$e]=Suggestion.pdf
+Name5[$e]=suggestion.pdf
+Name6[$e]=Suggestion it solution.pdf
+Name7[$e]=document.pdf
+Name8[$e]=Basic About Semiconductor - Diodes .pdf
+Name9[$e]=1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16
@@ -69,4 +68,4 @@ IconSize=16
 IconSize=16
 
 [UiSettings]
-ColorScheme=Nordic-Darker
+ColorScheme=Catppuccin Frappe Lavender

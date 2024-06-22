@@ -1,8 +1,8 @@
 {
 	"update.mode": "none",
 
-	"workbench.colorTheme": "Nord Deep",
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Catppuccin Macchiato",
+	"workbench.iconTheme": "catppuccin-perfect-frappe",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.startupEditor": "none",
 
@@ -186,5 +186,8 @@
 	"accessibility.dimUnfocused.enabled": true,
 	"accessibility.dimUnfocused.opacity": 0.75,
 	"sync.autoDownload": true,
-	"diffEditor.maxComputationTime": 0
+	"diffEditor.maxComputationTime": 0,
+	"catppuccin.accentColor": "lavender",
+	"catppuccin.extraBordersEnabled": false,
+	"catppuccin.bracketMode": "neovim"
 }

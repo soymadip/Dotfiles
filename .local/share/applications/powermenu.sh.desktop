@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/home/soymadip/.config/rofi/powermenu/type-1/powermenu.sh\n
+GenericName[en_US]=
+GenericName=
+Icon=lock
+MimeType=
+Name[en_US]=/home/soymadip/.local/share/applications/powermenu.sh.desktop
+Name=/home/soymadip/.config/rofi/powermenu/type-1/powermenu.sh\n
+NoDisplay=true
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

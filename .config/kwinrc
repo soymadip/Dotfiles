@@ -7,14 +7,13 @@ LatencyPolicy=High
 [Desktops]
 Id_1=7f1b270a-5aac-4a15-bb99-9554ec62a4bd
 Id_2=38389e57-f79c-470b-87ac-86a3ab03d55b
-Id_3=33ab306b-0530-447a-94ed-85877e688650
-Id_4=a938100c-f39c-480d-ad75-4cbf0fa79c3d
 Name_1=1
 Name_2=2
-Name_3=3
-Name_4=4
-Number=4
-Rows=2
+Number=2
+Rows=1
+
+[Effect-blur]
+NoiseStrength=6
 
 [Effect-diminactive]
 Strength=6
@@ -31,6 +30,12 @@ BorderActivateAll=5
 [ElectricBorders]
 TopLeft=ShowDesktop
 
+[MaximizeTile]
+DisableOutlineMaximize=false
+DisableOutlineTile=false
+DisableRoundMaximize=false
+DisableRoundTile=false
+
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
 
@@ -40,19 +45,30 @@ CommandAll2=Nothing
 
 [NightColor]
 Active=true
-Mode=Constant
-NightTemperature=5500
+Mode=Times
+MorningBeginFixed=0440
+NightTemperature=5800
 
 [Plugins]
 bismuthEnabled=true
 contrastEnabled=true
 desktopchangeosdEnabled=true
 diminactiveEnabled=true
+krohnkiteEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_squashEnabled=false
 magiclampEnabled=true
 tileseditorEnabled=false
 zoomEnabled=false
+
+[PrimaryOutline]
+ActiveOutlineUseCustom=false
+ActiveOutlineUsePalette=true
+InactiveOutlinePalette=3
+InactiveOutlineThickness=3.25
+InactiveOutlineUseCustom=false
+InactiveOutlineUsePalette=true
+OutlineThickness=3.25
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -68,6 +84,21 @@ keepFloatAbove=false
 [Script-desktopchangeosd]
 PopupHideDelay=450
 
+[Script-krohnkite]
+ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell
+keepFloatAbove=false
+noTileBorder=true
+
+[SecondOutline]
+ActiveSecondOutlineAlpha=216
+ActiveSecondOutlineUseCustom=false
+ActiveSecondOutlineUsePalette=true
+
+[Shadow]
+ActiveShadowAlpha=168
+ActiveShadowPalette=14
+InactiveShadowAlpha=0
+
 [TabBox]
 LayoutName=compact
 OrderMinimizedMode=1
@@ -82,6 +113,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][b8811ac5-44fe-5ac0-a118-5b53381688ae]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][eb44abdb-6645-580c-8451-8eda0f97532a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
@@ -100,5 +134,11 @@ Scale=1
 [org.kde.kdecoration2]
 BorderSize=Tiny
 BorderSizeAuto=false
-library=org.kde.bismuth.decoration
-theme=Bismuth
+library=org.kde.breeze
+theme=Breeze
+
+[ًRound-Corners]
+AnimationEnabled=false
+InactiveShadowSize=1
+ShadowSize=3
+Size=7

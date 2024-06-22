@@ -109,8 +109,9 @@
 /.librewolf/*/webappsstore.sqlite
 /.librewolf/*/webappsstore.sqlite-wal
 /.librewolf/*/xulstore.json
+/.librewolf/**/sessionstore.jsonlz4
 
-
+  
 #_______Libreoffice________________
 /.config/libreoffice/4/**/autocorr
 /.config/libreoffice/4/**/autotext
@@ -123,7 +124,6 @@
 /.config/libreoffice/4/**/extensions/buildid
 /.config/libreoffice/4/**/config
 /.config/libreoffice/4/**/gallery
-
 
 
 
@@ -145,6 +145,14 @@
 /.config/obsidian/USER/*/plugins
 /.config/obsidian/USER/*/themes
 /.config/obsidian/USER/*/workspace*.json
+/.config/obsidian/Crashpad/client_id
+/.config/obsidian/Shared Dictionary/db
+/.config/obsidian/Shared Dictionary/db-journal
+/.config/obsidian/Dictionaries
+/.config/obsidian/id
+/.config/obsidian/IndexedDB
+/.config/obsidian/TransportSecurity
+/.config/obsidian/Network Persistent State
 
 
 
@@ -160,6 +168,8 @@
 /.local/share/plasma/desktoptheme/Nordic-round
 /.local/share/plasma/desktoptheme/Nordic-Solid
 /.local/share/plasma/desktoptheme/Wings-Dark-Plasma
+/.local/share/plasma/look-and-feel
+/.local/share/konsole/konsolestaterc
 
 
 #________Spicetify__________
@@ -187,11 +197,12 @@
 /.config/VSCodium/TransportSecurity
 /.config/VSCodium/User/syncLocalSettings.json
 /.config/VSCodium/shared_proto_db
+/.config/VSCodium/machineid
+/.config/VSCodium/Workspaces
 
 
 #_______ZSH__________
 /.config/zsh/------OLD------
 /.config/zsh/zinit
 /.config/zsh/*history*
-
 

@@ -2,7 +2,7 @@
 	email = soumadip377@gmail.com
 	name = soymadip
 [commit]
-	template = /home/soymadip/.config/git/.gitmessage
+	template = ~/.config/git/.gitmessage
 	rebase=true
 [filter "lfs"]
 	process = git-lfs filter-process
