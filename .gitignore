@@ -18,6 +18,7 @@
 *.log
 *log*
 *tmp
+*.tmp*
 *LICENSE*
 *.*zcompdump*
 *trash*
@@ -206,3 +207,6 @@
 /.config/zsh/zinit
 /.config/zsh/*history*
 
+
+#______ZED_______
+#/.config/zed/

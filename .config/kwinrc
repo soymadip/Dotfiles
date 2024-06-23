@@ -30,6 +30,9 @@ BorderActivateAll=5
 [ElectricBorders]
 TopLeft=ShowDesktop
 
+[IncludeExclude]
+Exclusions=rofi
+
 [MaximizeTile]
 DisableOutlineMaximize=false
 DisableOutlineTile=false
@@ -85,7 +88,7 @@ keepFloatAbove=false
 PopupHideDelay=450
 
 [Script-krohnkite]
-ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell
+ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,rofi
 keepFloatAbove=false
 noTileBorder=true
 

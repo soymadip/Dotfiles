@@ -113,3 +113,6 @@ alias gpr="gh pr create"
 alias gr="git rebase -i"
 alias gs="git status -sb"
 alias gt="git tag"
+
+
+source ${ZDOTDIR}/functions/yazi.zsh

@@ -1,0 +1,168 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=48, 52, 70
+ColorAmount=0.30000000000000004
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=48, 52, 70
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=186,187,241
+BackgroundNormal=65, 69, 89
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[Colors:Complementary]
+BackgroundAlternate=35, 38, 52
+BackgroundNormal=41, 44, 60
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[Colors:Header]
+BackgroundAlternate=35, 38, 52
+BackgroundNormal=41, 44, 60
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[Colors:Selection]
+BackgroundAlternate=186,187,241
+BackgroundNormal=186,187,241
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=41, 44, 60
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=35, 38, 52
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[Colors:Tooltip]
+BackgroundAlternate=27,25,35
+BackgroundNormal=48, 52, 70
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[Colors:View]
+BackgroundAlternate=41, 44, 60
+BackgroundNormal=48, 52, 70
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[Colors:Window]
+BackgroundAlternate=35, 38, 52
+BackgroundNormal=41, 44, 60
+DecorationFocus=186,187,241
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=186,187,241
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
+
+[DirSelect Dialog]
+DirSelectDialog Size=805,485
+History Items[$e]=file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
+
+[General]
+ColorScheme=CatppuccinFrappeLavender
+ColorSchemeHash=843b306e617457e5af1cf23785a2e69cb9e6ebf5
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+AnimationDurationFactor=0.7071067811865475
+LookAndFeelPackage=Catppuccin-Frappe-Lavender
+ShowDeleteCommand=true
+
+[KFileDialog Settings]
+Allow Expansion=true
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=false
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=true
+Speedbar Width=140
+View Style=DetailTree
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=48,52,70
+activeBlend=198,208,245
+activeForeground=198,208,245
+inactiveBackground=35,38,52
+inactiveBlend=165,173,206
+inactiveForeground=165,173,206

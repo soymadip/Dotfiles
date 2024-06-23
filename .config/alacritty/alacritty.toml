@@ -1,5 +1,5 @@
 
-import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
+import = ["~/.config/alacritty/theme-ch.toml"]
 live_config_reload = true
 
 
@@ -10,7 +10,7 @@ TERM = "xterm-256color"
 [window]
 decorations = "Full"
 dynamic_padding = true 
-opacity = 0.98
+opacity = 0.97
 startup_mode = "Windowed"
 title = "Terminal"
 dynamic_title = true
@@ -41,7 +41,7 @@ hide_when_typing = true
 bindings = [
 { key = "Q", mods = "Control", action = "Quit"},
 # { key = "L", mods = "Control", chars = "\f" },
-{ mods = "Control|Shift", key = "C", action = "CopySelection" },
-{ mods = "Control|Shift", key = "V", action = "PasteSelection" },
+# { mods = "Control|Shift", key = "C", action = "CopySelection" },
+# { mods = "Control|Shift", key = "V", action = "PasteSelection" },
 { mods = "Control|Shift", key = "N",  action = "CreateNewWindow" },
 ]

@@ -72,6 +72,6 @@
             "key": "󰅐 UpTime  ",
             "keyColor": "green"
         },
-        "break"
+        //"break"
     ]
 }
