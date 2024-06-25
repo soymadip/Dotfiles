@@ -62,6 +62,20 @@ ForegroundNormal=198, 208, 245
 ForegroundPositive=166, 209, 137
 ForegroundVisited=202, 158, 230
 
+[Colors:Header][Inactive]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
 [Colors:Selection]
 BackgroundAlternate=186,187,241
 BackgroundNormal=186,187,241
@@ -119,8 +133,8 @@ ForegroundPositive=166, 209, 137
 ForegroundVisited=202, 158, 230
 
 [DirSelect Dialog]
-DirSelectDialog Size=805,485
-History Items[$e]=file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
+DirSelectDialog Size=795,419
+History Items[$e]=file:///mnt/HDD1/BACKUP/Vorta,file:///mnt/HDD1/BACKUP/Mount,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
 
 [General]
 ColorScheme=CatppuccinFrappeLavender

@@ -8,6 +8,11 @@ migrated=true
 [Plugins]
 baloosearchEnabled=true
 emojirunnerEnabled=false
+krunner_katesessionsEnabled=false
+krunner_konsoleprofilesEnabled=false
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_services,krunner_systemsettings
 
 [Runners][Dictionary]
 triggerWord=dict

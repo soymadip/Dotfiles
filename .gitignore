@@ -161,6 +161,12 @@
 .config/obs-studio/profiler_data
 
 
+
+#_____Okular___________
+.config/okularpartrc
+
+
+
 #_____________Plasma___________________
 /.local/share/plasma/containmentpreviews
 /.local/share/plasma/plasmoids
@@ -202,6 +208,15 @@
 /.config/VSCodium/Workspaces
 
 
+#________WebCord_______
+/.config/WebCord/TransportSecurity
+/.config/WebCord/Crashpad
+/.config/WebCord/Dictionaries
+/.config/WebCord/Shared Dictionary
+/.config/WebCord/Network Persistent State
+/.config/WebCord/windowState
+
+
 #_______ZSH__________
 /.config/zsh/------OLD------
 /.config/zsh/zinit
@@ -210,3 +225,4 @@
 
 #______ZED_______
 #/.config/zed/
+.config/okularpartrc

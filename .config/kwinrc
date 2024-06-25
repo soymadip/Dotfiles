@@ -121,6 +121,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][eb44abdb-6645-580c-8451-8eda0f97532a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Wayland]
+EnablePrimarySelection=false
+
 [Windows]
 AutoRaise=true
 AutoRaiseInterval=500

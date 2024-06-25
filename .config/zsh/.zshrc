@@ -113,6 +113,9 @@ alias rmrf="rm -rf"
 alias nv='nvim'
 alias snv='sudo nvim'
 alias chhostname='hostnamectl set-hostname'
+alias cat='bat'
+alias man='batman'
+alias lnr='ln -s -r -i'
 
 # git
 alias gc="git clone"
