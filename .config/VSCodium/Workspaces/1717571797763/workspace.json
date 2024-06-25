@@ -3,10 +3,6 @@
 		{
 			"name": "Dotfiles",
 			"path": "../../../../Dotfiles"
-		},
-		{
-			"name": "My-Configs",
-			"path": "../../../../Documents/Git/My-Configs"
 		}
 	],
 	"settings": {}
