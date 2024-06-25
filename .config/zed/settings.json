@@ -1,0 +1,50 @@
+{
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "theme": "Catppuccin Macchiato",
+  "vim_mode": false,
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+  "auto_update": true,
+  "ui_font_size": 15,
+  "buffer_font_size": 14.5,
+  "ui_font_family": "Hack Nerd Font",
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled",
+    "scroll_sensitivity": 2.0,
+    "seed_search_query_from_cursor": "selection"
+  },
+  "current_line_highlight": "all",
+  "scrollbar": {
+    "show": "auto",
+    "cursors": true,
+    "git_diff": true,
+    "search_results": true,
+    "selected_symbol": true,
+    "diagnostics": true
+  },
+  "tabs": {
+    "close_position": "right",
+    "git_status": true
+  },
+  "enable_language_server": true,
+  "use_autoclose": true,
+  "file_types": {
+    "JSON": ["cfg"]
+  },
+  "inlay_hints": {
+    "enabled": false,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
+  },
+  "show_whitespaces": "selection",
+  "soft_wrap": "editor_width"
+}

@@ -1,3 +1,13 @@
+#     _____                                 _ _
+#    / ____|                               | (_)
+#   | (___   ___  _   _ _ __ ___   __ _  __| |_ _ __
+#    \___ \ / _ \| | | | '_ ` _ \ / _` |/ _` | | '_ \
+#    ____) | (_) | |_| | | | | | | (_| | (_| | | |_) |
+#   |_____/ \___/ \__, |_| |_| |_|\__,_|\__,_|_| .__/
+#                  __/ |                       | |
+#                 |___/                        |_|
+#
+
 fastfetch -c ~/.config/fastfetch/small.jsonc
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top
@@ -33,6 +43,12 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 #______________________Environment Varibles___________________________
 
+
+
+
+#_______________________Shell Integrations_____________________________
+for file in "$ZDOTDIR"/functions/*.zsh; do if [ -f "$file" ]; then source "$file"; fi; done
+eval_fzf()
 
 
 
@@ -113,6 +129,3 @@ alias gpr="gh pr create"
 alias gr="git rebase -i"
 alias gs="git status -sb"
 alias gt="git tag"
-
-
-source ${ZDOTDIR}/functions/yazi.zsh
