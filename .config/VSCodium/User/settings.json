@@ -1,14 +1,17 @@
 {
 	"update.mode": "none",
-
+	
 	"workbench.colorTheme": "Catppuccin Macchiato",
+	"catppuccin.accentColor": "lavender",
+	"catppuccin.extraBordersEnabled": false,
+	"catppuccin.bracketMode": "neovim",
 	"workbench.iconTheme": "catppuccin-perfect-frappe",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.startupEditor": "none",
-
+	
 	"files.autoSaveDelay": 500,
 	"files.autoSave": "afterDelay",
-
+	
 	"editor.fontSize": 15.1,
 	"editor.wordWrap": "on",
 	"editor.indentSize": "tabSize",
@@ -23,6 +26,7 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
+	"diffEditor.maxComputationTime": 0,
 	"notebook.formatOnSave.enabled": true,
 
 	"[html]": {
@@ -37,9 +41,9 @@
 	"[properties]": {
 		"editor.defaultFormatter": "foxundermoon.shell-format"
 	},
-	"[nix]": {
-		"editor.defaultFormatter": "jnoortheen.nix-ide"
-	},
+	// "[nix]": {
+	// 	"editor.defaultFormatter": "jnoortheen.nix-ide"
+	// },
 	"[css]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
 	},
@@ -185,9 +189,8 @@
 
 	"accessibility.dimUnfocused.enabled": true,
 	"accessibility.dimUnfocused.opacity": 0.75,
+	
 	"sync.autoDownload": true,
-	"diffEditor.maxComputationTime": 0,
-	"catppuccin.accentColor": "lavender",
-	"catppuccin.extraBordersEnabled": false,
-	"catppuccin.bracketMode": "neovim"
+
+	"github.copilot.chat.scopeSelection": true
 }

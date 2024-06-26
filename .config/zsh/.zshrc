@@ -53,8 +53,8 @@ eval_fzf
 
 
 #_____________________________Plugins____________________________________
-zinit light zsh-users/zsh-syntax-highlighting
-# zinit light zdharma-continuum/fast-syntax-highlighting -- not working tab complete
+# zinit light zsh-users/zsh-syntax-highlighting
+zinit light zdharma-continuum/fast-syntax-highlighting 
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
