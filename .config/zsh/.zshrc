@@ -48,7 +48,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 #_______________________Shell Integrations_____________________________
 for file in "$ZDOTDIR"/functions/*.zsh; do if [ -f "$file" ]; then source "$file"; fi; done
-eval_fzf()
+eval_fzf
 
 
 
@@ -58,7 +58,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
-zinit light  MichaelAquilina/zsh-auto-notify
+zinit light MichaelAquilina/zsh-auto-notify
 zinit ice depth=1; zinit light jeffreytse/zsh-vi-mode
 
 #________________Snippets________________
@@ -104,6 +104,7 @@ setopt hist_find_no_dups
 #____________________________Aliases_______________________________________
 alias sudo='sudo ' # expand aliases with sudo
 alias ls='lsd -a'
+# alias ls='lf'
 alias cp='cp -ri'
 alias mkdir='mkdir -p'
 alias reload='clear && exec zsh'

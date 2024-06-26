@@ -1,4 +1,13 @@
-
+#     _____                                 _ _       
+#    / ____|                               | (_)      
+#   | (___   ___  _   _ _ __ ___   __ _  __| |_ _ __  
+#    \___ \ / _ \| | | | '_ ` _ \ / _` |/ _` | | '_ \ 
+#    ____) | (_) | |_| | | | | | | (_| | (_| | | |_) |
+#   |_____/ \___/ \__, |_| |_| |_|\__,_|\__,_|_| .__/ 
+#                  __/ |                       | |    
+#                 |___/                        |_|    
+#_______________________________________________________________________     
+#                      
 # By default native-messaging doesn't worn in Librewolf, resulting extension-native app breakage
 # To overcome this we need to create symlinks to firefox directories....
 
