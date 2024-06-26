@@ -117,6 +117,7 @@ alias chhostname='hostnamectl set-hostname'
 alias cat='bat'
 alias man='batman'
 alias lnr='ln -s -r -i'
+alias papirus-folders='pprus_ch_fldr_clr'
 
 # git
 alias gc="git clone"

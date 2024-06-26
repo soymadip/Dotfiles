@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=false
-ColorScheme=nord
+ColorScheme=Catppuccin-Frappe
 Font=FiraCode Nerd Font,11.5,-1,5,50,0,0,0,0,0
 UseFontLineChararacters=false
 

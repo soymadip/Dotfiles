@@ -41,7 +41,7 @@ ShowTabWarning=true
 
 [Recent Files]
 File1[$e]=$HOME/Desktop/Study/IT/Suggestion.pdf
-File10[$e]=$HOME/Desktop/Study/physics/natitube.pdf
+File10[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
 File2[$e]=$HOME/Desktop/Study/IT/suggestion.pdf
 File3[$e]=$HOME/Desktop/Study/IT/Suggestion it solution.pdf
 File4[$e]=$HOME/Desktop/Study/IT/document.pdf
@@ -49,9 +49,9 @@ File5[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
 File6[$e]=/run/media/soymadip/fedora/home/soymadip/Downloads/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
 File7[$e]=$HOME/Desktop/Study/Mech/Engg. Mechanics Suggestion.pdf
 File8[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes.pdf
-File9[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
+File9[$e]=$HOME/Desktop/Study/physics/natitube.pdf
 Name1[$e]=Suggestion.pdf
-Name10[$e]=natitube.pdf
+Name10[$e]=2nd sem syllabus.pdf
 Name2[$e]=suggestion.pdf
 Name3[$e]=Suggestion it solution.pdf
 Name4[$e]=document.pdf
@@ -59,7 +59,7 @@ Name5[$e]=Basic About Semiconductor - Diodes .pdf
 Name6[$e]=1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
 Name7[$e]=Engg. Mechanics Suggestion.pdf
 Name8[$e]=Basic About Semiconductor - Diodes.pdf
-Name9[$e]=2nd sem syllabus.pdf
+Name9[$e]=natitube.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16
