@@ -1,6 +1,6 @@
 {
 	"update.mode": "none",
-	
+
 	"workbench.colorTheme": "Catppuccin Macchiato",
 	"catppuccin.accentColor": "lavender",
 	"catppuccin.extraBordersEnabled": false,
@@ -8,10 +8,10 @@
 	"workbench.iconTheme": "catppuccin-perfect-frappe",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.startupEditor": "none",
-	
+
 	"files.autoSaveDelay": 500,
 	"files.autoSave": "afterDelay",
-	
+
 	"editor.fontSize": 15.1,
 	"editor.wordWrap": "on",
 	"editor.indentSize": "tabSize",
@@ -189,7 +189,7 @@
 
 	"accessibility.dimUnfocused.enabled": true,
 	"accessibility.dimUnfocused.opacity": 0.75,
-	
+
 	"sync.autoDownload": true,
 
 	"github.copilot.chat.scopeSelection": true

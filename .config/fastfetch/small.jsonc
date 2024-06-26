@@ -1,5 +1,4 @@
 
-
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
@@ -25,53 +24,53 @@
         "break",
         {
             "type": "title",
-            "keyWidth": 0,
+            "keyWidth":60,
             "color": {
-                "user": "bright_",
-                "at": "yellow",
-                "host": "dim_"
+                "user": "magenta",
+                "at": "red",
+                "host": "blue"
             }
         },  
         {
             "type": "custom",
-            "format": "──────────────────────────",
-            "outputColor": "green"
+            "format": "──────────────────────────────",
+            "outputColor": "black"
         },
         {
             "type": "host",
             "key": "󰌢 Host    ",
-            "keyColor": "green"
+            "keyColor": "cyan"
         },
         {
             "type": "os",
             "key": " OS      ",
-            "keyColor": "green"
+            "keyColor": "cyan"
         },
         {
             "type": "kernel",
             "key": " Kernel  ",
-            "keyColor": "green"
+            "keyColor": "cyan"
         },
         {
             "type": "shell",
             "key": " Shell   ",
-            "keyColor": "green"
+            "keyColor": "cyan"
         },
         {
             "type": "terminal",
             "key": " Terminal",
-            "keyColor": "green"
+            "keyColor": "cyan"
         },
         // {
         //     "type": "packages",
         //     "key": "󰏖 Packages",
-        //     "keyColor": "green"
+        //     "keyColor": "cyan"
         // },
         {
             "type": "uptime",
             "key": "󰅐 UpTime  ",
-            "keyColor": "green"
-        },
+            "keyColor": "cyan"
+        }
         //"break"
     ]
 }

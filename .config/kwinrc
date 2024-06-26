@@ -68,10 +68,10 @@ zoomEnabled=false
 ActiveOutlineUseCustom=false
 ActiveOutlineUsePalette=true
 InactiveOutlinePalette=3
-InactiveOutlineThickness=3.25
+InactiveOutlineThickness=0.75
 InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
-OutlineThickness=3.25
+OutlineThickness=2.6
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -88,14 +88,29 @@ keepFloatAbove=false
 PopupHideDelay=450
 
 [Script-krohnkite]
+enableFloatingLayout=true
+enableMonocleLayout=false
+enableSpreadLayout=false
+enableStairLayout=false
+enableThreeColumnLayout=false
+enableTileLayout=false
+floatingClass=org.kde.kasts,systemsettings,org.freedesktop.impl.portal.desktop.kde
+floatingTitle=Vorta for Borg Backup
 ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,rofi
 keepFloatAbove=false
+layoutPerActivity=false
+layoutPerDesktop=false
+maximizeSoleTile=true
 noTileBorder=true
 
 [SecondOutline]
-ActiveSecondOutlineAlpha=216
 ActiveSecondOutlineUseCustom=false
 ActiveSecondOutlineUsePalette=true
+InactiveSecondOutlinePalette=3
+InactiveSecondOutlineThickness=0
+InactiveSecondOutlineUseCustom=false
+InactiveSecondOutlineUsePalette=true
+SecondOutlineThickness=0
 
 [Shadow]
 ActiveShadowAlpha=168

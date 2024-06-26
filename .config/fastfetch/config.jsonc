@@ -24,7 +24,12 @@
         "break",
         {
             "type": "title",
-            "keyWidth": 60  
+            "keyWidth": 60,  
+            "color": {
+                "user": "magenta",
+                "at": "red",
+                "host": "blue"
+            }
         },
         {
             "type": "custom",
