@@ -133,8 +133,8 @@ ForegroundPositive=166, 209, 137
 ForegroundVisited=202, 158, 230
 
 [DirSelect Dialog]
-DirSelectDialog Size=795,419
-History Items[$e]=file:///mnt/HDD1/BACKUP/Vorta,file:///mnt/HDD1/BACKUP/Mount,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
+DirSelectDialog Size=844,568
+History Items[$e]=file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
 
 [General]
 ColorScheme=CatppuccinFrappeLavender

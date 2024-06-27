@@ -4,16 +4,8 @@ size=992,738
 sizerule=3
 
 [General]
-count=2
-rules=badda88d-5bf7-4935-87dc-d4738b4e30eb,a9ad1ba1-4d09-42eb-81d6-e5563f12560d
-
-[a9ad1ba1-4d09-42eb-81d6-e5563f12560d]
-Description=Alacritty no window frame
-noborder=true
-noborderrule=3
-types=1
-wmclass=Alacritty
-wmclassmatch=1
+count=1
+rules=badda88d-5bf7-4935-87dc-d4738b4e30eb
 
 [badda88d-5bf7-4935-87dc-d4738b4e30eb]
 Description=Kasts no window frame

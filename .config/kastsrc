@@ -1,5 +1,6 @@
 [Appearance]
 ColorScheme=Default
+alwaysShowFeedTitles=true
 showTrayIcon=true
 trayIconType=Light
 
@@ -7,6 +8,8 @@ trayIconType=Light
 autoDownload=true
 autoFeedUpdateInterval=12
 doFullUpdate=false
+markAsPlayedBeforeEnd=60
+markUnreadOnNewFeed=All
 prioritizeStreaming=true
 refreshOnStartup=true
 

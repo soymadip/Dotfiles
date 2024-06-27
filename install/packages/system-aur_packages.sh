@@ -2,12 +2,19 @@
 system_packages=(
 
     "xdg-desktop-portal"
+    "libva-intel-driver"
+    "libva-mesa-driver"
+    "cups"
     "paru"
+    "npm"
+    "gvfs"
     "zsh"
     "yt-dlp"
-    "vorta"
     "rsync"
+    "hunspell-en_US"
+    "speech-dispatcher"
     "qt5-tools"
+    "gtk4"
     "libdbusmenu-glib"
     "appmenu-gtk-module"
     "libappindicator-gtk3"
@@ -15,7 +22,6 @@ system_packages=(
     "dust"
     "neovim"
     "wl-clipboard"
-    "gnome-disk-utility"
     "gparted"
     "fzf"
     "jq"
@@ -26,8 +32,8 @@ system_packages=(
     "mkvtoolnix-gui"
     "bat"
     "bat-extras"
-    "rofi-wayland"
     "gum"
+    "figlet"
 )
 
 

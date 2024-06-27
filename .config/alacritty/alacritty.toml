@@ -18,7 +18,7 @@ padding = {x = 5, y = 2}
 
 
 [font]
-size = 9.9
+size = 10.6
 normal =      {family = "JetBrainsMono Nerd Font", style = "Medium"}
 bold =        {family = "JetBrainsMono Nerd Font", style = "Heavy"}
 italic =      {family = "JetBrainsMono Nerd Font", style = "Medium Italic"}

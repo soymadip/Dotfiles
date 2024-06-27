@@ -1,3 +1,7 @@
+[ContentDisplay]
+DirectorySizeMode=ContentSize
+RecursiveDirectorySizeLimit=15
+
 [General]
 CloseActiveSplitView=false
 GlobalViewProps=false
@@ -6,7 +10,7 @@ ShowFullPath=true
 ShowFullPathInTitlebar=true
 UseTabForSwitchingSplitView=true
 Version=202
-ViewPropsTimestamp=2024,6,26,20,39,48.275
+ViewPropsTimestamp=2024,6,27,18,51,19.368
 
 [InformationPanel]
 dateFormat=ShortFormat
@@ -19,4 +23,4 @@ Places Icons Static Size=22
 ToolBarsMovable=Disabled
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail

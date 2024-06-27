@@ -1,17 +1,18 @@
 [Desktop Entry]
 Categories=Utility;
 Comment[en_US]=
-Comment=
+Comment=Tool to theme GTK apps
 Exec=nwg-look
 GenericName[en_US]=
 GenericName=
-Icon=nwg-look
+Icon=gradio
 MimeType=
 Name[en_US]=nwg-look
 Name=nwg-look
-Name[en_IN]=nwg-look
+Path=
 StartupNotify=true
 Terminal=false
 TerminalOptions=
 Type=Application
 X-KDE-SubstituteUID=false
+X-KDE-Username=

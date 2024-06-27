@@ -1,6 +1,6 @@
 [FileDialogSize]
-1920x1080 screen: Height=408
-1920x1080 screen: Width=940
+1920x1080 screen: Height=723
+1920x1080 screen: Width=1006
 
 [General]
 Allow Tab Scrolling=true
@@ -63,9 +63,9 @@ Indentation Width=4
 Keep Extra Spaces=false
 Line Length Limit=10000
 Newline at End of File=true
-On-The-Fly Spellcheck=true
+On-The-Fly Spellcheck=false
 Overwrite Mode=false
-PageUp/PageDown Moves Cursor=true
+PageUp/PageDown Moves Cursor=false
 Remove Spaces=1
 ReplaceTabsDyn=true
 Show Spaces=0
@@ -81,13 +81,13 @@ Word Wrap=false
 Word Wrap Column=80
 
 [KTextEditor Renderer]
-Animate Bracket Matching=false
-Auto Color Theme Selection=false
+Animate Bracket Matching=true
+Auto Color Theme Selection=true
 Color Theme=Catppuccin Frappé
 Line Height Multiplier=1
-Show Indentation Lines=true
-Show Whole Bracket Expression=true
-Text Font=Hack,10.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=Hack Nerd Font,10.6,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Word Wrap Marker=false
 
 [KTextEditor View]
@@ -98,7 +98,7 @@ Auto Completion=true
 Auto Completion Preselect First Entry=true
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
-Bracket Match Preview=false
+Bracket Match Preview=true
 Chars To Enclose Selection=<>(){}[]'"
 Default Mark Type=1
 Dynamic Word Wrap=true
@@ -133,8 +133,8 @@ Shoe Line Ending Type in Statusbar=false
 Show Documentation With Completion=true
 Show File Encoding=true
 Show Folding Icons On Hover Only=true
-Show Line Count=true
-Show Scrollbars=1
+Show Line Count=false
+Show Scrollbars=0
 Show Statusbar Dictionary=true
 Show Statusbar Highlighting Mode=true
 Show Statusbar Input Mode=true
@@ -160,11 +160,11 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=1050
-1920x1080 screen: Width=960
+1920x1080 screen: Height=781
+1920x1080 screen: Width=1105
 
 [filetree]
-editShade=31,81,106
+editShade=183,220,246
 listMode=false
 middleClickToClose=false
 shadingEnabled=true
@@ -172,7 +172,7 @@ showCloseButton=false
 showFullPathOnRoots=false
 showToolbar=true
 sortRole=0
-viewShade=81,49,95
+viewShade=211,190,222
 
 [lspclient]
 AllowedServerCommandLines=
@@ -182,7 +182,7 @@ BlockedServerCommandLines=
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true
-FormatOnSave=true
+FormatOnSave=false
 HighlightGoto=true
 IncrementalSync=false
 InlayHints=false
