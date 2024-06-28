@@ -6,6 +6,8 @@ system_packages=(
     "libva-mesa-driver"
     "cups"
     "paru"
+    "p7zip"
+    "unrar"
     "npm"
     "gvfs"
     "zsh"

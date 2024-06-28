@@ -264,7 +264,6 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=none,none,Activate Application Launcher Widget
-activate widget 3=Alt+F1,none,Activate Application Launcher Widget
 activate widget 44=none,none,Activate Digital Clock Widget
 activate widget 57=none,none,Activate Andromeda Launcher Widget
 activate widget 58=Meta+X,none,Activate Shutdown or Switch Widget

@@ -15,6 +15,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=/home/soymadip/Pictures/ADMIN/catppuccin-lofi.jpeg
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -24,24 +27,36 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][3]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][2][Applets][3][Configuration]
-PreloadWeight=100
-popupHeight=510
-popupWidth=647
-
-[Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
-
 [Containments][2][Applets][51]
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][2][Applets][51][Configuration][General]
+launchers=preferred://browser,applications:Alacritty.desktop,applications:obsidian.desktop,applications:org.kde.dolphin.desktop
+
+[Containments][2][Applets][57]
+immutability=1
+plugin=AndromedaLauncher
+
+[Containments][2][Applets][57][Configuration]
+PreloadWeight=100
+popupHeight=510
+popupWidth=647
+
+[Containments][2][Applets][57][Configuration][ConfigDialog]
+DialogHeight=608
+DialogWidth=754
+
+[Containments][2][Applets][57][Configuration][General]
+activationIndicator=false
+customButtonImage=pop-cosmic-launcher
+favoritesPortedToKAstats=true
+floating=true
+launcherPosition=1
+useCustomButtonImage=true
+
 [Containments][2][General]
-AppletOrder=3;51
+AppletOrder=57;51
 
 [Containments][27]
 activityId=
@@ -60,6 +75,24 @@ plugin=org.kde.plasma.appmenu
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][27][Applets][29][Configuration]
+PreloadWeight=55
+popupHeight=450
+popupWidth=560
+
+[Containments][27][Applets][29][Configuration][Appearance]
+autoFontAndSize=false
+customDateFormat=dd-MM-yy |
+dateDisplayFormat=BesideTime
+dateFormat=custom
+fontFamily=Cantarell
+fontStyleName=Light
+fontWeight=300
+
+[Containments][27][Applets][29][Configuration][ConfigDialog]
+DialogHeight=656
+DialogWidth=810
+
 [Containments][27][Applets][30]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -69,6 +102,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][27][Applets][31][Configuration]
+PreloadWeight=65
 SystrayContainmentId=32
 
 [Containments][27][Applets][48]
@@ -92,20 +126,34 @@ plugin=org.kde.plasma.systemmonitor.net
 
 [Containments][27][Applets][53][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=55
-popupHeight=194
+PreloadWeight=100
+popupHeight=248
 popupWidth=156
 
 [Containments][27][Applets][53][Configuration][Appearance]
-chartFace=org.kde.ksysguard.linechart
-title=Network speed
+chartFace=org.kde.ksysguard.piechart
+showTitle=false
+title=MEMORY
+
+[Containments][27][Applets][53][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][27][Applets][53][Configuration][SensorColors]
+memory/physical/free=237,186,241
+memory/physical/total=206,241,186
 network/all/download=186,187,241
 network/all/upload=241,240,186
 
+[Containments][27][Applets][53][Configuration][SensorLabels]
+memory/physical/free=RAM
+memory/physical/total=└ Total:---
+memory/swap/free=Swap
+memory/swap/total=└ Total:---
+
 [Containments][27][Applets][53][Configuration][Sensors]
-highPrioritySensorIds=["network/all/download","network/all/upload"]
+highPrioritySensorIds=["memory/physical/free"]
+lowPrioritySensorIds=["memory/physical/total","memory/swap/free","memory/swap/total"]
 
 [Containments][27][Applets][54]
 immutability=1
@@ -129,24 +177,39 @@ plugin=org.kde.plasma.systemmonitor.net
 
 [Containments][27][Applets][55][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=60
-popupHeight=194
+PreloadWeight=90
+popupHeight=182
 popupWidth=156
 
 [Containments][27][Applets][55][Configuration][Appearance]
-chartFace=org.kde.ksysguard.linechart
-title=Network speed
+chartFace=org.kde.ksysguard.piechart
+showTitle=false
+title=CPU
+
+[Containments][27][Applets][55][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][27][Applets][55][Configuration][SensorColors]
+cpu/all/system=186,211,241
+cpu/all/usage=85,170,255
 network/all/download=186,187,241
 network/all/upload=241,240,186
 
+[Containments][27][Applets][55][Configuration][SensorLabels]
+cpu/all/usage=CPU
+
 [Containments][27][Applets][55][Configuration][Sensors]
-highPrioritySensorIds=["network/all/download","network/all/upload"]
+highPrioritySensorIds=["cpu/all/usage"]
 
 [Containments][27][Applets][56]
 immutability=1
 plugin=org.kde.plasma.shutdownorswitch
+
+[Containments][27][Applets][56][Configuration]
+PreloadWeight=60
+popupHeight=136
+popupWidth=216
 
 [Containments][27][General]
 AppletOrder=30;50;28;48;29;52;55;53;54;31;56
@@ -155,9 +218,11 @@ AppletOrder=30;50;28;48;29;52;55;53;54;31;56
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][32][Applets][33]
@@ -176,6 +241,9 @@ plugin=org.kde.plasma.vault
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][32][Applets][36][Configuration]
+PreloadWeight=55
+
 [Containments][32][Applets][37]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
@@ -188,7 +256,11 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][32][Applets][39][Configuration]
+PreloadWeight=60
+
 [Containments][32][Applets][39][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][32][Applets][40]
@@ -211,13 +283,29 @@ plugin=org.kde.plasma.devicenotifier
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][32][Applets][44][Configuration]
+PreloadWeight=44
+
 [Containments][32][Applets][45]
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][32][Applets][45][Configuration]
+PreloadWeight=34
+
 [Containments][32][Applets][46]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][32][Applets][46][Configuration]
+PreloadWeight=65
+
+[Containments][32][Applets][58]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][32][Applets][58][Configuration]
+PreloadWeight=55
 
 [Containments][32][General]
 extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier

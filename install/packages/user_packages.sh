@@ -14,6 +14,7 @@ user_packages=(
     "vscodium-marketplace"
     "librewolf"
     "librewolf-extension-plasma-integration"
+    "firefox-pwa"
     "obsidian"
     "brave-bin"
     "64gram-desktop"

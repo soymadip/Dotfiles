@@ -1,6 +1,7 @@
 kde_packages=(
 
     "kup"
+    "kimageformats"
     "ark"
     "kdeplasma-addons"
     "kio-admin"
@@ -11,4 +12,6 @@ kde_packages=(
     "kate"
     "ktorrent"
     "kplotting"
+    "gwenview"
+    "okular"
 )

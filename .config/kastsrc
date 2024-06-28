@@ -21,7 +21,6 @@ allowMeteredStreaming=true
 
 [Synchronization]
 syncHostname=https://kim.nl.tab.digital
-syncProvider=1
 
 [UiSettings]
 ColorScheme=
