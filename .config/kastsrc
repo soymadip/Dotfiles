@@ -20,7 +20,10 @@ allowMeteredImageDownloads=true
 allowMeteredStreaming=true
 
 [Synchronization]
-syncHostname=https://kim.nl.tab.digital
+syncDevice=DESKTOP-Arch
+syncDeviceName=Kasts on DESKTOP-Arch
+syncEnabled=true
+syncUsername=soymadip
 
 [UiSettings]
 ColorScheme=

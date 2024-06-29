@@ -111,7 +111,7 @@
 /.librewolf/*/webappsstore.sqlite-wal
 /.librewolf/*/xulstore.json
 /.librewolf/**/sessionstore.jsonlz4
-
+/.librewolf/**/failover.jsc
   
 #________Libreoffice________________
 /.config/libreoffice/4/**/autocorr

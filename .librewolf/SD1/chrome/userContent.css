@@ -10,9 +10,9 @@
         position: fixed ;
         top: 0 ;
         left: 0 ;
-        background: #2e3440 no-repeat url(img/wall.jpg) center ; /* ## #2e3440 for Nord theme */
+        background: #2e3440 no-repeat url(img/wall.jpg) center ; /* #2e3440 for Nord theme */
         background-size: cover ;
-        width: 100vw ;
-        height: 100vh ;
+        width: 102vw ;
+        height: 105vh ;
     }
 }

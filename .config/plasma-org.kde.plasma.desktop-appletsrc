@@ -76,9 +76,9 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][27][Applets][29][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 popupHeight=450
-popupWidth=560
+popupWidth=425
 
 [Containments][27][Applets][29][Configuration][Appearance]
 autoFontAndSize=false
@@ -102,7 +102,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][27][Applets][31][Configuration]
-PreloadWeight=65
+PreloadWeight=80
 SystrayContainmentId=32
 
 [Containments][27][Applets][48]
@@ -177,7 +177,7 @@ plugin=org.kde.plasma.systemmonitor.net
 
 [Containments][27][Applets][55][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=90
+PreloadWeight=95
 popupHeight=182
 popupWidth=156
 
@@ -207,7 +207,7 @@ immutability=1
 plugin=org.kde.plasma.shutdownorswitch
 
 [Containments][27][Applets][56][Configuration]
-PreloadWeight=60
+PreloadWeight=85
 popupHeight=136
 popupWidth=216
 
@@ -279,33 +279,36 @@ plugin=org.kde.plasma.keyboardindicator
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][32][Applets][43][Configuration]
+PreloadWeight=80
+
 [Containments][32][Applets][44]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][32][Applets][44][Configuration]
-PreloadWeight=44
+PreloadWeight=30
 
 [Containments][32][Applets][45]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][32][Applets][45][Configuration]
-PreloadWeight=34
+PreloadWeight=10
 
 [Containments][32][Applets][46]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][32][Applets][46][Configuration]
-PreloadWeight=65
+PreloadWeight=90
 
 [Containments][32][Applets][58]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][32][Applets][58][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][32][General]
 extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier

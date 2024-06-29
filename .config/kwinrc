@@ -65,13 +65,14 @@ tileseditorEnabled=false
 zoomEnabled=false
 
 [PrimaryOutline]
+ActiveOutlineAlpha=186
 ActiveOutlineUseCustom=false
 ActiveOutlineUsePalette=true
 InactiveOutlinePalette=3
-InactiveOutlineThickness=0.75
+InactiveOutlineThickness=3
 InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
-OutlineThickness=2.6
+OutlineThickness=3
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -94,7 +95,7 @@ enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
 enableTileLayout=false
-floatingClass=org.kde.kasts,systemsettings,org.freedesktop.impl.portal.desktop.kde
+floatingClass=org.kde.kasts,systemsettings,org.freedesktop.impl.portal.desktop.kde,keepassxc
 floatingTitle=Vorta for Borg Backup
 ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,rofi
 keepFloatAbove=false
@@ -113,9 +114,9 @@ InactiveSecondOutlineUsePalette=true
 SecondOutlineThickness=0
 
 [Shadow]
-ActiveShadowAlpha=168
 ActiveShadowPalette=14
-InactiveShadowAlpha=0
+InactiveShadowAlpha=208
+InactiveShadowPalette=3
 
 [TabBox]
 LayoutName=compact
@@ -160,6 +161,7 @@ theme=Breeze
 
 [ًRound-Corners]
 AnimationEnabled=false
+InactiveCornerRadius=6
 InactiveShadowSize=1
-ShadowSize=3
-Size=7
+ShadowSize=1
+Size=6
