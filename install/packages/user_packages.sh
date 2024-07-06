@@ -26,5 +26,6 @@ user_packages=(
     "vorta"
     "gnome-disk-utility"
     "rofi-wayland"
+    "lazygit"
 )
 

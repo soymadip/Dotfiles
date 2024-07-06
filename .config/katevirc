@@ -12,9 +12,9 @@ Map Leader=\\
 Normal Mode Mapping Keys=
 Normal Mode Mappings=
 Normal Mode Mappings Recursion=
-ViRegisterContents=\n[keyboard]\nbindings = [\n{ key = "Q"\\, mods = "Control"\\, action = "Quit"}\\,\n# { key = "L"\\, mods = "Control"\\, chars = "\\\\f" }\\,\n# { mods = "Control|Shift"\\, key = "C"\\, action = "CopySelection" }\\,\n# { mods = "Control|Shift"\\, key = "V"\\, action = "PasteSelection" }\\,\n{ mods = "Control|Shift"\\, key = "N"\\,  action = "CreateNewWindow" }\\,\n]\n,true,",
-ViRegisterFlags=0,0,0,0
-ViRegisterNames=",-,0,^
+ViRegisterContents=true,",
+ViRegisterFlags=0,0,0
+ViRegisterNames=-,0,^
 Visual Mode Mapping Keys=
 Visual Mode Mappings=
 Visual Mode Mappings Recursion=

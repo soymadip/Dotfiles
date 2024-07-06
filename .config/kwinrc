@@ -21,20 +21,19 @@ Strength=6
 [Effect-kwin4_effect_login]
 FadeToBlack=true
 
+[Effect-overview]
+BorderActivate=5
+
+[Effect-shakecursor]
+Magnification=5
+
 [Effect-slide]
 SlideBackground=false
 
-[Effect-windowview]
-BorderActivateAll=5
-
-[ElectricBorders]
-TopLeft=ShowDesktop
-
 [IncludeExclude]
-Exclusions=rofi
+Exclusions=rofi,plasmashell
 
 [MaximizeTile]
-DisableOutlineMaximize=false
 DisableOutlineTile=false
 DisableRoundMaximize=false
 DisableRoundTile=false
@@ -69,10 +68,14 @@ ActiveOutlineAlpha=186
 ActiveOutlineUseCustom=false
 ActiveOutlineUsePalette=true
 InactiveOutlinePalette=3
-InactiveOutlineThickness=3
+InactiveOutlineThickness=3.2
 InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
-OutlineThickness=3
+OutlineThickness=3.2
+
+[Round-Corners]
+InactiveCornerRadius=9
+Size=9
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -114,8 +117,9 @@ InactiveSecondOutlineUsePalette=true
 SecondOutlineThickness=0
 
 [Shadow]
+ActiveShadowAlpha=101
 ActiveShadowPalette=14
-InactiveShadowAlpha=208
+InactiveShadowAlpha=0
 InactiveShadowPalette=3
 
 [TabBox]
@@ -161,7 +165,7 @@ theme=Breeze
 
 [ًRound-Corners]
 AnimationEnabled=false
-InactiveCornerRadius=6
+InactiveCornerRadius=7
 InactiveShadowSize=1
 ShadowSize=1
-Size=6
+Size=7

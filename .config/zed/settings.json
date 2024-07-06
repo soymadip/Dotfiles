@@ -3,8 +3,8 @@
     "diagnostics": true,
     "metrics": true
   },
-  "theme": "Catppuccin Macchiato",
-  "vim_mode": false,
+  "theme": "Catppuccin Frappé",
+  "vim_mode": true,
   "autosave": "on_focus_change",
   "format_on_save": "on",
   "auto_update": true,

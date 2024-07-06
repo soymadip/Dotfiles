@@ -1,11 +1,23 @@
+[6cba9e8c-f63d-4cf7-a488-c8745e473b34]
+noborderrule=3
+
 [7fcb3555-df92-4b06-8973-b32cd1678015]
 Description=kast window dimension
 size=992,738
 sizerule=3
 
 [General]
-count=1
-rules=badda88d-5bf7-4935-87dc-d4738b4e30eb
+count=2
+rules=badda88d-5bf7-4935-87dc-d4738b4e30eb,a7634b0c-58b3-4864-8609-aec1abbac5c6
+
+[a7634b0c-58b3-4864-8609-aec1abbac5c6]
+Description=Vlc no window frame
+noborder=true
+noborderrule=3
+types=1
+wmclass=vlc
+wmclasscomplete=true
+wmclassmatch=1
 
 [badda88d-5bf7-4935-87dc-d4738b4e30eb]
 Description=Kasts no window frame
@@ -14,7 +26,7 @@ noborderrule=3
 size=972,668
 sizerule=3
 types=1
-wmclass=kasts org.kde.kasts
+wmclass=org.kde.kasts
 wmclasscomplete=true
 wmclassmatch=1
 

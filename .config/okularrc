@@ -10,14 +10,13 @@ VGA-1=VGA-1
 [Desktop Entry]
 FullScreen=false
 
+[FileDialogSize]
+1920x1080 screen: Height=441
+1920x1080 screen: Width=945
+
 [General]
 LockSidebar=true
 ShowSidebar=true
-
-[KFileDialog Settings]
-Recent Files[$e]=2nd sem syllabus.pdf,file:$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf,file:$HOME/Desktop/Study/physics/2.jpeg,file:$HOME/Desktop/Study/FEEE/Fundamentals of electrical and electronics engineering .pdf,file:$HOME/Desktop/Study/FEEE/WhatsApp Image 2024-05-22 at 9.54.55 AM.jpeg,file:$HOME/Desktop/Study/FEEE/FEEE\\, UNIT - 3\\, AC CIRCUIT .pdf,file:$HOME/gff.txt,file:$HOME/Desktop/Study/FEEE/digital electronics.pdf,file:$HOME/Desktop/Study/2nd sem syllabus.pdf
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Desktop/Study/,file:$HOME/,file:$HOME/Desktop/Study/FEEE/,file:$HOME/Documents/,file:$HOME/Desktop/Study/physics/
-detailViewIconSize=16
 
 [MainWindow]
 1920x1080 screen: Height=700
@@ -40,26 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/Desktop/Study/IT/Suggestion.pdf
-File10[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
-File2[$e]=$HOME/Desktop/Study/IT/suggestion.pdf
-File3[$e]=$HOME/Desktop/Study/IT/Suggestion it solution.pdf
-File4[$e]=$HOME/Desktop/Study/IT/document.pdf
-File5[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
-File6[$e]=/run/media/soymadip/fedora/home/soymadip/Downloads/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
-File7[$e]=$HOME/Desktop/Study/Mech/Engg. Mechanics Suggestion.pdf
-File8[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes.pdf
-File9[$e]=$HOME/Desktop/Study/physics/natitube.pdf
-Name1[$e]=Suggestion.pdf
-Name10[$e]=2nd sem syllabus.pdf
-Name2[$e]=suggestion.pdf
-Name3[$e]=Suggestion it solution.pdf
-Name4[$e]=document.pdf
-Name5[$e]=Basic About Semiconductor - Diodes .pdf
-Name6[$e]=1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
-Name7[$e]=Engg. Mechanics Suggestion.pdf
-Name8[$e]=Basic About Semiconductor - Diodes.pdf
-Name9[$e]=natitube.pdf
+File1[$e]=$HOME/Desktop/Study/IT/document.pdf
+File10[$e]=$HOME/.config/mpv/input.conf
+File2[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
+File3[$e]=/run/media/soymadip/fedora/home/soymadip/Downloads/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
+File4[$e]=$HOME/Desktop/Study/Mech/Engg. Mechanics Suggestion.pdf
+File5[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes.pdf
+File6[$e]=$HOME/Desktop/Study/physics/natitube.pdf
+File7[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
+File8[$e]=$HOME/Desktop/INd.Const (4,5).pdf
+File9[$e]=$HOME/Desktop/Schedule of Examination board.pdf
+Name1[$e]=document.pdf
+Name10[$e]=input.conf
+Name2[$e]=Basic About Semiconductor - Diodes .pdf
+Name3[$e]=1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
+Name4[$e]=Engg. Mechanics Suggestion.pdf
+Name5[$e]=Basic About Semiconductor - Diodes.pdf
+Name6[$e]=natitube.pdf
+Name7[$e]=2nd sem syllabus.pdf
+Name8[$e]=INd.Const (4,5).pdf
+Name9[$e]=Schedule of Examination board.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16

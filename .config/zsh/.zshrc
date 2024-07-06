@@ -42,7 +42,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 
 #______________________Environment Varibles___________________________
-
+export TERMINAL=/usr/bin/kitty
 
 
 

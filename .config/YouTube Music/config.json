@@ -1,0 +1,94 @@
+{
+	"window-size": {
+		"width": 1275,
+		"height": 806
+	},
+	"window-maximized": false,
+	"window-position": {
+		"x": 330,
+		"y": 170
+	},
+	"url": "https://music.youtube.com/watch?v=xOazTYPrt64&list=PL7PmpINZDf8aQQr--hEeSsvyLC9vQE9d4&index=0",
+	"options": {
+		"tray": false,
+		"appVisible": true,
+		"autoUpdates": true,
+		"alwaysOnTop": false,
+		"hideMenu": false,
+		"hideMenuWarned": false,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"removeUpgradeButton": false,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": false,
+		"autoResetAppCache": false,
+		"resumeOnStart": true,
+		"likeButtons": "",
+		"proxy": "",
+		"startingPage": "",
+		"overrideUserAgent": false,
+		"usePodcastParticipantAsArtist": false,
+		"themes": []
+	},
+	"plugins": {
+		"notifications": {
+			"enabled": true
+		},
+		"video-toggle": {
+			"mode": "custom"
+		},
+		"precise-volume": {
+			"globalShortcuts": {}
+		},
+		"discord": {
+			"listenAlong": true
+		},
+		"album-color-theme": {
+			"enabled": true
+		},
+		"bypass-age-restrictions": {
+			"enabled": true
+		},
+		"captions-selector": {
+			"enabled": true
+		},
+		"downloader": {
+			"enabled": true
+		},
+		"picture-in-picture": {
+			"enabled": true,
+			"alwaysOnTop": true,
+			"savePosition": true,
+			"saveSize": false,
+			"hotkey": "P",
+			"pip-position": [
+				10,
+				10
+			],
+			"pip-size": [
+				450,
+				275
+			],
+			"isInPiP": false,
+			"useNativePiP": true
+		},
+		"playback-speed": {
+			"enabled": true
+		},
+		"sponsorblock": {
+			"enabled": true
+		},
+		"adblocker": {
+			"enabled": true,
+			"cache": true,
+			"blocker": "With blocklists",
+			"additionalBlockLists": [],
+			"disableDefaultLists": false
+		}
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "3.3.12"
+		}
+	}
+}

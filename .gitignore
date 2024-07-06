@@ -112,7 +112,8 @@
 /.librewolf/*/xulstore.json
 /.librewolf/**/sessionstore.jsonlz4
 /.librewolf/**/failover.jsc
-  
+
+
 #________Libreoffice________________
 /.config/libreoffice/4/**/autocorr
 /.config/libreoffice/4/**/autotext
@@ -161,12 +162,12 @@
 
 
 #________OBS Studio______________
-.config/obs-studio/profiler_data
+/.config/obs-studio/profiler_data
 
 
 
 #_______Okular___________
-.config/okularpartrc
+/.config/okularpartrc
 
 
 
@@ -220,6 +221,27 @@
 /.config/WebCord/windowState
 /.config/VSCodium/VideoDecodeStats
 
+
+#_______Youtube-music______
+/.config/YouTube Music/VideoDecodeStats/LOG.old
+/.config/YouTube Music/Crashpad
+/.config/YouTube Music/Dictionaries
+/.config/YouTube Music/Local Storage
+/.config/YouTube Music/.updaterId
+/.config/YouTube Music/IndexedDB
+/.config/YouTube Music/Network Persistent State
+/.config/YouTube Music/Service Worker
+/.config/YouTube Music/Session Storage
+/.config/YouTube Music/TransportSecurity
+/.config/YouTube Music/VideoDecodeStats
+/.config/YouTube Music/Shared Dictionary
+/.config/YouTube Music/tempIcon.png
+/.config/YouTube Music/SingletonSocket
+/.config/YouTube Music/SingletonLock
+/.config/YouTube Music/SingletonCookie
+/.config/YouTube Music/shared_proto_db
+
+
 #________ZSH__________
 /.config/zsh/------OLD------
 /.config/zsh/zinit
@@ -228,4 +250,3 @@
 
 #______ZED_______
 #/.config/zed/
-.config/okularpartrc

@@ -5,15 +5,15 @@ state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABkEAAAAFAQEAAQAAAAAAAA
 size=939,606
 
 [FileDialogSize]
-1920x1080 screen: Height=486
-1920x1080 screen: Width=881
+1920x1080 screen: Height=453
+1920x1080 screen: Width=876
 
 [FileSelectDlg]
-download_location_history=/home/soymadip/,/home/soymadip/.cache/Torrent_temp/,/home/soymadip/.torrent_temp/,/home/soymadip/.Torrent_temp/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/home/sd/.Torrent_temp/
-file_view=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xb4\x00\x00\x00\x02\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x02\x05\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\xaf\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00
+download_location_history=/home/soymadip/.cache/torrent_temp/,/home/soymadip/,/home/soymadip/.cache/Torrent_temp/,/home/soymadip/.torrent_temp/,/home/soymadip/.Torrent_temp/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/home/sd/.Torrent_temp/
+file_view=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04J\x00\x00\x00\x02\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x03\xe6\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00
 move_on_completion_location_history=/mnt/HDD1/MF Vault/MEDIA/ANIME/,/home/soymadip/ANIME/,/mnt/sdb1/MF Vault/MEDIA/ANIME/,/run/media/soymadip/Ventoy/,/mnt/HDD1/MF Vault/MEDIA/ANIME/RE:cycle/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Vinland Saga/,/home/soymadip/MF/-MEDIA/ANIME/,/home/soymadip/MF/ANIME2/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/mnt/HDD1/MF Vault/ANIME/AOT/,/mnt/HDD1/MF Vault/,/home/soymadip/
 show_file_tree=true
-size=1099,784
+size=1089,718
 
 [FileView]
 show_list_of_files=false
@@ -32,7 +32,7 @@ expanded=/all,/all/active,/all/passive
 visible=false
 
 [LogFlags]
-logging_flags_view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaMAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAAZAAAAAEAAAAAAAABPwAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+logging_flags_view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzkAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAAZAAAAAEAAAAAAAAC1QAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
 [MagnetView]
 state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEQAAAADAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAADAAAByQAAAAEAAAAAAAAAZAAAAAEAAAAAAAACFwAAAAEAAAAAAAAD6AAAAABkAAAAAA==
@@ -70,7 +70,7 @@ StatsPluginEnabled=true
 ZeroconfPluginEnabled=true
 
 [PrefDialog]
-size=1009,680
+size=999,614
 
 [QueueManager]
 suspended=false
@@ -79,9 +79,9 @@ suspended=false
 search_bar_visible=false
 search_text=
 show_downloads=false
-show_not_queued=false
+show_not_queued=true
 show_uploads=false
-view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1EAAAAEAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAAAMQAAAAEAAAAAAAADJwAAAAEAAAAAAAAAZAAAAAEAAAAAAAADlQAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1EAAAAEAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAAAMQAAAAEAAAAAAAADUgAAAAEAAAAAAAAAZAAAAAEAAAAAAAADagAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
 [Recent Dirs]
 exportTorrent[$e]=$HOME/Desktop,$HOME/Documents
@@ -101,7 +101,7 @@ hidden=true
 text=
 
 [TrackerView]
-state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABZIAAAAGAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAGAAABCwAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAC9wAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABbsAAAAGAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAGAAABNAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAC9wAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 tracker_hints=udp://tracker.publicbt.com:80/announce,udp://tracker.openbittorrent.com:80/announce
 
 [WebSeedsTab]
@@ -113,7 +113,7 @@ checkWhenFinished=true
 completedDir=/mnt/HDD1/MF Vault/MEDIA/ANIME
 dhtSupport=true
 keepSeeding=false
-lastSaveDir=/home/soymadip/
+lastSaveDir=/home/soymadip/.cache/torrent_temp/
 maxDownloads=1
 maxSeeds=1
 maxUploadRate=20

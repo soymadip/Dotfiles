@@ -2,13 +2,14 @@
 Categories=Utility;Core;System;FileTools;FileManager;ConsoleOnly
 Comment[en_US]=Blazing fast terminal file manager written in Rust, based on async I/O
 Comment=Blazing fast terminal file manager written in Rust, based on async I/O
-Exec=alacritty --class yazi --command yazi
+Exec=kitty --class yazi yazi
 GenericName[en_US]=
 GenericName=
 Icon=yazi
 Keywords=File;Manager;Explorer;Browser;Launcher
 MimeType=inode/directory;
 Name=Yazi
+NoDisplay=false
 Path=
 StartupNotify=true
 Terminal=false

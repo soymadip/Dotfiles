@@ -1,5 +1,6 @@
 {
 	"update.mode": "none",
+	// "window.confirmSaveUntitledWorkspace": false,
 
 	"workbench.colorTheme": "Catppuccin Macchiato",
 	"catppuccin.accentColor": "lavender",
@@ -191,6 +192,15 @@
 	"accessibility.dimUnfocused.opacity": 0.75,
 
 	"sync.autoDownload": true,
-
+	
+	
+	"python.analysis.inlayHints.callArgumentNames": "all",
+	"python.analysis.inlayHints.functionReturnTypes": true,
+	"python.analysis.inlayHints.pytestParameters": true,
+	"python.analysis.inlayHints.variableTypes": true,
+	"python.analysis.autoFormatStrings": true,
+	"python.analysis.autoImportCompletions": true,
+	"window.menuBarVisibility": "toggle",
+	
 	"github.copilot.chat.scopeSelection": true
 }

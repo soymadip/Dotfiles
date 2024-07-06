@@ -5,15 +5,21 @@ system_packages=(
     "libva-intel-driver"
     "libva-mesa-driver"
     "cups"
+    "power-profiles-daemon"
+    "system-config-printer"
+    "cups-pk-helper"
     "paru"
+    "appimagelauncher"
     "p7zip"
     "unrar"
     "npm"
+    "wget"
     "gvfs"
     "zsh"
     "yt-dlp"
     "rsync"
     "hunspell-en_US"
+    "ufw"
     "speech-dispatcher"
     "qt5-tools"
     "gtk4"
@@ -36,6 +42,9 @@ system_packages=(
     "bat-extras"
     "gum"
     "figlet"
+    "rclone"
+    "rclone-browser"
+    "plymouth-theme-catppuccin-mocha-git"
 )
 
 
@@ -44,4 +53,5 @@ aur_packages=(
     "archlinux-tweak-tool"
     "vorta-root"
     "ookla-speedtest-bin"
+    "zed-git"
 )

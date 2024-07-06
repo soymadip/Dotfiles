@@ -21,10 +21,10 @@ _k_friendly_name=Touchpad
 [kmix]
 _k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
-decrease_volume=Meta+ScrollLock\tVolume Down,Volume Down,Decrease Volume
+decrease_volume=Volume Down,Volume Down,Decrease Volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
-increase_volume=Volume Up\tMeta+Pause,Volume Up,Increase Volume
+increase_volume=Volume Up,Volume Up,Increase Volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
@@ -225,12 +225,12 @@ _k_friendly_name=KWin
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
+mediavolumedown=Meta+ScrollLock,,Media volume down
+mediavolumeup=Meta+Pause,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
 playmedia=none,,Play media playback
-playpausemedia=Media Play,Media Play,Play/Pause media playback
+playpausemedia=Media Play\tMeta+Num+0,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
 
@@ -265,8 +265,10 @@ activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=none,none,Activate Application Launcher Widget
 activate widget 44=none,none,Activate Digital Clock Widget
+activate widget 56=none,none,Activate Shutdown or Switch Widget
 activate widget 57=none,none,Activate Andromeda Launcher Widget
-activate widget 58=Meta+X,none,Activate Shutdown or Switch Widget
+activate widget 59=none,none,Activate Desktop Indicator Widget
+activate widget 64=none,none,Activate PlasMusic Toolbar Widget
 activate widget 65=none,none,Activate Desktop Indicator Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
@@ -285,7 +287,7 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][Alacritty.desktop]
+[services][kitty.desktop]
 _launch=Meta+Return
 
 [services][librewolf.desktop]
