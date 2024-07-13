@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/opt/brave-bin/brave --profile-directory=Default --app-id=iilmbpfjemcfdofmchhfmbdijpmnedaj
+GenericName[en_US]=
+GenericName=
+Icon=tuxtype
+MimeType=
+Name[en_US]=Typing.com
+Name=Typing.com
+Path=
+StartupNotify=true
+StartupWMClass=crx_iilmbpfjemcfdofmchhfmbdijpmnedaj
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=

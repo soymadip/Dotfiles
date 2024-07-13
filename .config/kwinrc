@@ -34,6 +34,7 @@ SlideBackground=false
 Exclusions=rofi,plasmashell
 
 [MaximizeTile]
+DisableOutlineMaximize=false
 DisableOutlineTile=false
 DisableRoundMaximize=false
 DisableRoundTile=false
@@ -47,9 +48,11 @@ CommandAll2=Nothing
 
 [NightColor]
 Active=true
+EveningBeginFixed=0000
 Mode=Times
-MorningBeginFixed=0440
-NightTemperature=5800
+MorningBeginFixed=0540
+NightTemperature=6000
+TransitionTime=10
 
 [Plugins]
 bismuthEnabled=true
@@ -60,22 +63,26 @@ krohnkiteEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_squashEnabled=false
 magiclampEnabled=true
+minimizeallEnabled=false
 tileseditorEnabled=false
 zoomEnabled=false
 
 [PrimaryOutline]
-ActiveOutlineAlpha=186
+ActiveOutlineAlpha=174
+ActiveOutlinePalette=8
 ActiveOutlineUseCustom=false
 ActiveOutlineUsePalette=true
-InactiveOutlinePalette=3
-InactiveOutlineThickness=3.2
+InactiveOutlineAlpha=0
+InactiveOutlinePalette=5
+InactiveOutlineThickness=1.75
 InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
-OutlineThickness=3.2
+OutlineThickness=1.75
 
 [Round-Corners]
-InactiveCornerRadius=9
-Size=9
+AnimationEnabled=false
+InactiveCornerRadius=7
+Size=7
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -98,26 +105,31 @@ enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
 enableTileLayout=false
-floatingClass=org.kde.kasts,systemsettings,org.freedesktop.impl.portal.desktop.kde,keepassxc
+floatingClass=org.kde.kasts,systemsettings,org.freedesktop.impl.portal.desktop.kde,keepassxc,spectacle,dev.zed.Zed
 floatingTitle=Vorta for Borg Backup
-ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,rofi
+ignoreClass=krunner,yakuake,kded5,xwaylandvideobridge,plasmashell,rofi
 keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
-maximizeSoleTile=true
+monocleMaximize=false
 noTileBorder=true
+screenGapBottom=1
+screenGapLeft=1
+screenGapRight=1
+screenGapTop=1
+tileLayoutGap=1
 
 [SecondOutline]
 ActiveSecondOutlineUseCustom=false
 ActiveSecondOutlineUsePalette=true
-InactiveSecondOutlinePalette=3
-InactiveSecondOutlineThickness=0
+InactiveSecondOutlinePalette=5
+InactiveSecondOutlineThickness=1.7
 InactiveSecondOutlineUseCustom=false
 InactiveSecondOutlineUsePalette=true
-SecondOutlineThickness=0
+SecondOutlineThickness=1.7
 
 [Shadow]
-ActiveShadowAlpha=101
+ActiveShadowAlpha=0
 ActiveShadowPalette=14
 InactiveShadowAlpha=0
 InactiveShadowPalette=3
@@ -138,6 +150,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][b8811ac5-44fe-5ac0-a118-5b53381688ae]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][c73684f0-83c4-5586-b5c5-86ac66d58d6c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][eb44abdb-6645-580c-8451-8eda0f97532a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -148,17 +163,18 @@ EnablePrimarySelection=false
 AutoRaise=true
 AutoRaiseInterval=500
 BorderlessMaximizedWindows=false
+DelayFocusInterval=200
 ElectricBorderCooldown=200
 ElectricBorderCornerRatio=0.28
 ElectricBorders=1
 FocusPolicy=FocusFollowsMouse
+FocusStealingPreventionLevel=2
 RollOverDesktops=true
 
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
-BorderSize=Tiny
 BorderSizeAuto=false
 library=org.kde.breeze
 theme=Breeze

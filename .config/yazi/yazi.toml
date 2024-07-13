@@ -1,6 +1,4 @@
 
-
-
 [manager]
 show_hidden=true
 sort_by="natural"
@@ -10,14 +8,24 @@ show_symnlink=true
 
 
 [opener]
+
 edit = [
-	{ run = 'nvim "$@"', block = true, desc = "open in NeoVim" },
+	{ run = 'nvim "$@"', block = true, desc = "NeoVim" },
+	{ run = 'codium "$@"', block = true, desc = "VsCodium" },
+	{ run = 'kate "$@"', block = true, desc = "kate" },
 ]
+
 play = [
-	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+	{ run = 'mpv "$@"', orphan = true, desc = "MPV" },
+	{ run = 'vlc "$@"', orphan = true, desc = "VLC"},
 ]
+
 open = [
 	{ run = 'xdg-open "$@"', desc = "Open" },
 ]
 
+[open]
 
+prepend_rules = [
+  {name = "*.jsonc", use = "edit"},
+]

@@ -133,11 +133,10 @@ ForegroundPositive=166, 209, 137
 ForegroundVisited=202, 158, 230
 
 [DirSelect Dialog]
-DirSelectDialog Size=962,648
-History Items[$e]=file:$HOME/Dotfiles,file:$HOME/.config/mpv,file:$HOME/.config/mpv,file:$HOME/MF/SYNC/Obsidian/1. Python/1. Procedural/Day 1 - 28,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/Coding/Python/fd,file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
+DirSelectDialog Size=957,615
+History Items[$e]=file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Dotfiles,file:$HOME/.config/mpv,file:$HOME/.config/mpv,file:$HOME/MF/SYNC/Obsidian/1. Python/1. Procedural/Day 1 - 28,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/Coding/Python/fd,file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
 
 [General]
-ColorScheme=CatppuccinFrappeLavender
 ColorSchemeHash=843b306e617457e5af1cf23785a2e69cb9e6ebf5
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -170,6 +169,9 @@ Sort hidden files last=false
 Sort reversed=true
 Speedbar Width=159
 View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=770,567
 
 [PreviewSettings]
 MaximumRemoteSize=0

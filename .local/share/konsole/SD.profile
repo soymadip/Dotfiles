@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=false
 ColorScheme=Catppuccin-Frappe
-Font=FiraCode Nerd Font,11.5,-1,5,50,0,0,0,0,0
+Font=JetBrainsMono Nerd Font,10.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 UseFontLineChararacters=false
 
 [Cursor Options]

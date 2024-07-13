@@ -42,8 +42,12 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 
 #______________________Environment Varibles___________________________
+export EDITOR=nvim
+export VISUAL=codium
 export TERMINAL=/usr/bin/kitty
 
+export AUTO_NOTIFY_EXPIRE_TIME=5000
+export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh")
 
 
 #_______________________Shell Integrations_____________________________

@@ -1,9 +1,12 @@
 {
+  "assistant": {
+    "dock": "bottom"
+  },
   "telemetry": {
     "diagnostics": true,
     "metrics": true
   },
-  "theme": "Catppuccin Frappé",
+  "theme": "Catppuccin Macchiato",
   "vim_mode": true,
   "autosave": "on_focus_change",
   "format_on_save": "on",

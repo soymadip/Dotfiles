@@ -64,6 +64,7 @@
 	},
 	"code-runner.enableAppInsights": false,
 	"code-runner.preserveFocus": false,
+	"code-runner.clearPreviousOutput": true,
 
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
@@ -192,8 +193,7 @@
 	"accessibility.dimUnfocused.opacity": 0.75,
 
 	"sync.autoDownload": true,
-	
-	
+
 	"python.analysis.inlayHints.callArgumentNames": "all",
 	"python.analysis.inlayHints.functionReturnTypes": true,
 	"python.analysis.inlayHints.pytestParameters": true,
@@ -201,6 +201,7 @@
 	"python.analysis.autoFormatStrings": true,
 	"python.analysis.autoImportCompletions": true,
 	"window.menuBarVisibility": "toggle",
-	
-	"github.copilot.chat.scopeSelection": true
+
+	"github.copilot.chat.scopeSelection": true,
+	"diffEditor.hideUnchangedRegions.enabled": true
 }

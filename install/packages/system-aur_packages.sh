@@ -1,9 +1,13 @@
 
 system_packages=(
 
+    "intel-ucode"
     "xdg-desktop-portal"
     "libva-intel-driver"
     "libva-mesa-driver"
+    "gst-plugins-good"
+    "gst-plugins-bad"
+    "gst-libav"
     "cups"
     "power-profiles-daemon"
     "system-config-printer"
@@ -18,6 +22,7 @@ system_packages=(
     "zsh"
     "yt-dlp"
     "rsync"
+    "enchant"
     "hunspell-en_US"
     "ufw"
     "speech-dispatcher"
@@ -45,6 +50,8 @@ system_packages=(
     "rclone"
     "rclone-browser"
     "plymouth-theme-catppuccin-mocha-git"
+    "python-pip"
+    "ffmpegthumbnailer"
 )
 
 
@@ -53,5 +60,4 @@ aur_packages=(
     "archlinux-tweak-tool"
     "vorta-root"
     "ookla-speedtest-bin"
-    "zed-git"
 )

@@ -39,26 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/Desktop/Study/IT/document.pdf
-File10[$e]=$HOME/.config/mpv/input.conf
-File2[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes .pdf
-File3[$e]=/run/media/soymadip/fedora/home/soymadip/Downloads/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
-File4[$e]=$HOME/Desktop/Study/Mech/Engg. Mechanics Suggestion.pdf
-File5[$e]=$HOME/Desktop/Study/physics/Basic About Semiconductor - Diodes.pdf
-File6[$e]=$HOME/Desktop/Study/physics/natitube.pdf
-File7[$e]=$HOME/Desktop/Study/2nd sem syllabus.pdf
-File8[$e]=$HOME/Desktop/INd.Const (4,5).pdf
-File9[$e]=$HOME/Desktop/Schedule of Examination board.pdf
-Name1[$e]=document.pdf
-Name10[$e]=input.conf
-Name2[$e]=Basic About Semiconductor - Diodes .pdf
-Name3[$e]=1ff8a7b5dc7a7d1f0ed65aaa29c04b1e.pdf
-Name4[$e]=Engg. Mechanics Suggestion.pdf
-Name5[$e]=Basic About Semiconductor - Diodes.pdf
-Name6[$e]=natitube.pdf
-Name7[$e]=2nd sem syllabus.pdf
-Name8[$e]=INd.Const (4,5).pdf
-Name9[$e]=Schedule of Examination board.pdf
+File1[$e]=$HOME/Desktop/INd.Const (4,5).pdf
+File10[$e]=$HOME/MF/SYNC/Obsidian/Study/3RD SEM SYLLABUS.pdf
+File2[$e]=$HOME/Desktop/Schedule of Examination board.pdf
+File3[$e]=$HOME/.config/mpv/input.conf
+File4[$e]=$HOME/Documents/Git/The-Ultimate-Python-Course/The Ultimate Python Handbook.pdf
+File5[$e]=$HOME/Desktop/Study/Python/CST 3RD SEM NEW SYLLABUS.pdf
+File6[$e]=$HOME/Desktop/Study/CST 3RD SEM NEW SYLLABUS.pdf
+File7[$e]=$HOME/Dotfiles/README.md
+File8[$e]=$HOME/MF/SYNC/Obsidian/Study/Examination Fees.pdf
+File9[$e]=$HOME/MF/SYNC/Obsidian/Study/2nd sem syllabus.pdf
+Name1[$e]=INd.Const (4,5).pdf
+Name10[$e]=3RD SEM SYLLABUS.pdf
+Name2[$e]=Schedule of Examination board.pdf
+Name3[$e]=input.conf
+Name4[$e]=The Ultimate Python Handbook.pdf
+Name5[$e]=CST 3RD SEM NEW SYLLABUS.pdf
+Name6[$e]=CST 3RD SEM NEW SYLLABUS.pdf
+Name7[$e]=README.md
+Name8[$e]=Examination Fees.pdf
+Name9[$e]=2nd sem syllabus.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16
