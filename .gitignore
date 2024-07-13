@@ -21,7 +21,7 @@
 *.tmp*
 *LICENSE*
 *.*zcompdump*
-*trash*
+*trash
 *runtime
 *LOG
 
@@ -210,6 +210,22 @@
 /.config/VSCodium/shared_proto_db
 /.config/VSCodium/machineid
 /.config/VSCodium/Workspaces
+
+
+#_________VsCode_________
+/.config/Code/Backups
+/.config/Code/Crashpad
+/.config/Code/Dictionaries
+/.config/Code/Service Worker
+/.config/Code/Shared Dictionary
+/.config/Code/User/History
+/.config/Code/User/profiles
+/.config/Code/User/sync
+/.config/Code/.org.chromium.*
+/.config/Code/machineid
+/.config/Code/Network Persistent State
+/.config/Code/Preferences
+/.config/Code/TransportSecurity
 
 
 #________WebCord_______

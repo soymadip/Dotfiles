@@ -1,0 +1,189 @@
+{
+  // Update settings
+  "update.mode": "none",
+  "update.showReleaseNotes": true,
+
+
+
+  // Telemetry settings
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
+
+
+
+
+  // Files settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "notebook.formatOnSave.enabled": true,
+  "files.autoGuessEncoding": true,
+
+
+
+
+  // Security settings
+  "security.workspace.trust.untrustedFiles": "open",
+
+
+
+  // Workbench settings
+  "workbench.colorTheme": "Alt Catppuccin Macchiato",
+  "workbench.iconTheme": "catppuccin-perfect-macchiato",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.preferredDarkColorTheme": "Alt Catppuccin Macchiato",
+  "alt-catppuccin.accentColor": "lavender",
+  "alt-catppuccin.bracketMode": "neovim",
+  "alt-catppuccin.syntaxMode": "default",
+  "alt-catppuccin.workbenchMode": "default",
+
+
+  "workbench.startupEditor": "none",
+  "workbench.list.smoothScrolling": true,
+  "workbench.panel.defaultLocation": "right",
+  "workbench.quickOpen.preserveInput": true,
+  "workbench.remoteIndicator.showExtensionRecommendations": false,
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.editor.autoLockGroups": {
+    "mainThreadWebview-markdown.preview": true
+  },
+  "workbench.editor.sharedViewState": true,
+  "window.density.editorTabHeight": "compact",
+  "window.restoreWindows": "folders",
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.incrementalNaming": "smart",
+
+
+
+
+  // Editor settings
+  "editor.fontSize": 15.1,
+  "editor.wordWrap": "off",
+  "editor.indentSize": "tabSize",
+
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'FiraCode Nerd Font Ret','Droid Sans Mono', 'monospace', monospace",
+
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.inlineSuggest.fontFamily": "'FiraCode Nerd Font Ret'",
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.minimap.size": "fill",
+
+  "editor.stickyScroll.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.autoClosingComments": "always",
+
+
+
+
+  // Code Runner settings
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.languageIdToFileExtensionMap": {
+    "bat": ".bat",
+    "powershell": ".ps1",
+    "typescript": ".ts"
+  },
+  "code-runner.executorMap": {
+    "python": "python3 -u",
+    "javascript": "node"
+  },
+  "code-runner.enableAppInsights": false,
+
+
+
+  // SCM settings
+  "scm.alwaysShowActions": true,
+  "scm.defaultViewMode": "tree",
+
+
+
+  // Terminal settings
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultLocation": "view",
+
+
+
+  // Auto Close Tag settings
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "auto-close-tag.SublimeText3Mode": true,
+
+
+
+  // C/C++ settings
+  "C_Cpp.autocompleteAddParentheses": true,
+
+
+
+  // GitHub Copilot settings
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.terminalChatLocation": "quickChat",
+
+
+
+  // CSS Lint settings
+  "css.lint.boxModel": "warning",
+  "css.lint.duplicateProperties": "warning",
+
+
+
+  // Emmet settings
+  "emmet.triggerExpansionOnTab": true,
+
+
+
+  // Git settings
+  "git.autofetch": true,
+  "git.fetchOnPull": true,
+  "git.mergeEditor": true,
+  "git.pullBeforeCheckout": true,
+  "git.showPushSuccessNotification": true,
+
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.codeLens": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+
+
+
+  // Import Cost settings
+  "importCost.fontStyle": "oblique",
+
+
+
+  // JSON settings
+  "json.format.keepLines": true,
+
+
+  // Media Preview settings
+  "mediaPreview.video.loop": true,
+
+
+
+  // Python settings
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.terminal.focusAfterLaunch": true,
+  "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+
+
+  // Individual formatter settings
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.openRepositoryInParentFolders": "always",
+
+
+}
