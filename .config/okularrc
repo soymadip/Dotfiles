@@ -39,26 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/Desktop/INd.Const (4,5).pdf
-File10[$e]=$HOME/MF/SYNC/Obsidian/Study/3RD SEM SYLLABUS.pdf
-File2[$e]=$HOME/Desktop/Schedule of Examination board.pdf
-File3[$e]=$HOME/.config/mpv/input.conf
-File4[$e]=$HOME/Documents/Git/The-Ultimate-Python-Course/The Ultimate Python Handbook.pdf
-File5[$e]=$HOME/Desktop/Study/Python/CST 3RD SEM NEW SYLLABUS.pdf
-File6[$e]=$HOME/Desktop/Study/CST 3RD SEM NEW SYLLABUS.pdf
-File7[$e]=$HOME/Dotfiles/README.md
-File8[$e]=$HOME/MF/SYNC/Obsidian/Study/Examination Fees.pdf
-File9[$e]=$HOME/MF/SYNC/Obsidian/Study/2nd sem syllabus.pdf
-Name1[$e]=INd.Const (4,5).pdf
-Name10[$e]=3RD SEM SYLLABUS.pdf
-Name2[$e]=Schedule of Examination board.pdf
-Name3[$e]=input.conf
-Name4[$e]=The Ultimate Python Handbook.pdf
-Name5[$e]=CST 3RD SEM NEW SYLLABUS.pdf
-Name6[$e]=CST 3RD SEM NEW SYLLABUS.pdf
-Name7[$e]=README.md
-Name8[$e]=Examination Fees.pdf
-Name9[$e]=2nd sem syllabus.pdf
+File1[$e]=$HOME/Desktop/Study/CSO/3 Operational concept,Von Neumann,Bus structure.pdf
+File10[$e]=$HOME/Desktop/Skill Badges list.pdf
+File2[$e]=$HOME/Desktop/Study/2nd sem/FEEE/digital electronics.pdf
+File3[$e]=$HOME/Desktop/Study/C/The Ultimate C Handbook by CWHry.pdf
+File4[$e]=$HOME/Desktop/Study/3RD SEM SYLLABUS.pdf
+File5[$e]=$HOME/Desktop/Study/S3 syllabus.pdf
+File6[$e]=$HOME/Downloads/Skill Badges list.pdf
+File7[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM (1).pdf
+File8[$e]=$HOME/Downloads/drama for introduction .pdf
+File9[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM.pdf
+Name1[$e]=3 Operational concept,Von Neumann,Bus structure.pdf
+Name10[$e]=Skill Badges list.pdf
+Name2[$e]=digital electronics.pdf
+Name3[$e]=The Ultimate C Handbook by CWHry.pdf
+Name4[$e]=3RD SEM SYLLABUS.pdf
+Name5[$e]=S3 syllabus.pdf
+Name6[$e]=Skill Badges list.pdf
+Name7[$e]=AY_24-25_Routine_CST_ODD_SEM (1).pdf
+Name8[$e]=drama for introduction .pdf
+Name9[$e]=AY_24-25_Routine_CST_ODD_SEM.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16

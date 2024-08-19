@@ -24,7 +24,7 @@
 *trash
 *runtime
 *LOG
-
+KireiSakura-Kit
 #____________Dolphin______________
 /.local/share/dolphin/kuserfeedback
 /.local/share/dolphin/dolphinstaterc
@@ -35,7 +35,11 @@
 /.local/share/firefoxpwa/profiles
 
 
-#____________Kate______________
+
+#________KireiSakura-Kit_________
+/Install/KireiSakura-Kit
+
+#____________Kate_______________
 /.config/kate/externaltools
 
 
@@ -123,8 +127,9 @@
 /.config/libreoffice/4/**/GraphicsRenderTests.log
 /.config/libreoffice/4/**/GraphicTestResults.zip
 /.config/libreoffice/4/**/registrymodifications.xcu
-/.config/libreoffice/4/**/extensions/buildid
+/.config/libreoffice/4/**/extensions
 /.config/libreoffice/4/**/config
+/.config/libreoffice/4/**/pack
 /.config/libreoffice/4/**/gallery
 
 
@@ -137,6 +142,19 @@
 /.config/mpv/playlists
 /.config/mpv/watch_later
 /.config/mpv/.directory
+
+
+
+#____________________Mkv Tool__________
+/.config/bunkus.org/mkvtoolnix-gui/jobQueue
+
+
+
+#______________media-downloader________
+/.local/share/media-downloader/bin
+/.local/share/media-downloader/data
+/.local/share/media-downloader/engines.v1
+
 
 
 #_______NeoVim_____________
@@ -266,3 +284,4 @@
 
 #______ZED_______
 #/.config/zed/
+

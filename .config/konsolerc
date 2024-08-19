@@ -23,6 +23,7 @@ detailViewIconSize=16
 1920x1080 screen: XPosition=181
 1920x1080 screen: YPosition=215
 MenuBar=Disabled
+ToolBarsMovable=Disabled
 VGA-1=VGA-1
 
 [UiSettings]

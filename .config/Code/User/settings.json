@@ -4,7 +4,6 @@
   "update.showReleaseNotes": true,
 
 
-
   // Telemetry settings
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
@@ -28,15 +27,16 @@
 
 
   // Workbench settings
-  "workbench.colorTheme": "Alt Catppuccin Macchiato",
+  "workbench.colorTheme": "Catppuccin Macchiato",
   "workbench.iconTheme": "catppuccin-perfect-macchiato",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.preferredDarkColorTheme": "Alt Catppuccin Macchiato",
-  "alt-catppuccin.accentColor": "lavender",
-  "alt-catppuccin.bracketMode": "neovim",
-  "alt-catppuccin.syntaxMode": "default",
-  "alt-catppuccin.workbenchMode": "default",
+  "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
+  "workbench.preferredLightColorTheme": "Catppuccin Frappé",
 
+  "catppuccin.accentColor": "lavender",
+  "catppuccin.bracketMode": "neovim",
+  "catppuccin.workbenchMode": "default",
+  "alt-catppuccin.syntaxMode": "default",
 
   "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,
@@ -68,6 +68,9 @@
   "editor.inlineSuggest.enabled": true,
   "editor.suggest.preview": true,
   "editor.inlineSuggest.fontFamily": "'FiraCode Nerd Font Ret'",
+  "editor.statusBar.fontFamily": "'FiraCode Nerd Font Ret'",
+  "editor.codeLensFontFamily": "'FiraCode Nerd Font Ret'",
+
   "editor.suggest.shareSuggestSelections": true,
   "editor.acceptSuggestionOnCommitCharacter": true,
 
@@ -96,8 +99,15 @@
     "typescript": ".ts"
   },
   "code-runner.executorMap": {
-    "python": "python3 -u",
-    "javascript": "node"
+    "javascript": "prnt_cprmt; node $fileName; prnt_cftr",
+    "php": "prnt_cprmt; php $fileName; prnt_cftr",
+    "python": "prnt_cprmt; python3 $fileName; prnt_cftr",
+    "perl": "prnt_cprmt; perl $fileName; prnt_cftr",
+    "ruby": "prnt_cprmt; ruby $fileName; prnt_cftr",
+    "go": "prnt_cprmt; go run $fileName; prnt_cftr",
+    "html": "librewolf",
+    "java": "prnt_cprmt; cd $dir && javac $fileName && java $fileNameWithoutExt; prnt_cftr",
+    "c": "prnt_cprmt; cd $dir && gcc $fileName -o $fileNameWithoutExt_compiled && ./$fileNameWithoutExt_compiled && rm $fileNameWithoutExt_compiled;  prnt_cftr"
   },
   "code-runner.enableAppInsights": false,
 
@@ -145,16 +155,24 @@
 
 
 
-  // Git settings
+  // Git & copilot settings
   "git.autofetch": true,
   "git.fetchOnPull": true,
   "git.mergeEditor": true,
+  "git.openRepositoryInParentFolders": "always",
   "git.pullBeforeCheckout": true,
   "git.showPushSuccessNotification": true,
 
   "diffEditor.maxComputationTime": 0,
   "diffEditor.codeLens": true,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
 
 
 
@@ -167,6 +185,7 @@
   "json.format.keepLines": true,
 
 
+
   // Media Preview settings
   "mediaPreview.video.loop": true,
 
@@ -174,16 +193,39 @@
 
   // Python settings
   "python.analysis.autoFormatStrings": true,
-  "python.analysis.autoImportCompletions": true,
   "python.terminal.focusAfterLaunch": true,
   "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+
+
 
 
   // Individual formatter settings
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "git.openRepositoryInParentFolders": "always",
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
 
+
+
+
+  // Prettier settings
+  "prettier.useTabs": true,
+
+  // vim settings
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.sideBar.location": "right",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.diagnosticMode": "workspace",
 
 }

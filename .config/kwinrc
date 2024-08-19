@@ -81,8 +81,8 @@ OutlineThickness=1.75
 
 [Round-Corners]
 AnimationEnabled=false
-InactiveCornerRadius=7
-Size=7
+InactiveCornerRadius=5
+Size=5
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -113,10 +113,6 @@ layoutPerActivity=false
 layoutPerDesktop=false
 monocleMaximize=false
 noTileBorder=true
-screenGapBottom=1
-screenGapLeft=1
-screenGapRight=1
-screenGapTop=1
 tileLayoutGap=1
 
 [SecondOutline]

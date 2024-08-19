@@ -3,12 +3,12 @@
 		"width": 1918,
 		"height": 1050
 	},
-	"window-maximized": false,
+	"window-maximized": true,
 	"window-position": {
 		"x": 1,
 		"y": 29
 	},
-	"url": "https://music.youtube.com/watch?v=qpHvj5pvvhg&list=PL7PmpINZDf8bk-MFPfAKFXieLc14LM8LL&index=0",
+	"url": "https://music.youtube.com/watch?v=Bf6sw13zKQs&list=PL7PmpINZDf8bk-MFPfAKFXieLc14LM8LL&index=0",
 	"options": {
 		"tray": false,
 		"appVisible": true,
@@ -18,7 +18,7 @@
 		"hideMenuWarned": false,
 		"startAtLogin": false,
 		"disableHardwareAcceleration": false,
-		"removeUpgradeButton": false,
+		"removeUpgradeButton": true,
 		"restartOnConfigChanges": false,
 		"trayClickPlayPause": false,
 		"autoResetAppCache": false,
@@ -44,7 +44,8 @@
 			"listenAlong": true
 		},
 		"album-color-theme": {
-			"enabled": true
+			"enabled": true,
+			"ratio": 0.5
 		},
 		"bypass-age-restrictions": {
 			"enabled": true
@@ -88,7 +89,7 @@
 	},
 	"__internal__": {
 		"migrations": {
-			"version": "3.3.12"
+			"version": "3.4.1"
 		}
 	}
 }

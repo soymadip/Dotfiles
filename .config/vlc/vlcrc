@@ -1541,7 +1541,7 @@
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-freetype-font=Noto Sans
+#freetype-font=Serif Bold
 
 # Monospace Font (string)
 #freetype-monofont=Monospace
@@ -1550,7 +1550,7 @@ freetype-font=Noto Sans
 #freetype-fontsize=0
 
 # Relative font size (integer)
-freetype-rel-fontsize=18
+#freetype-rel-fontsize=0
 
 # Text opacity (integer)
 #freetype-opacity=255
@@ -2501,10 +2501,10 @@ freetype-rel-fontsize=18
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-sout-x264-preset=ultrafast
+#sout-x264-preset=
 
 # Default tune setting used (string)
-sout-x264-tune=film
+#sout-x264-tune=
 
 # x264 advanced options (string)
 #sout-x264-options=
@@ -3118,7 +3118,7 @@ sout-x264-tune=film
 [qt] # Qt interface
 
 # Start in minimal view (without menus) (boolean)
-qt-minimal-view=1
+#qt-minimal-view=0
 
 # Systray icon (boolean)
 #qt-system-tray=1
@@ -3154,7 +3154,7 @@ qt-minimal-view=1
 #qt-recentplay-filter=
 
 # Continue playback? (integer)
-qt-continue=2
+#qt-continue=1
 
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
@@ -3828,7 +3828,7 @@ qt-privacy-ask=0
 #audio-time-stretch=1
 
 # Audio output module (string)
-aout=any
+#aout=
 
 # Media role (string)
 #role=video
@@ -4284,13 +4284,13 @@ aout=any
 #playlist-cork=1
 
 # Allow only one running instance (boolean)
-one-instance=1
+#one-instance=0
 
 # Use only one instance when started from file manager (boolean)
 #one-instance-when-started-from-file=1
 
 # Enqueue items into playlist in one instance mode (boolean)
-playlist-enqueue=1
+#playlist-enqueue=0
 
 # Expose media player via D-Bus (boolean)
 #dbus=0
@@ -4389,43 +4389,43 @@ metadata-network-access=1
 #global-key-faster=
 
 # Faster (string)
-key-faster=*
+#key-faster=+
 
 # Slower (string)
 #global-key-slower=
 
 # Slower (string)
-key-slower=/
+#key-slower=-
 
 # Normal rate (string)
 #global-key-rate-normal=
 
 # Normal rate (string)
-key-rate-normal=Backspace
+#key-rate-normal==
 
 # Faster (fine) (string)
 #global-key-rate-faster-fine=
 
 # Faster (fine) (string)
-key-rate-faster-fine=+
+#key-rate-faster-fine=]
 
 # Slower (fine) (string)
 #global-key-rate-slower-fine=
 
 # Slower (fine) (string)
-key-rate-slower-fine=-
+#key-rate-slower-fine=[
 
 # Next (string)
 #global-key-next=
 
 # Next (string)
-key-next=Enter
+#key-next=n	Media Next Track
 
 # Previous (string)
 #global-key-prev=
 
 # Previous (string)
-key-prev=Shift+Enter
+#key-prev=p	Media Prev Track
 
 # Stop (string)
 #global-key-stop=
@@ -4437,7 +4437,7 @@ key-prev=Shift+Enter
 #global-key-position=
 
 # Position (string)
-key-position=p
+#key-position=t
 
 # Very short backwards jump (string)
 #global-key-jump-extrashort=
@@ -4497,13 +4497,13 @@ key-position=p
 #global-key-nav-activate=
 
 # Activate (string)
-key-nav-activate=
+#key-nav-activate=Enter
 
 # Navigate up (string)
 #global-key-nav-up=
 
 # Navigate up (string)
-key-nav-up=
+#key-nav-up=Up
 
 # Navigate down (string)
 #global-key-nav-down=
@@ -4515,13 +4515,13 @@ key-nav-up=
 #global-key-nav-left=
 
 # Navigate left (string)
-key-nav-left=h
+#key-nav-left=Left
 
 # Navigate right (string)
 #global-key-nav-right=
 
 # Navigate right (string)
-key-nav-right=l
+#key-nav-right=Right
 
 # Go to the DVD menu (string)
 #global-key-disc-menu=
@@ -4563,13 +4563,13 @@ key-nav-right=l
 #global-key-vol-up=
 
 # Volume up (string)
-key-vol-up=k
+#key-vol-up=Ctrl+Up	Volume Up
 
 # Volume down (string)
 #global-key-vol-down=
 
 # Volume down (string)
-key-vol-down=j
+#key-vol-down=Ctrl+Down	Volume Down
 
 # Mute (string)
 #global-key-vol-mute=
@@ -4581,7 +4581,7 @@ key-vol-down=j
 #global-key-subdelay-up=
 
 # Subtitle delay up (string)
-key-subdelay-up=
+#key-subdelay-up=h
 
 # Subtitle delay down (string)
 #global-key-subdelay-down=
@@ -4629,19 +4629,19 @@ key-subdelay-up=
 #global-key-audiodelay-up=
 
 # Audio delay up (string)
-key-audiodelay-up=
+#key-audiodelay-up=k
 
 # Audio delay down (string)
 #global-key-audiodelay-down=
 
 # Audio delay down (string)
-key-audiodelay-down=
+#key-audiodelay-down=j
 
 # Cycle audio track (string)
 #global-key-audio-track=
 
 # Cycle audio track (string)
-key-audio-track=a
+#key-audio-track=b
 
 # Cycle through audio devices (string)
 #global-key-audiodevice-cycle=
@@ -4659,7 +4659,7 @@ key-audio-track=a
 #global-key-subtitle-track=
 
 # Cycle subtitle track (string)
-key-subtitle-track=s
+#key-subtitle-track=v
 
 # Toggle subtitles (string)
 #global-key-subtitle-toggle=
@@ -4683,7 +4683,7 @@ key-subtitle-track=s
 #global-key-aspect-ratio=
 
 # Cycle source aspect ratio (string)
-key-aspect-ratio=
+#key-aspect-ratio=a
 
 # Cycle video crop (string)
 #global-key-crop=
@@ -4827,7 +4827,7 @@ key-aspect-ratio=
 #global-key-loop=
 
 # Normal/Loop/Repeat (string)
-key-loop=
+#key-loop=l
 
 # Shrink the viewpoint field of view (360°) (string)
 #global-key-viewpoint-fov-in=

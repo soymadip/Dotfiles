@@ -1,0 +1,18 @@
+Welcome
+
+setup kire kit
+
+install 3rd party repo
+install packages
+
+setup catppuccin frapppe lavender cursors
+
+change papirus folders color
+set cursor size to 32
+
+set sddm theme to breeze
+
+change wallpaper
+
+change icons
+

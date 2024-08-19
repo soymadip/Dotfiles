@@ -19,11 +19,5 @@ allowMeteredFeedUpdates=true
 allowMeteredImageDownloads=true
 allowMeteredStreaming=true
 
-[Synchronization]
-syncDevice=DESKTOP-Arch
-syncDeviceName=Kasts on DESKTOP-Arch
-syncEnabled=true
-syncUsername=soymadip
-
 [UiSettings]
 ColorScheme=

@@ -2,5 +2,5 @@
 Name=No-BorgBackup File
 Comment=File for excluding borg backup
 Type=Link
-URL=/home/soymadip/.local/share/templates/source/.noborgbackup
+URL=/home/soymadip/.local/share/templates/source/example.noborgbackup
 Icon=vorta

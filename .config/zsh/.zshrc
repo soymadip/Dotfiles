@@ -34,7 +34,10 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # Source prompt
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-
+# zinit ice as"command" from"gh-r" bpick"atuin-*.tar.gz" mv"atuin*/atuin -> atuin" \
+#     atclone"./atuin init zsh > init.zsh; ./atuin gen-completions --shell zsh > _atuin" \
+#     atpull"%atclone" src"init.zsh"
+#
 
 #----------------------------------------- PLUGINS & USER CONFIGS ---------------------------------
 
@@ -51,10 +54,10 @@ export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man"
 
 
 #_______________________Shell Integrations_____________________________
+
 for file in "$ZDOTDIR"/functions/*.zsh; do if [ -f "$file" ]; then source "$file"; fi; done
 eval_fzf
-
-
+# eval "$(atuin init zsh)"
 
 #_____________________________Plugins____________________________________
 # zinit light zsh-users/zsh-syntax-highlighting
@@ -64,6 +67,7 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 zinit light MichaelAquilina/zsh-auto-notify
 zinit ice depth=1; zinit light jeffreytse/zsh-vi-mode
+zinit load atuinsh/atuin
 
 #________________Snippets________________
 zinit snippet OMZP::command-not-found
@@ -110,6 +114,7 @@ alias sudo='sudo ' # expand aliases with sudo
 alias ls='lsd -a'
 # alias ls='lf'
 alias cp='cp -ri'
+alias cd='cd_ls'
 alias mkdir='mkdir -p'
 alias reload='clear && exec zsh'
 alias ZZ="exit"
@@ -121,7 +126,7 @@ alias chhostname='hostnamectl set-hostname'
 alias cat='bat'
 alias man='batman'
 alias lnr='ln -s -r -i'
-alias papirus-folders='pprus_ch_fldr_clr'
+# alias papirus-folders='pprus_ch_fldr_clr'
 
 # git
 alias gc="git clone"

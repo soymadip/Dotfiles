@@ -4,4 +4,4 @@ Icon=preferences-document
 Name[en_US]=HTML File
 Name=HTML
 Type=Link
-URL[$e]=file:$HOME/.local/share/templates/source/HTML.html
+URL[$e]=file:$HOME/.local/share/templates/source/example.html

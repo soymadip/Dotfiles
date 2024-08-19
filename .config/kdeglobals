@@ -78,8 +78,8 @@ ForegroundVisited[$d]
 
 [Colors:Selection]
 BackgroundAlternate=186,187,241
-BackgroundNormal=186,187,241
-DecorationFocus=186,187,241
+BackgroundNormal=172,174,222
+DecorationFocus=178,180,231
 DecorationHover=65, 69, 89
 ForegroundActive=239, 159, 118
 ForegroundInactive=41, 44, 60
@@ -132,12 +132,15 @@ ForegroundNormal=198, 208, 245
 ForegroundPositive=166, 209, 137
 ForegroundVisited=202, 158, 230
 
+[Cursors]
+Theme=Catppuccin-Frappe-Lavender-Cursors
+
 [DirSelect Dialog]
-DirSelectDialog Size=1146,725
-History Items[$e]=file:$HOME/.config/Code,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Dotfiles,file:$HOME/.config/mpv,file:$HOME/.config/mpv,file:$HOME/MF/SYNC/Obsidian/1. Python/1. Procedural/Day 1 - 28,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/Coding/Python/fd,file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
+DirSelectDialog Size=951,507
+History Items[$e]=file:$HOME/Dotfiles,file:$HOME/Documents/Git/KireiSakura-Kit,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles/install/packages,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/kaijuu,file:///mnt/HDD1/MF Vault/MEDIA/Friends,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/Bungou Stray Dogs,file:$HOME/.config/Code/User,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/.config/Code,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Dotfiles,file:$HOME/.config/mpv,file:$HOME/.config/mpv,file:$HOME/MF/SYNC/Obsidian/1. Python/1. Procedural/Day 1 - 28,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/Coding/Python/fd,file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
 
 [General]
-ColorSchemeHash=843b306e617457e5af1cf23785a2e69cb9e6ebf5
+ColorSchemeHash=295f1893560aa4ac4d7a32eb14776b0c2dbdf013
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 UseSystemBell=true
@@ -166,7 +169,7 @@ Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=159
 View Style=DetailTree
 

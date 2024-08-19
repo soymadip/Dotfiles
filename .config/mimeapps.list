@@ -38,6 +38,7 @@ x-scheme-handler/http=librewolf.desktop;
 x-scheme-handler/https=librewolf.desktop;
 x-scheme-handler/x-github-client=github-desktop.desktop;GitHub Desktop.desktop;
 x-scheme-handler/x-github-desktop-auth=github-desktop.desktop;GitHub Desktop.desktop;
+x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop;
 
 [Default Applications]
 application/json=nvim.desktop;
@@ -79,3 +80,4 @@ x-scheme-handler/http=librewolf.desktop;
 x-scheme-handler/https=librewolf.desktop;
 x-scheme-handler/x-github-client=github-desktop.desktop
 x-scheme-handler/x-github-desktop-auth=github-desktop.desktop
+x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop

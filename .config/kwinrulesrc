@@ -1,3 +1,12 @@
+[4fbf8553-004e-4956-b5ac-e31dd819c7d8]
+Description=PiP float 2
+above=true
+aboverule=2
+desktops=\\0
+desktopsrule=3
+title=Picture-in-Picture
+titlematch=3
+
 [6cba9e8c-f63d-4cf7-a488-c8745e473b34]
 noborderrule=3
 
@@ -5,6 +14,19 @@ noborderrule=3
 Description=kast window dimension
 size=992,738
 sizerule=3
+
+[8a9dd43a-275c-410d-9e59-a756708987e7]
+Description=PiP float 1
+above=true
+aboverule=2
+desktops=\\0
+desktopsrule=3
+title=Picture-in-picture
+titlematch=3
+
+[General]
+count=2
+rules=8a9dd43a-275c-410d-9e59-a756708987e7,4fbf8553-004e-4956-b5ac-e31dd819c7d8
 
 [a4060309-a1ef-42c7-a9df-61a7c9c27884]
 size=977,675

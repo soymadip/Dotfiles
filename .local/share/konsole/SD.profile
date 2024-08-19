@@ -9,6 +9,7 @@ UseFontLineChararacters=false
 CursorShape=0
 
 [General]
+Command=/usr/bin/nu
 Environment=TERM=xterm-256color,COLORTERM=truecolor
 Name=SD
 Parent=FALLBACK/

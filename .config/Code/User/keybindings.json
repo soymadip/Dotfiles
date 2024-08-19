@@ -38,7 +38,7 @@
 		"command": "python.execInTerminal-icon"
 	},
 	{
-		"key": "ctrl+enter",
+		"key": "shift+enter",
 		"command": "code-runner.run"
 	},
 	{
@@ -97,5 +97,13 @@
 	{
 		"key": "shift+f4",
 		"command": "workbench.action.terminal.kill"
+	},
+	{
+		"key": "ctrl+shift+enter",
+		"command": "code-runner.stop"
+	},
+	{
+		"key": "ctrl+alt+m",
+		"command": "-code-runner.stop"
 	}
 ]

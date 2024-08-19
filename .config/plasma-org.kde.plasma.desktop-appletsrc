@@ -4,25 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=ae92561a-91e9-41b8-9956-7f1bf73a6c68
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][General]
-iconSize=2
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/Study"\\,"0"\\,"0"\\,"desktop:/submitted.png"\\,"0"\\,"3"\\,"desktop:/Coding Env.code-workspace"\\,"0"\\,"1"\\,"desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED[...].png"\\,"0"\\,"2"]}
-sortMode=-1
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/soymadip/Pictures/ADMIN/catppuccin-lofi.jpeg
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -75,6 +56,10 @@ wallpaperplugin=org.kde.image
 [Containments][27][Applets][28]
 immutability=1
 plugin=org.kde.plasma.appmenu
+
+[Containments][27][Applets][28][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][27][Applets][29]
 immutability=1
@@ -235,53 +220,21 @@ immutability=1
 plugin=org.kde.plasma.plasm6desktopindicator
 
 [Containments][27][Applets][59][Configuration][ConfigDialog]
-DialogHeight=636
-DialogWidth=801
+DialogHeight=540
+DialogWidth=720
 
 [Containments][27][Applets][59][Configuration][General]
 boldOnActive=true
-dotSizeCustom=17
 forceLayout=Compact
-spacingVertical=11
+spacingHorizontal=5
+spacingVertical=10
 
 [Containments][27][Applets][62]
 immutability=1
 plugin=zayron.simple.separator
 
-[Containments][27][Applets][64]
-immutability=1
-plugin=plasmusic-toolbar
-
-[Containments][27][Applets][64][Configuration]
-PreloadWeight=100
-popupHeight=495
-popupWidth=315
-
-[Containments][27][Applets][64][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][27][Applets][64][Configuration][General]
-albumCoverRadius=6
-maxSongWidthInPanel=0
-panelIcon=
-textScrollingSpeed=2
-useAlbumCoverAsPanelIcon=true
-
-[Containments][27][Applets][67]
-immutability=1
-plugin=org.kde.plasma.colorpicker
-
-[Containments][27][Applets][67][Configuration]
-PreloadWeight=75
-popupHeight=324
-popupWidth=324
-
-[Containments][27][Applets][67][Configuration][General]
-history=#313244,#232537
-
 [Containments][27][General]
-AppletOrder=59;50;28;48;29;52;55;53;54;64;62;31;56;67
+AppletOrder=59;50;28;48;29;52;55;53;54;62;31;56
 
 [Containments][32]
 activityId=
@@ -306,21 +259,21 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][32][Applets][34][Configuration]
-PreloadWeight=65
+PreloadWeight=80
 
 [Containments][32][Applets][35]
 immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][32][Applets][35][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][32][Applets][36]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][32][Applets][36][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][32][Applets][37]
 immutability=1
@@ -338,7 +291,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][32][Applets][39][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][32][Applets][40]
@@ -346,7 +298,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][32][Applets][40][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][32][Applets][41]
 immutability=1
@@ -368,7 +320,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][32][Applets][44][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 
 [Containments][32][Applets][44][Configuration][ConfigDialog]
 DialogHeight=540
@@ -391,6 +343,9 @@ PreloadWeight=100
 [Containments][32][Applets][46][Configuration][General]
 currentDetailsTab=details
 
+[Containments][32][Applets][46][Shortcuts]
+global=Meta+N
+
 [Containments][32][Applets][58]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -403,29 +358,68 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][32][Applets][66][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][32][Applets][68]
 immutability=1
 plugin=org.kde.kdeconnect
+
+[Containments][32][Applets][68][Configuration]
+PreloadWeight=100
+
+[Containments][32][Applets][71]
+immutability=1
+plugin=org.kde.plasma.diskquota
+
+[Containments][32][Applets][72]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][32][Applets][72][Configuration][Units]
+pressureUnit=5008
+speedUnit=9000
+temperatureUnit=6001
+visibilityUnit=2007
+
+[Containments][32][Applets][73]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][32][Applets][73][Configuration][Units]
+pressureUnit=5008
+speedUnit=9000
+temperatureUnit=6001
+visibilityUnit=2007
 
 [Containments][32][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][32][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect
+extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.kupapplet,org.kde.plasma.diskquota
 iconSpacing=1
-knownItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect
+knownItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.kupapplet
+scaleIconsToFit=true
 
-[Containments][68]
-activityId=ae92561a-91e9-41b8-9956-7f1bf73a6c68
+[Containments][70]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=5e052a31-0cda-441d-94c4-c1fadba5c0c3
 formfactor=0
 immutability=1
-lastScreen=1
+lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][70][General]
+iconSize=2
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/ss"\\,"0"\\,"5"\\,"desktop:/Coding Env.code-workspace"\\,"0"\\,"1"\\,"desktop:/Study"\\,"0"\\,"0"\\,"desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED.png"\\,"0"\\,"3"\\,"desktop:/lslsjl.sh"\\,"0"\\,"4"\\,"desktop:/routine.ods"\\,"0"\\,"2"]}
+sortMode=-1
+
+[Containments][70][Wallpaper][org.kde.image][General]
+Image=file:////home/soymadip/Pictures/ADMIN/catppuccin-lofi.jpeg
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][8]
 activityId=
@@ -450,7 +444,7 @@ immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=52
+PreloadWeight=55
 
 [Containments][8][Applets][12]
 immutability=1
@@ -523,7 +517,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=42
+PreloadWeight=55
 
 [Containments][8][Applets][24]
 immutability=1
@@ -562,11 +556,11 @@ DialogWidth=720
 PreloadWeight=42
 
 [Containments][8][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect
+extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.kupapplet
 iconSpacing=1
-knownItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect
+knownItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.kupapplet
 scaleIconsToFit=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/submitted.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/My-Practice-Environment.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Coding Env.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED[...].png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Study,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68
+screenMapping=desktop:/Study,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/ss,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/lslsjl.sh,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Coding Env.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/routine.ods,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/My-Practice-Environment.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/routine.ods,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/submitted.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Skill Badges list.pdf,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Coding Env.code-workspace,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/Study,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED.png,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3

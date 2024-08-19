@@ -23,11 +23,12 @@
             },
             "permissions": {
                 "video": null,
-                "audio": null,
+                "audio": true,
                 "fullscreen": true,
                 "notifications": true,
                 "display-capture": true,
-                "background-sync": true
+                "background-sync": true,
+                "speaker-selection": false
             }
         },
         "advanced": {
@@ -66,7 +67,7 @@
                 "webGl": true
             },
             "unix": {
-                "autoscroll": false
+                "autoscroll": true
             }
         }
     },
