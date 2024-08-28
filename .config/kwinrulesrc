@@ -15,6 +15,13 @@ Description=kast window dimension
 size=992,738
 sizerule=3
 
+[865f09e9-fad4-49f3-9146-c3dc139c149a]
+Description=Kasts no window frame
+noborder=true
+noborderrule=3
+wmclass=org.kde.kasts
+wmclassmatch=1
+
 [8a9dd43a-275c-410d-9e59-a756708987e7]
 Description=PiP float 1
 above=true
@@ -25,8 +32,8 @@ title=Picture-in-picture
 titlematch=3
 
 [General]
-count=2
-rules=8a9dd43a-275c-410d-9e59-a756708987e7,4fbf8553-004e-4956-b5ac-e31dd819c7d8
+count=3
+rules=8a9dd43a-275c-410d-9e59-a756708987e7,4fbf8553-004e-4956-b5ac-e31dd819c7d8,865f09e9-fad4-49f3-9146-c3dc139c149a
 
 [a4060309-a1ef-42c7-a9df-61a7c9c27884]
 size=977,675

@@ -1,11 +1,11 @@
 [Appearance]
 ColorScheme=Default
 alwaysShowFeedTitles=true
+showPodcastTitle=true
 showTrayIcon=true
 trayIconType=Light
 
 [General]
-autoDownload=true
 autoFeedUpdateInterval=12
 doFullUpdate=false
 markAsPlayedBeforeEnd=60

@@ -66,7 +66,7 @@ KrohnkiteFocusDown=Meta+J,none,Krohnkite: Focus Down
 KrohnkiteFocusLeft=Meta+H,none,Krohnkite: Focus Left
 KrohnkiteFocusNext=none,none,Krohnkite: Focus Next
 KrohnkiteFocusPrev=Meta+\\,,none,Krohnkite: Focus Previous
-KrohnkiteFocusRight=none,none,Krohnkite: Focus Right
+KrohnkiteFocusRight=Meta+L,none,Krohnkite: Focus Right
 KrohnkiteFocusUp=Meta+K,none,Krohnkite: Focus Up
 KrohnkiteGrowHeight=Meta+Ctrl+J,none,Krohnkite: Grow Height
 KrohnkiteIncrease=Meta+I,none,Krohnkite: Increase
@@ -290,7 +290,10 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][kitty.desktop]
+[services][Default Terminal.desktop]
+_launch=Meta+Return
+
+[services][Terminal (Default).desktop]
 _launch=Meta+Return
 
 [services][librewolf.desktop]

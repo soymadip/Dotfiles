@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Utility;Core;System;ConsoleOnly
+Comment=A new type of shell
+Exec=kitty --class nushell nu
+Icon=io.github.swanux.hbud
+Keywords=Shell,Nu,Nushell
+Name=Nu Shell
+NoDisplay=false
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

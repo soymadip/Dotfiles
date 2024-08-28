@@ -161,7 +161,38 @@ SetEditor=false
 
 [MainWindow]
 1920x1080 screen: Height=1052
-1920x1080 screen: Width=1039
+1920x1080 screen: Width=959
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=Hack Nerd Font,10.6,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+Font=Hack Nerd Font,10.6,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Printing][Text]
+DontPrintFoldedCode=true
+Legend=false
+LineNumbers=false
 
 [filetree]
 editShade=183,220,246

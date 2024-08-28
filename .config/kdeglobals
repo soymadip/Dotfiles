@@ -136,8 +136,8 @@ ForegroundVisited=202, 158, 230
 Theme=Catppuccin-Frappe-Lavender-Cursors
 
 [DirSelect Dialog]
-DirSelectDialog Size=951,507
-History Items[$e]=file:$HOME/Dotfiles,file:$HOME/Documents/Git/KireiSakura-Kit,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles/install/packages,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/kaijuu,file:///mnt/HDD1/MF Vault/MEDIA/Friends,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/Bungou Stray Dogs,file:$HOME/.config/Code/User,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/.config/Code,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Dotfiles,file:$HOME/.config/mpv,file:$HOME/.config/mpv,file:$HOME/MF/SYNC/Obsidian/1. Python/1. Procedural/Day 1 - 28,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/Coding/Python/fd,file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
+DirSelectDialog Size=845,563
+History Items[$e]=file:$HOME/Documents/Git/KireiSakura-Kit,file:$HOME/.config/nushell,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/Rozen Maiden,file:$HOME/.cache/torrent_temp,file:$HOME/Dotfiles,file:$HOME/Dotfiles,file:$HOME/Documents/Git/KireiSakura-Kit,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles,file:$HOME/Dotfiles/install,file:$HOME/Dotfiles/install/packages,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/kaijuu,file:///mnt/HDD1/MF Vault/MEDIA/Friends,file:///mnt/HDD1/MF Vault/MEDIA/ANIME/Bungou Stray Dogs,file:$HOME/.config/Code/User,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/.config/Code,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Documents/Git/My-Practice-Environment,file:$HOME/Dotfiles,file:$HOME/.config/mpv,file:$HOME/.config/mpv,file:$HOME/MF/SYNC/Obsidian/1. Python/1. Procedural/Day 1 - 28,file:$HOME/Documents/Git/My-Practice-Environment,file:///mnt/HDD1/MF Vault/Coding/Python/fd,file:$HOME/BACKUP-EXTRACT,file:///mnt/HDD1/BACKUP/Mount,file:///mnt/HDD1/BACKUP/Vorta,file:$HOME/Dotfiles/install,file:$HOME/.cache/torrent_temp,file:$HOME/ANIME,file:$HOME/.cache/Torrent_temp,file:///mnt/sdb1/MF Vault/MEDIA/ANIME,file:$HOME/.cache/Torrent_temp
 
 [General]
 ColorSchemeHash=295f1893560aa4ac4d7a32eb14776b0c2dbdf013
@@ -174,7 +174,7 @@ Speedbar Width=159
 View Style=DetailTree
 
 [KShortcutsDialog Settings]
-Dialog Size=770,567
+Dialog Size=853,688
 
 [PreviewSettings]
 MaximumRemoteSize=0

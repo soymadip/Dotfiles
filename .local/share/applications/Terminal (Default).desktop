@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Name=Terminal (Default)
+Comment=Detects the default terminal and launches it
+Exec=$HOME/.local/share/applications/scripts/TERMINAL.sh
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=false

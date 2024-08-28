@@ -26,7 +26,7 @@ blocks:
 color:
   # When to colorize the output.
   # Possible values: never, auto, always
-  when: auto
+  when: always
   # Possible values: default, custom
   # When "custom" is set, lsd will look in the config directory for `colors.yaml`.
   theme: default
@@ -51,7 +51,7 @@ display: almost-all
 icons:
   # When to use icons.
   # Possible values: always, auto, never
-  when: auto
+  when: always 
   # Which icon theme to use.
   # Possible values: fancy, unicode
   theme: fancy
@@ -67,21 +67,20 @@ icons:
 # == Indicators ==
 # Whether to add indicator characters to certain listed files.
 # Possible values: false, true
-indicators: false
+indicators: true 
 
 # == Layout ==
 # Which layout to use. "oneline" might be a bit confusing here and should be
 # called "one-per-line". It might be changed in the future.
 # Possible values: grid, tree, oneline
-layout: grid
+layout: grid 
 
 # == Recursion ==
 recursion:
   # Whether to enable recursion.
   # Possible values: false, true
-  enabled: false
-  # How deep the recursion should go. This has to be a positive integer. Leave it unspecified for (virtually) infinite.
-  # depth: 3
+  enabled: false 
+  depth: 2 
 
 # == Size ==
 # Specifies the format of the size column.
@@ -98,12 +97,7 @@ sorting:
   # Specify what to sort by.
   # Possible values: extension, name, time, size, version
   column: name
-  # Whether to reverse the sorting.
-  # Possible values: false, true
   reverse: false
-  # Whether to group directories together and where.
-  # When "classic" is set, this is set to "none".
-  # Possible values: first, last, none
   dir-grouping: first
 
 # == No Symlink ==
@@ -119,7 +113,7 @@ total-size: true
 # == Hyperlink ==
 # Attach hyperlink to filenames
 # Possible values: always, auto, never
-hyperlink: auto
+hyperlink: always 
 
 # == Symlink arrow ==
 # Specifies how the symlink arrow display, chars in both ascii and utf8

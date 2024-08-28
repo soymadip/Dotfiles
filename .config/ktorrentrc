@@ -5,15 +5,15 @@ state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAB34AAAAFAQEAAQAAAAAAAA
 size=939,606
 
 [FileDialogSize]
-1920x1080 screen: Height=598
-1920x1080 screen: Width=891
+1920x1080 screen: Height=532
+1920x1080 screen: Width=873
 
 [FileSelectDlg]
-download_location_history=/home/soymadip/,/home/soymadip/.cache/torrent_temp/,/home/soymadip/.cache/Torrent_temp/,/home/soymadip/.torrent_temp/,/home/soymadip/.Torrent_temp/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/home/sd/.Torrent_temp/
-file_view=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xb9\x00\x00\x00\x02\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x02\xd6\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xe3\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00
-move_on_completion_location_history=/mnt/HDD1/MF Vault/MEDIA/ANIME/,/mnt/HDD1/MF Vault/MEDIA/ANIME/kaijuu/,/mnt/HDD1/MF Vault/MEDIA/Friends/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Konosuba/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Bungou Stray Dogs/,/home/soymadip/ANIME/,/mnt/sdb1/MF Vault/MEDIA/ANIME/,/run/media/soymadip/Ventoy/,/mnt/HDD1/MF Vault/MEDIA/ANIME/RE:cycle/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Vinland Saga/,/home/soymadip/MF/-MEDIA/ANIME/,/home/soymadip/MF/ANIME2/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/mnt/HDD1/MF Vault/ANIME/AOT/,/mnt/HDD1/MF Vault/,/home/soymadip/
+download_location_history=/home/soymadip/.cache/torrent_temp/,/home/soymadip/,/home/soymadip/.cache/Torrent_temp/,/home/soymadip/.torrent_temp/,/home/soymadip/.Torrent_temp/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/home/sd/.Torrent_temp/
+file_view=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x9e\x00\x00\x00\x02\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x01\x83\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x02\x1b\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00
+move_on_completion_location_history=/mnt/HDD1/MF Vault/MEDIA/ANIME/Rozen Maiden/,/mnt/HDD1/MF Vault/MEDIA/ANIME/,/mnt/HDD1/MF Vault/MEDIA/ANIME/kaijuu/,/mnt/HDD1/MF Vault/MEDIA/Friends/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Konosuba/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Bungou Stray Dogs/,/home/soymadip/ANIME/,/mnt/sdb1/MF Vault/MEDIA/ANIME/,/run/media/soymadip/Ventoy/,/mnt/HDD1/MF Vault/MEDIA/ANIME/RE:cycle/,/mnt/HDD1/MF Vault/MEDIA/ANIME/Vinland Saga/,/home/soymadip/MF/-MEDIA/ANIME/,/home/soymadip/MF/ANIME2/,/mnt/HDD1/MF Vault/ANIME/,/mnt/HDD1/MF Vault/MARVEL/,/mnt/HDD1/MF Vault/ANIME/AOT/,/mnt/HDD1/MF Vault/,/home/soymadip/
 show_file_tree=true
-size=1083,814
+size=1056,715
 
 [FileView]
 show_list_of_files=false
@@ -32,7 +32,7 @@ expanded=/all,/all/active,/all/passive
 visible=false
 
 [LogFlags]
-logging_flags_view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbgAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAAZAAAAAEAAAAAAAABVAAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+logging_flags_view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxIAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAAZAAAAAEAAAAAAAACrgAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
 [MagnetView]
 state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB34AAAADAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAADAAAByQAAAAEAAAAAAAAAZAAAAAEAAAAAAAAFUQAAAAEAAAAAAAAD6AAAAABkAAAAAA==
@@ -70,7 +70,7 @@ StatsPluginEnabled=true
 ZeroconfPluginEnabled=true
 
 [PrefDialog]
-size=990,581
+size=972,515
 
 [QueueManager]
 suspended=false
@@ -81,7 +81,7 @@ search_text=
 show_downloads=true
 show_not_queued=false
 show_uploads=false
-view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWAAAAAEAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAAAMQAAAAEAAAAAAAADUgAAAAEAAAAAAAAAZAAAAAEAAAAAAAABeQAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzwAAAAEAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAAAMQAAAAEAAAAAAAADUgAAAAEAAAAAAAAAZAAAAAEAAAAAAAADVQAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
 [Recent Dirs]
 exportTorrent[$e]=$HOME/Desktop,$HOME/Documents
@@ -108,12 +108,14 @@ tracker_hints=udp://tracker.publicbt.com:80/announce,udp://tracker.openbittorren
 state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABtgAAAAEAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAFrAAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
 [downloads]
+alwaysMinimizeToSystemTray=true
 autoRenameSingleFileTorrents=true
 checkWhenFinished=true
 completedDir=/mnt/HDD1/MF Vault/MEDIA/ANIME
+decreasePriorityOfStalledTorrents=true
 dhtSupport=true
 keepSeeding=false
-lastSaveDir=/home/soymadip/
+lastSaveDir=/home/soymadip/.cache/torrent_temp/
 maxDownloads=1
 maxSeedTime=0.05
 maxSeeds=1
@@ -122,6 +124,7 @@ minDiskSpace=1000
 networkInterface=All interfaces
 saveDir=/home/soymadip/.cache/torrent_temp
 showTotalSpeedInTitle=true
+stallTimer=30
 tempDir=/home/soymadip/.local/share/ktorrent/
 torrentCopyDir=/mnt/HDD1/MF Vault/MEDIA/Torrents
 useCompletedDir=true

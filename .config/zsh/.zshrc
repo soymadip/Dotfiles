@@ -1,5 +1,5 @@
 #     _____                                 _ _
-#    / ____|                               | (_)
+#    / ____|                               | (_)  
 #   | (___   ___  _   _ _ __ ___   __ _  __| |_ _ __
 #    \___ \ / _ \| | | | '_ ` _ \ / _` |/ _` | | '_ \
 #    ____) | (_) | |_| | | | | | | (_| | (_| | | |_) |
@@ -21,8 +21,7 @@ ZINIT_HOME="${XDG_CONFIG_HOME:-${HOME}/.config}/zsh/zinit"
 
 # Install $ source zinit if not already
 if [ ! -d "$ZINIT_HOME" ]; then
-   echo -e "Installing zinit in ${ZINIT_HOME}"
-   mkdir -p "$(dirname $ZINIT_HOME)0"
+   echo -e "Installing zinit in ${ZINIT_HOME}" mkdir -p "$(dirname $ZINIT_HOME)0"
    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
    echo "done\n Sourcing zinit"
 fi
@@ -33,11 +32,10 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # Source prompt
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+# eval "$(starship init zsh)"
 
-# zinit ice as"command" from"gh-r" bpick"atuin-*.tar.gz" mv"atuin*/atuin -> atuin" \
-#     atclone"./atuin init zsh > init.zsh; ./atuin gen-completions --shell zsh > _atuin" \
-#     atpull"%atclone" src"init.zsh"
-#
+# Source core file
+. $ZDOTDIR/modules/init.zsh
 
 #----------------------------------------- PLUGINS & USER CONFIGS ---------------------------------
 
@@ -45,19 +43,28 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 
 #______________________Environment Varibles___________________________
-export EDITOR=nvim
-export VISUAL=codium
+
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+export EDITOR=$(command -v nvim &> /dev/null && echo nvim || echo nano)
+export VISUAL=$(command -v codium &> /dev/null && echo codium || command -v code &> /dev/null &&echo code || kate)
+
+#export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship/starship.toml
+export STARSHIP_CACHE=$XDG_CONFIG_HOME/starship/starship.log
 export TERMINAL=/usr/bin/kitty
 
 export AUTO_NOTIFY_EXPIRE_TIME=5000
-export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh")
+export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit")
 
 
 #_______________________Shell Integrations_____________________________
 
-for file in "$ZDOTDIR"/functions/*.zsh; do if [ -f "$file" ]; then source "$file"; fi; done
+import-mod --all
+
 eval_fzf
 # eval "$(atuin init zsh)"
+
 
 #_____________________________Plugins____________________________________
 # zinit light zsh-users/zsh-syntax-highlighting
@@ -111,8 +118,8 @@ setopt hist_find_no_dups
 
 #____________________________Aliases_______________________________________
 alias sudo='sudo ' # expand aliases with sudo
-alias ls='lsd -a'
-# alias ls='lf'
+alias ls='lsd'
+alias tree='lsd --tree --depth 3'
 alias cp='cp -ri'
 alias cd='cd_ls'
 alias mkdir='mkdir -p'
@@ -125,8 +132,9 @@ alias snv='sudo nvim'
 alias chhostname='hostnamectl set-hostname'
 alias cat='bat'
 alias man='batman'
+alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 alias lnr='ln -s -r -i'
-# alias papirus-folders='pprus_ch_fldr_clr'
+alias papirus-folders='pprus_ch_fldr_clr'
 
 # git
 alias gc="git clone"

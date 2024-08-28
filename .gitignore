@@ -38,6 +38,7 @@ KireiSakura-Kit
 
 #________KireiSakura-Kit_________
 /Install/KireiSakura-Kit
+/Install/test.sh
 
 #____________Kate_______________
 /.config/kate/externaltools
@@ -52,6 +53,7 @@ KireiSakura-Kit
 
 
 #________Librewolf__________
+/.librewolf/SD1/*.sqlite
 /.librewolf/*/bookmarkbackups
 /.librewolf/*/browser-extension-data
 /.librewolf/*/datareporting
@@ -285,3 +287,4 @@ KireiSakura-Kit
 #______ZED_______
 #/.config/zed/
 
+.librewolf/SD1/persdict.dat

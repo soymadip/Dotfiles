@@ -8,6 +8,10 @@ VGA-1=VGA-1
 [Desktop Entry]
 DefaultProfile=SD.profile
 
+[FileLocation]
+scrollbackUseCacheLocation=true
+scrollbackUseSystemLocation=false
+
 [General]
 ConfigVersion=1
 
@@ -16,6 +20,11 @@ Recent Files[$e]=file:///mnt/HDD1/konsole_shortcuts.pdf,file:///mnt/HDD1/konsole
 Recent URLs[$e]=file:///mnt/HDD1/
 detailViewIconSize=16
 
+[KonsoleWindow]
+AllowMenuAccelerators=true
+FocusFollowsMouse=true
+UseSingleInstance=true
+
 [MainWindow]
 1920x1080 screen: Height=700
 1920x1080 screen: Width=1276
@@ -23,7 +32,6 @@ detailViewIconSize=16
 1920x1080 screen: XPosition=181
 1920x1080 screen: YPosition=215
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 VGA-1=VGA-1
 
 [UiSettings]
