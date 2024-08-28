@@ -34,19 +34,14 @@ setup_KireiKit() {
 function confirm_start_script {
     welcome
     prompt "Do you wanna: Install packages, Setup configs, change defaults?" cfrm_start
-    if [[ "$cfrm_start" == "y" || "$cfrm_start" == "Y" || -z "$cfrm_start" ]]; then
-        log "Starting script" inform
-    else
-        log "User denied to start...." error && log "Exiting...." error
-        sleep 3 && clear && exit 1
+    if [[ "$cfrm_start" == "y" || "$cfrm_start" == "Y" || -z "$cfrm_start" ]]; then 
+      log "Starting script" inform 
+    else 
+      log "User denied to start...." error 
+      log "Exiting...." error 
+      sleep 3 && clear 
+      exit 1
     fi
-}
-
-# start script
-function confirm_start_script {
-    welcome
-    prompt "Do you wanna: Install packages, Setup configs, change defaults?" cfrm_start
-    [[ "$cfrm_start" == "y" || "$cfrm_start" == "Y" || -z "$cfrm_start" ]]; log "Starting script" inform || log "User denied to start...." error && log "Exiting...." error && sleep 3 && clear && exit 1
 }
 
 
@@ -59,11 +54,11 @@ LOG_FILE="init-install.log"
 CACHE_DIR="$HOME/.cache/setup"
 
 
-source /path/to/KireiSakura-Kit/init.sh
+eval "$(kireisakura --init )"
 
 # setup_KireiKit
 confirm_start_script
-load_util install_adtionl_repos kde-plasma_utils install_all_packages restore_dotfiles
+load_util install_additional-repo kde-plasma_utils install_all_packages restore_dotfiles change_papirus_folder_color 
 
 
 # Stow dotfiles
