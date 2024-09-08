@@ -1,10 +1,8 @@
 /**
  *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
+ * Rofi Theme File [style-1]
+ * Rofi Version: 1.7.5-wayland
  * 
- * Rofi Theme File
- * Rofi Version: 1.7.3
  **/
 
 /*****----- Configuration -----*****/
@@ -31,8 +29,8 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      0px solid;
-    border-radius:               12px;
+    border:                      2px solid;
+    border-radius:               15px;
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -68,7 +66,7 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         "";
+    str:                         " 󰚥 ";
     padding:                     10px 14px;
     border-radius:               10px;
     background-color:            @urgent;

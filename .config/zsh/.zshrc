@@ -35,7 +35,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # eval "$(starship init zsh)"
 
 # Source core file
-. $ZDOTDIR/modules/init.zsh
+source $ZDOTDIR/modules/init.zsh
 
 #----------------------------------------- PLUGINS & USER CONFIGS ---------------------------------
 
@@ -55,8 +55,9 @@ export STARSHIP_CACHE=$XDG_CONFIG_HOME/starship/starship.log
 export TERMINAL=/usr/bin/kitty
 
 export AUTO_NOTIFY_EXPIRE_TIME=5000
-export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit")
+export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit" "cat" "bat" "batman")
 
+fpath+=("$HOME/.local/lib/KireiSakura-Kit/completions")
 
 #_______________________Shell Integrations_____________________________
 
@@ -117,6 +118,7 @@ setopt hist_find_no_dups
 
 
 #____________________________Aliases_______________________________________
+alias :q='exit'
 alias sudo='sudo ' # expand aliases with sudo
 alias ls='lsd'
 alias tree='lsd --tree --depth 3'

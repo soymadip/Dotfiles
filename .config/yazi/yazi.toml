@@ -11,6 +11,7 @@ show_symnlink=true
 
 edit = [
 	{ run = 'nvim "$@"', block = true, desc = "NeoVim" },
+	{ run = 'code "$@"', block = true, desc = "VsCode" },
 	{ run = 'codium "$@"', block = true, desc = "VsCodium" },
 	{ run = 'kate "$@"', block = true, desc = "kate" },
 ]

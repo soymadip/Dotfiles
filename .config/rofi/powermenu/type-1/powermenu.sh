@@ -1,19 +1,21 @@
+#!/bin/env bash
+
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-1"
-theme='style-2'
+theme='style-1'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
 host=`hostname`
 
 # Options
-shutdown=' Shutdown'
-reboot=' Reboot'
-lock=' Lock'
-suspend=' Suspend'
-logout=' Logout'
-yes=' Yes'
-no=' No'
+shutdown=' ⏼  Shutdown'
+reboot='   Reboot'
+lock='   Lock'
+suspend=' ⏾  Suspend'
+logout=' 󰗽  Logout'
+yes=' Yes'
+no=' No'
 
 # Rofi CMD
 rofi_cmd() {
@@ -43,8 +45,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	# echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
-	echo -e "$shutdown\n$reboot\n$logout\n$suspend\n$lock" | rofi_cmd
+	echo -e "$suspend\n$shutdown\n$reboot\n$logout\n$lock" | rofi_cmd
 }
 
 # Execute Command
@@ -89,9 +90,9 @@ case ${chosen} in
 			betterlockscreen -l
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
-        else
-        	loginctl lock-session
-        fi
+    else
+     loginctl lock-session
+    fi
         ;;
     $suspend)
 		run_cmd --suspend

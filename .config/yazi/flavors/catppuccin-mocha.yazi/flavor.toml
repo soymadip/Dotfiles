@@ -76,7 +76,7 @@ inactive = {}
 # : Input {{{
 
 [input]
-border   = { fg = "#89b4fa" }
+border   = { fg = "#b4befe" }
 title    = {}
 value    = {}
 selected = { reversed = true }

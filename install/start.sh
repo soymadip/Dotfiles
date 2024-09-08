@@ -13,20 +13,20 @@
 
 
 
-# Clone KireiSakura Kit
-setup_KireiKit() {
-    local esc_col='\033[0m' 
+# # Clone KireiSakura Kit
+# setup_KireiKit() {
+#     local esc_col='\033[0m' 
 
-    echo -e "\033[1;33m[-]-> Checking if KireiSakura-Kit exists ${esc_col}"  
-    if [[ -d "KireiSakura-Kit" ]]; then  
-        echo -e "\033[0;32m[✔]-> KireiSakura-Kit already exists, sourcing...${esc_col}"
-    else
-        echo -e "\033[0;31m[X]-> KireiSakura-Kit not found.\033[38;5;67m\n[!]-> Cloning KireiSakura-Kit...${esc_col}"
-        git clone https://github.com/soymadip/KireiSakura-Kit || { echo -e "\033[0;31m[X]-> Clone failed${esc_col}"; exit 1; }
-    fi
+#     echo -e "\033[1;33m[-]-> Checking if KireiSakura-Kit exists ${esc_col}"  
+#     if [[ -d "KireiSakura-Kit" ]]; then  
+#         echo -e "\033[0;32m[✔]-> KireiSakura-Kit already exists, sourcing...${esc_col}"
+#     else
+#         echo -e "\033[0;31m[X]-> KireiSakura-Kit not found.\033[38;5;67m\n[!]-> Cloning KireiSakura-Kit...${esc_col}"
+#         git clone https://github.com/soymadip/KireiSakura-Kit || { echo -e "\033[0;31m[X]-> Clone failed${esc_col}"; exit 1; }
+#     fi
 
-    . KireiSakura-Kit/pre.sh &&  sleep 2
-}
+#     . KireiSakura-Kit/pre.sh &&  sleep 2
+# }
 
 
 
@@ -58,7 +58,7 @@ eval "$(kireisakura --init )"
 
 # setup_KireiKit
 confirm_start_script
-load_util install_additional-repo kde-plasma_utils install_all_packages restore_dotfiles change_papirus_folder_color 
+kimport install_additional-repo kde-plasma_utils install_all_packages restore_dotfiles change_papirus_folder_color 
 
 
 # Stow dotfiles
@@ -67,7 +67,7 @@ stow_restore
 # Installing additional repos & packages
 install_adtionl_repos
 . packages.sh 
-install_all_packages rice_pckgs core_pckgs de_pckgs cli_pckgs user_pckgs
+install_all_packages rice_pckgs core_pckgs kde_core_pckgs cli_pckgs user_pckgs
 
 # Change wallpaper, icon theme, cursor theme
 change_wallpaper "$HOME/Pictures/ADMIN/catppuccin-lofi.jpeg"

@@ -31,13 +31,40 @@ desktopsrule=3
 title=Picture-in-picture
 titlematch=3
 
+[9ab7f0b4-3545-43d8-bb03-00a5d0520393]
+Description=keepass size fixed
+size=1199,791
+sizerule=3
+wmclass=org.keepassxc.KeePassXC
+wmclassmatch=1
+
 [General]
-count=3
-rules=8a9dd43a-275c-410d-9e59-a756708987e7,4fbf8553-004e-4956-b5ac-e31dd819c7d8,865f09e9-fad4-49f3-9146-c3dc139c149a
+count=6
+rules=8a9dd43a-275c-410d-9e59-a756708987e7,4fbf8553-004e-4956-b5ac-e31dd819c7d8,865f09e9-fad4-49f3-9146-c3dc139c149a,b24d4593-1cfe-474e-a9e6-bcbd323623e1,dd76c033-c3c0-48a7-9755-983ceeca5a8e,9ab7f0b4-3545-43d8-bb03-00a5d0520393
 
 [a4060309-a1ef-42c7-a9df-61a7c9c27884]
 size=977,675
 sizerule=3
+
+[b24d4593-1cfe-474e-a9e6-bcbd323623e1]
+Description=KDE file browser size & position fix
+position=599,223
+positionrule=3
+size=990,603
+sizerule=3
+wmclass=xdg-desktop-portal-kde org.freedesktop.impl.portal.desktop.kde
+wmclasscomplete=true
+wmclassmatch=1
+
+[dd76c033-c3c0-48a7-9755-983ceeca5a8e]
+Description=librewolf file browser size & position fix
+position=301,202
+positionrule=3
+size=1299,758
+sizerule=3
+title=File Upload
+wmclass=librewolf
+wmclassmatch=1
 
 [f293ce2f-7646-44b5-9084-9fb21cab9d28]
 size=1004,713

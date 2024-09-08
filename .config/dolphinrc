@@ -2,6 +2,11 @@
 DirectorySizeMode=ContentSize
 RecursiveDirectorySizeLimit=15
 
+[ExtractDialog]
+1920x1080 screen: Height=525
+1920x1080 screen: Width=959
+DirHistory[$e]=$HOME/Downloads/ss/
+
 [General]
 CloseActiveSplitView=false
 GlobalViewProps=false

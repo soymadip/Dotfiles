@@ -351,14 +351,14 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][32][Applets][58][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][32][Applets][66]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][32][Applets][66][Configuration]
-PreloadWeight=100
+PreloadWeight=68
 
 [Containments][32][Applets][68]
 immutability=1
@@ -418,7 +418,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][70][General]
 iconSize=2
-positions={"1920x1080":["5"\\,"20"\\,"desktop:/routine.ods"\\,"0"\\,"1"\\,"desktop:/project"\\,"4"\\,"15"\\,"desktop:/Study"\\,"0"\\,"0"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/Study"\\,"0"\\,"0"\\,"desktop:/kde_commands.sh"\\,"0"\\,"1"]}
 sortMode=-1
 
 [Containments][70][Wallpaper][org.kde.image][General]
@@ -567,4 +567,4 @@ scaleIconsToFit=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/routine.ods,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/routine.ods,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/project,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/Study,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Coding Env.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Skill Badges list.pdf,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/submitted.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Study,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/My-Practice-Environment.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68
+screenMapping=desktop:/routine.ods,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/submitted.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/My-Practice-Environment.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Study,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/Coding Env.code-workspace,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Screenshot 2024-07-08 at 12-06-32 ASSIGNMENT ON APPLIED.png,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/Study,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68,desktop:/kde_commands.sh,0,5e052a31-0cda-441d-94c4-c1fadba5c0c3,desktop:/Skill Badges list.pdf,0,ae92561a-91e9-41b8-9956-7f1bf73a6c68

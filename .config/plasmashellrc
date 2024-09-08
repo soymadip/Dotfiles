@@ -7,6 +7,13 @@ PreloadWeight=42
 [DesktopIcons]
 IconSize=64
 
+[FileDialogSize]
+1920x1080 screen: Height=649
+1920x1080 screen: Width=939
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
 [PlasmaViews][Panel 2]
 floating=1
 panelLengthMode=1

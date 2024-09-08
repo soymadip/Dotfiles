@@ -62,6 +62,7 @@ core_pckgs=(
     "flatpak-xdg-utils"
     "vorta"
     "vorta-root"
+    "sshfs"
 )
 
 
@@ -97,38 +98,34 @@ cli_pckgs=(
 )
 
 
-de_pckgs=(
-
+kde_core_pckgs=(
+    
     "xdg-desktop-portal-kde"
-    # "xdg-desktop-portal-hyprland"
     "flatpak-kcm"
-    "kate"
     "kup"
     "kimageformats"
-    "ark"
     "kio-admin"
     "packagekit-qt6"
     "kdialog"
-    "kasts"
-    "spectacle"
-    "ktorrent"
-    "gwenview"
-    "okular"
-    "kcalc"
-    "kdeconnect"
-    "dolphin-plugins"
     "kdeconnect"
     "kdeplasma-addons"
     "kwin-scripts-krohnkite-git"
     "kwin-effect-rounded-corners-git"
     "plasma-browser-integration"
-    "rofi-wayland"
+
 )
 
+
+hypr_core_pckgs=(
+
+    "xdg-desktop-portal-hyprland"
+)
 
 
 user_pckgs=(
 
+    "dolphin"
+    "dolphin-plugins"
     "code"
     "code-marketplace"
     "code-features"
@@ -144,6 +141,15 @@ user_pckgs=(
     "webcord"
     "64gram-desktop"
     "keepassxc"
+    "kate"
+    "ark"
+    "kasts"
+    "spectacle"
+    "ktorrent"
+    "gwenview"
+    "okular"
+    "kcalc"
+    "rofi-wayland"
 
     "gnome-disk-utility"
     "rclone-browser"
@@ -156,3 +162,26 @@ user_pckgs=(
     "ventoy-bin"
 )
 
+
+vscode_extensions=(
+
+    "formulahendry.auto-close-tag"
+    "ms-vscode.cpptools"
+    "Catppuccin.catppuccin-vsc"
+    "thang-nm.catppuccin-perfect-icons"
+    "formulahendry.code-runner"
+    "miguelsolorio.fluent-icons"
+    "GitHub.copilot"
+    "esbenp.prettier-vscode"
+    "ms-python.python"
+    "ms-pyright.pyright"
+    "asvetliakov.vscode-neovim"
+    "TheNuProjectContributors.vscode-nushell-lang"
+    "wix.vscode-import-cost"
+    "ms-python.vscode-pylance"
+    # ""
+    # ""
+    # ""
+    # ""
+    # ""
+  )
