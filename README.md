@@ -10,10 +10,9 @@
 
 ![Welcome][wcm]
 
-<h1 align="center">⚙️ My-dotfiles 🔧 </h1>
+<h1 align="center">⚙️ My-dotfiles-plasma 🔧 </h1>
 
-- This is Dotfiles Branch, Part of [`My Config Repo`][1].
-- Here you can find all the dotfiles of my DE, WM, Apps etc....
+- Here you can find dotfiles of KDE PLASMA DE.
 
 
 
