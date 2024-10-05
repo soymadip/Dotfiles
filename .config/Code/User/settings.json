@@ -243,5 +243,6 @@
     "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
   ],
   "git.postCommitCommand": "sync",
+  "git.confirmSync": false,
 
 }
