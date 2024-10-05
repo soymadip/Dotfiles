@@ -29,6 +29,13 @@ Trash
 KireiSakura-Kit
 
 
+#__________System__________
+!/.cache
+/.cache/*
+!/.cache/ags
+!/.cache/.placeholder
+/.cache/ags/*
+!/.cache/ags/hyprpanel
 
 
 #____________ brave ______________
@@ -121,6 +128,7 @@ KireiSakura-Kit
 /Install/KireiSakura-Kit
 /Install/test.sh
 
+
 #____________Kate_______________
 /.config/kate/externaltools
 
@@ -179,24 +187,12 @@ KireiSakura-Kit
 
 
 #________Libreoffice________________
-/.config/libreoffice/4/**/autocorr
-/.config/libreoffice/4/**/autotext
-/.config/libreoffice/4/**/backup
-/.config/libreoffice/4/**/basic
-/.config/libreoffice/4/**/GraphicTestResults
-/.config/libreoffice/4/**/GraphicsRenderTests.log
-/.config/libreoffice/4/**/GraphicTestResults.zip
-/.config/libreoffice/4/**/registrymodifications.xcu
-/.config/libreoffice/4/**/extensions
-/.config/libreoffice/4/**/config
-/.config/libreoffice/4/**/pack
-/.config/libreoffice/4/**/psprint
-/.config/libreoffice/4/**/gallery
-/.config/libreoffice/4/**/soffice.cfg
-/.config/libreoffice/4/**/autobl.fmt
-/.config/libreoffice/4/**/fontnameboxmruentries
-/.config/libreoffice/4/**/javasettings*.xml
-/.config/libreoffice/4/**/uno*
+/.config/libreoffice/4/*
+!/.config/libreoffice/4/user
+/.config/libreoffice/4/user/*
+!/.config/libreoffice/4/user/pack
+
+!/.config/libreoffice/4/user/registrymodifications.xcu
 
 
 #_______Mozilla__________
@@ -206,7 +202,6 @@ KireiSakura-Kit
 #________MPV____________
 /.config/mpv/playlists
 /.config/mpv/watch_later
-/.config/mpv/.directory
 
 
 
