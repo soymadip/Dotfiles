@@ -1,6 +1,4 @@
 
 # These are global
 PRACTICE*.*
-*.temp
-.vscode
 __pycache__
