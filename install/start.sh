@@ -12,24 +12,6 @@
 
 
 
-
-# # Clone KireiSakura Kit
-# setup_KireiKit() {
-#     local esc_col='\033[0m' 
-
-#     echo -e "\033[1;33m[-]-> Checking if KireiSakura-Kit exists ${esc_col}"  
-#     if [[ -d "KireiSakura-Kit" ]]; then  
-#         echo -e "\033[0;32m[✔]-> KireiSakura-Kit already exists, sourcing...${esc_col}"
-#     else
-#         echo -e "\033[0;31m[X]-> KireiSakura-Kit not found.\033[38;5;67m\n[!]-> Cloning KireiSakura-Kit...${esc_col}"
-#         git clone https://github.com/soymadip/KireiSakura-Kit || { echo -e "\033[0;31m[X]-> Clone failed${esc_col}"; exit 1; }
-#     fi
-
-#     . KireiSakura-Kit/pre.sh &&  sleep 2
-# }
-
-
-
 # start script
 function confirm_start_script {
     welcome
@@ -58,22 +40,33 @@ eval "$(kireisakura --init )"
 
 # setup_KireiKit
 confirm_start_script
-kimport install_additional-repo kde-plasma_utils install_all_packages restore_dotfiles change_papirus_folder_color 
+kimport install_additional-repo  install_all_packages restore_dotfiles change_papirus-folder_color change_shell enable_sudo_feedback
+. packages.sh 
 
+# Change shell to zsh
+if ! change_shell; then
+  log "please reboot system & run this script again..." inform
+  log "rebooting in 3 seconds..." inform && sleep 3 && reboot
+fi
+
+
+# Enable sudo password enter feedback 
+enable_sudo_feedback
 
 # Stow dotfiles
 stow_restore
 
 # Installing additional repos & packages
 install_adtionl_repos
-. packages.sh 
-install_all_packages rice_pckgs core_pckgs kde_core_pckgs cli_pckgs user_pckgs
-
+install_all_packages core_pckgs rice_pckgs hypr_core_pckgs cli_pckgs user_pckgs
 # Change wallpaper, icon theme, cursor theme
-change_wallpaper "$HOME/Pictures/ADMIN/catppuccin-lofi.jpeg"
-change_icon_theme "Papirus-Dark"
+# change_wallpaper "$HOME/Pictures/ADMIN/catppuccin-lofi.jpeg"
+# change_icon_theme "Papirus-Dark"
 change_papirus_folder_color "cat-mocha-lavender" "Papirus-Dark"
-change_cursor_theme "catppuccin-frappe-lavender-cursors" "32"
-
+# change_cursor_theme "catppuccin-frappe-lavender-cursors" "32"
+#
 # set sddm theme 
-change_sddm_theme breeze
+# change_sddm_theme breeze
+
+# install neovim chad 
+# git clone https://github.com/NvChad/starter ~/.config/nvim && nvim 

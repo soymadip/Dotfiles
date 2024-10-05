@@ -1,3 +1,14 @@
+[BuildConfig]
+AllowedCommandLines=
+AutoSwitchToOutput=true
+BlockedCommandLines=
+UseDiagnosticsOutput=true
+
+[ColorPicker]
+HexLengths=3,6,9,12
+NamedColors=false
+PreviewAfterColor=true
+
 [FileDialogSize]
 1920x1080 screen: Height=723
 1920x1080 screen: Width=1006
@@ -18,12 +29,13 @@ Mouse back button action=0
 Mouse forward button action=0
 Open New Tab To The Right Of Current=false
 Output History Limit=100
+Output With Date=false
 Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
 Save Meta Infos=true
 Show Full Path in Title=false
-Show Menu Bar=true
+Show Menu Bar=false
 Show Status Bar=true
 Show Symbol In Navigation Bar=true
 Show Tab Bar=true
@@ -39,14 +51,15 @@ Sync section size with tab positions=false
 Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
+widgetStyle=kvantum-dark
 
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
 Auto Reload If State Is In Version Control=true
-Auto Save=false
+Auto Save=true
 Auto Save Interval=0
-Auto Save On Focus Out=false
+Auto Save On Focus Out=true
 BOM=false
 Backup Local=false
 Backup Prefix=
@@ -68,26 +81,31 @@ Overwrite Mode=false
 PageUp/PageDown Moves Cursor=false
 Remove Spaces=1
 ReplaceTabsDyn=true
-Show Spaces=0
+Show Spaces=1
 Show Tabs=true
 Smart Home=true
 Swap Directory=
 Swap File Mode=1
-Swap Sync Interval=15
+Swap Sync Interval=8
 Tab Handling=2
 Tab Width=4
-Trailing Marker Size=1
+Trailing Marker Size=2
 Word Wrap=false
 Word Wrap Column=80
 
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-6
+
 [KTextEditor Renderer]
 Animate Bracket Matching=true
-Auto Color Theme Selection=true
-Color Theme=Catppuccin Frappé
+Auto Color Theme Selection=false
+Color Theme=Catppuccin Mocha
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Text Font=Hack Nerd Font,10.6,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font Features=
 Word Wrap Marker=false
 
 [KTextEditor View]
@@ -107,7 +125,7 @@ Dynamic Word Wrap At Static Marker=false
 Dynamic Word Wrap Indicators=1
 Dynamic Wrap not at word boundaries=false
 Enable Accessibility=true
-Enable Tab completion=false
+Enable Tab completion=true
 Enter To Insert Completion=true
 Fold First Line=false
 Folding Bar=true
@@ -133,14 +151,14 @@ Shoe Line Ending Type in Statusbar=false
 Show Documentation With Completion=true
 Show File Encoding=true
 Show Folding Icons On Hover Only=true
-Show Line Count=false
+Show Line Count=true
 Show Scrollbars=0
 Show Statusbar Dictionary=true
 Show Statusbar Highlighting Mode=true
 Show Statusbar Input Mode=true
 Show Statusbar Line Column=true
 Show Statusbar Tab Settings=true
-Show Word Count=false
+Show Word Count=true
 Smart Copy Cut=true
 Statusbar Line Column Compact Mode=true
 Text Drag And Drop=true
@@ -152,7 +170,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [Konsole]
-AutoSyncronizeMode=0
+AutoSyncronizeMode=1
 KonsoleEscKeyBehaviour=true
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
@@ -162,6 +180,9 @@ SetEditor=false
 [MainWindow]
 1920x1080 screen: Height=1052
 1920x1080 screen: Width=959
+1920x1080 screen: Window-Maximized=true
+MenuBar=Disabled
+ToolBarsMovable=Disabled
 
 [Printing][HeaderFooter]
 FooterBackground=211,211,211
@@ -194,13 +215,16 @@ DontPrintFoldedCode=true
 Legend=false
 LineNumbers=false
 
+[UiSettings]
+ColorScheme=Kvantum
+
 [filetree]
 editShade=183,220,246
 listMode=false
 middleClickToClose=false
 shadingEnabled=true
-showCloseButton=false
-showFullPathOnRoots=false
+showCloseButton=true
+showFullPathOnRoots=true
 showToolbar=true
 sortRole=0
 viewShade=211,190,222
@@ -213,10 +237,10 @@ BlockedServerCommandLines=
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true
-FormatOnSave=false
+FormatOnSave=true
 HighlightGoto=true
 IncrementalSync=false
-InlayHints=false
+InlayHints=true
 Messages=true
 ReferencesDeclaration=true
 SemanticHighlighting=true

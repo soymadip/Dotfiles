@@ -44,18 +44,23 @@ source $ZDOTDIR/modules/init.zsh
 
 #______________________Environment Varibles___________________________
 
+export LANG=en_IN.UTF-8
+
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
+export TERMINAL=/usr/bin/kitty
 
 export EDITOR=$(command -v nvim &> /dev/null && echo nvim || echo nano)
-export VISUAL=$(command -v codium &> /dev/null && echo codium || command -v code &> /dev/null &&echo code || kate)
+export VISUAL=$(command -v codium &> /dev/null && echo codium || command -v code &> /dev/null && echo code || echo kate)
 
 #export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship/starship.toml
 export STARSHIP_CACHE=$XDG_CONFIG_HOME/starship/starship.log
-export TERMINAL=/usr/bin/kitty
+export GRIMBLAST_EDITOR=gwenview
+export FZF_DEFAULT_COMMAND='fd --hidden --no-ignore --exclude .git'
 
 export AUTO_NOTIFY_EXPIRE_TIME=5000
 export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit" "cat" "bat" "batman")
+
 
 fpath+=("$HOME/.local/lib/KireiSakura-Kit/completions")
 
@@ -89,9 +94,7 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-# zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
-
+zstyle ':fzf-tab:complete:*:*' fzf-preview 'lsd --almost-all --group-directories-first --color=always $realpath'
 
 
 #_____________________________key-bindings_________________________________
@@ -137,8 +140,10 @@ alias man='batman'
 alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 alias lnr='ln -s -r -i'
 alias papirus-folders='pprus_ch_fldr_clr'
+alias reboot='echo " reebooting......" && sleep 5 && reboot'
 
 # git
+alias ghc="github_clone"
 alias gc="git clone"
 alias gb="git branch"
 alias ga="git add"

@@ -27,8 +27,8 @@
 
 
   // Workbench settings
-  "workbench.colorTheme": "Catppuccin Macchiato",
   "workbench.iconTheme": "catppuccin-perfect-macchiato",
+  "workbench.colorTheme": "Catppuccin Macchiato",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
   "workbench.preferredLightColorTheme": "Catppuccin Frappé",
@@ -38,6 +38,7 @@
   "catppuccin.workbenchMode": "default",
   "alt-catppuccin.syntaxMode": "default",
 
+  "window.menuBarVisibility": "toggle",
   "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,
   "workbench.panel.defaultLocation": "right",
@@ -240,5 +241,7 @@
     "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg",
     "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
     "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
-  ]
+  ],
+  "git.postCommitCommand": "sync",
+
 }

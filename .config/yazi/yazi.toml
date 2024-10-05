@@ -23,6 +23,7 @@ play = [
 
 open = [
 	{ run = 'xdg-open "$@"', desc = "Open" },
+	{ run = 'olular "$@"', desc = "Okular" },
 ]
 
 [open]

@@ -13,12 +13,17 @@ rice_pckgs=(
 
     "fastfetch"
     "nwg-look"
+    "qt5ctl"
+    "qt6ctl"
+    "kvantum"
+    "kvantum-qt5"
     "plymouth-theme-catppuccin-mocha-git"
 )
 
 
 core_pckgs=(
 
+    "paru"
     "intel-ucode"
     "libva-intel-driver"
     # "libva-mesa-driver"
@@ -32,7 +37,6 @@ core_pckgs=(
     "gst-plugins-bad"
     "gst-libav"
     "cups"
-    "paru"
     "power-profiles-daemon"
     "system-config-printer"
     "cups-pk-helper"
@@ -43,7 +47,6 @@ core_pckgs=(
     "wget"
     "gvfs"
     "zsh"
-    "zsh-completions"
     "neovim"
     "yt-dlp"
     "rsync"
@@ -60,9 +63,13 @@ core_pckgs=(
     "python-pip"
     "flatpak"
     "flatpak-xdg-utils"
-    "vorta"
-    "vorta-root"
+    "flatseal"
     "sshfs"
+    "ddcutil"
+    "android-file-transfer"
+    "archlinux-xdg-menu"
+    "brightnessctl"
+
 )
 
 
@@ -112,20 +119,35 @@ kde_core_pckgs=(
     "kwin-scripts-krohnkite-git"
     "kwin-effect-rounded-corners-git"
     "plasma-browser-integration"
-
+    "librewolf-extension-plasma-integration"
+    "kcalc"
+    "spectacle"
 )
 
 
 hypr_core_pckgs=(
 
+    "hyprland"
     "xdg-desktop-portal-hyprland"
+    "polkit-gnome"
+    "hyprpaper"
+    "hyprlock"
+    "hypridle"
+    "hyprpicker"
+    "grimblast"
+    "copyq"
+    "rofi-wayland"
 )
 
 
 user_pckgs=(
 
+    "vorta"
+    "vorta-root"
     "dolphin"
     "dolphin-plugins"
+    "kio-admin"
+    "okular"
     "code"
     "code-marketplace"
     "code-features"
@@ -135,7 +157,6 @@ user_pckgs=(
     "obsidian"
     "librewolf"
     "librewolf-firefox-shim"
-    "librewolf-extension-plasma-integration"
     "firefox-pwa"
     "brave-bin"
     "webcord"
@@ -144,12 +165,9 @@ user_pckgs=(
     "kate"
     "ark"
     "kasts"
-    "spectacle"
     "ktorrent"
     "gwenview"
-    "okular"
-    "kcalc"
-    "rofi-wayland"
+    
 
     "gnome-disk-utility"
     "rclone-browser"
@@ -160,6 +178,7 @@ user_pckgs=(
     "obs-studio"
     "v4l2loopback-dkms"
     "ventoy-bin"
+    "luarocks"
 )
 
 

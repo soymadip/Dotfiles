@@ -15,10 +15,17 @@ function eval_fzf {
     # Get the version of fzf
     fzf_version=$(fzf --version | cut -d' ' -f1)
 
+    export FZF_DEFAULT_OPTS=" \
+     --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+     --color=fg:#cad3f5,header:#ed8796,info:#ed8796,pointer:#b7bdf8 \
+     --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#91d7e3,hl+:#ed8796 \
+     --color=selected-bg:#494d64 \
+     --multi"
+
     # Check if the version is 0.48.0 or later
     if [[ $(echo "$fzf_version 0.48.0" | tr " " "\n" | sort -V | head -n1) = "0.48.0" ]]; then
         source <(fzf --zsh)
     else
         source /usr/share/fzf/shell/key-bindings.zsh
-fi
-}
+    fi
+  }

@@ -1,13 +1,15 @@
 [user]
 	email = soumadip377@gmail.com
 	name = soymadip
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
 [commit]
-	template = ~/.config/git/.gitmessage
+	template = ~/.config/git/commit-message.txt
 	rebase=true
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-[color "diff"]
-	old = white

@@ -1,22 +1,15 @@
-/**
- *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
- * 
- * Rofi Theme File
- * Rofi Version: 1.7.3
- **/
 
 /*****----- Configuration -----*****/
 configuration {
 	modi:                       "drun,run,filebrowser,window";
-    show-icons:                 false;
-    display-drun:               "";
-    display-run:                "";
-    display-filebrowser:        "";
-    display-window:             "";
-	drun-display-format:        "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
+    show-icons:                 true;
+    display-drun:               " Apps:";
+    display-run:                "  Run:";
+    display-filebrowser:        " File:";
+    display-window:             " Tabs";
+	drun-display-format:        "{name} [<span weight='light' size='small'>({generic})</span>]";
 	window-format:              "{w} · {c} · {t}";
+  sorting-method:             "normal";
 }
 
 /*****----- Global Properties -----*****/
@@ -49,6 +42,8 @@ configuration {
     alternate-active-foreground: var(background);
 }
 
+
+
 /*****----- Main Window -----*****/
 window {
     /* properties for window widget */
@@ -56,7 +51,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       400px;
+    width:                       600px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -156,7 +151,7 @@ case-indicator {
 listview {
     enabled:                     true;
     columns:                     1;
-    lines:                       12;
+    lines:                       11;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   true;

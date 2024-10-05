@@ -16,7 +16,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [MainWindow]
 1920x1080 screen: Height=700
@@ -39,26 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/Desktop/Study/C/The Ultimate C Handbook by CWHry.pdf
-File10[$e]=$HOME/Pictures/Screenshot_20230806_201818.png
-File2[$e]=$HOME/Desktop/Study/3RD SEM SYLLABUS.pdf
-File3[$e]=$HOME/Desktop/Study/S3 syllabus.pdf
-File4[$e]=$HOME/Downloads/Skill Badges list.pdf
-File5[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM (1).pdf
-File6[$e]=$HOME/Downloads/drama for introduction .pdf
-File7[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM.pdf
-File8[$e]=$HOME/Desktop/Skill Badges list.pdf
-File9[$e]=$HOME/Desktop/Study/CSO/Computer_programming_theory assignment 2.pdf
-Name1[$e]=The Ultimate C Handbook by CWHry.pdf
-Name10[$e]=Screenshot_20230806_201818.png
-Name2[$e]=3RD SEM SYLLABUS.pdf
-Name3[$e]=S3 syllabus.pdf
+File1[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM (1).pdf
+File10[$e]=$HOME/Downloads/64Gram Desktop/omniscient-reader.epub
+File2[$e]=$HOME/Downloads/drama for introduction .pdf
+File3[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM.pdf
+File4[$e]=$HOME/Desktop/Skill Badges list.pdf
+File5[$e]=$HOME/Desktop/Study/CSO/Computer_programming_theory assignment 2.pdf
+File6[$e]=$HOME/Pictures/Screenshot_20230806_201818.png
+File7[$e]=$HOME/Desktop/Study/Python/kc/assignment1.pdf
+File8[$e]=$HOME/Downloads/assignment1-1.pdf
+File9[$e]=$HOME/Desktop/CSO ASSIGNMENT.pdf
+Name1[$e]=AY_24-25_Routine_CST_ODD_SEM (1).pdf
+Name10[$e]=omniscient-reader.epub
+Name2[$e]=drama for introduction .pdf
+Name3[$e]=AY_24-25_Routine_CST_ODD_SEM.pdf
 Name4[$e]=Skill Badges list.pdf
-Name5[$e]=AY_24-25_Routine_CST_ODD_SEM (1).pdf
-Name6[$e]=drama for introduction .pdf
-Name7[$e]=AY_24-25_Routine_CST_ODD_SEM.pdf
-Name8[$e]=Skill Badges list.pdf
-Name9[$e]=Computer_programming_theory assignment 2.pdf
+Name5[$e]=Computer_programming_theory assignment 2.pdf
+Name6[$e]=Screenshot_20230806_201818.png
+Name7[$e]=assignment1.pdf
+Name8[$e]=assignment1-1.pdf
+Name9[$e]=CSO ASSIGNMENT.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16
@@ -67,4 +67,4 @@ IconSize=16
 IconSize=16
 
 [UiSettings]
-ColorScheme=Catppuccin Frappe Lavender
+ColorScheme=KvAdaptaDark

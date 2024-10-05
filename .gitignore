@@ -4,10 +4,11 @@
 
 #___________Global__________
 *.lock
+*.bin
 *cache*
 *Cache*
 *Cookies*
-*cookies*
+*cookie*
 *Token*
 *token*
 *languagepack*
@@ -24,7 +25,23 @@
 *trash
 *runtime
 *LOG
+Trash
 KireiSakura-Kit
+
+
+
+
+#____________ brave ______________
+/.config/BraveSoftware/Brave-Browser/*
+!/.config/BraveSoftware/Brave-Browser/Default/Preferences
+!/.config/BraveSoftware/Brave-Browser/NativeMessagingHosts
+
+
+#____________Dolphin______________
+/.config/copyq/.copyq_s
+/.config/copyq/copyq_geometry.ini
+/.config/copyq/*.dat
+
 
 
 #____________Dolphin______________
@@ -35,6 +52,7 @@ KireiSakura-Kit
 
 #____________FirefoxPWA__________
 /.local/share/firefoxpwa/runtime
+/.local/share/firefoxpwa/profiles/**/*.bin
 /.local/share/firefoxpwa/profiles/*/AlternateServices.bin
 /.local/share/firefoxpwa/profiles/*/activity-stream.weather_feed.json
 /.local/share/firefoxpwa/profiles/*/addonStartup.json.lz4
@@ -95,6 +113,10 @@ KireiSakura-Kit
 
 
 
+#________ HyprPanel _________
+/.config/HyprPanel
+
+
 
 #________KireiSakura-Kit_________
 /Install/KireiSakura-Kit
@@ -112,64 +134,49 @@ KireiSakura-Kit
 /.config/lazygit/state.yml
 
 
-#________Librewolf__________
-/.librewolf/*/AlternateServices.bin
-/.librewolf/*/activity-stream.weather_feed.json
-/.librewolf/*/addonStartup.json.lz4
-/.librewolf/*/autofill-profiles.json
-/.librewolf/*/broadcast-listeners.json
-/.librewolf/*/browser-extension-data
-/.librewolf/*/bounce-tracking-protection.sqlite
-/.librewolf/*/bookmarkbackups
-/.librewolf/*/**/cache2/
-/.librewolf/*/cert9.db
-/.librewolf/*/cert_override.txt
-/.librewolf/*/compatibility.ini
-/.librewolf/*/content-prefs.sqlite
-/.librewolf/*/cookies.sqlite
-/.librewolf/*/cookies.sqlite-wal
-/.librewolf/*/crashes
-/.librewolf/*/enumerate_devices.txt
-/.librewolf/*/datareporting
-.librewolf/*/extensions
-/.librewolf/**/failover.jsc
-/.librewolf/*/favicons.sqlite
-/.librewolf/*/favicons.sqlite-wal
-/.librewolf/*/formhistory.sqlite
-/.librewolf/*/gmp*
-/.librewolf/*/key4.db
-/.librewolf/*/lock
-/.librewolf/*/logins-backup.json
-/.librewolf/*/logins.json
-/.librewolf/*/notificationstore.json
-/.librewolf/*/permissions.sqlite
-/.librewolf/**/.parentlock
-/.librewolf/*/pkcs11.txt
-/.librewolf/*/places.sqlite
-/.librewolf/*/places.sqlite-wal
-/.librewolf/*/protections.sqlite
-/.librewolf/*/search.json.mozlz4
-/.librewolf/*/safebrowsing
-/.librewolf/*/serviceworker.txt
-/.librewolf/*/sessionCheckpoints.json
-/.librewolf/*/security_state
-/.librewolf/*/sessionstore-backups
-/.librewolf/**/sessionstore.jsonlz4
-/.librewolf/*/signedInUser.json
-/.librewolf/*/SiteSecurityServiceState.bin
-/.librewolf/*/storage
-/.librewolf/*/storage-sync-v2.sqlite
-/.librewolf/*/storage-sync-v2.sqlite-shm
-/.librewolf/*/storage-sync-v2.sqlite-wal
-/.librewolf/*/storage.sqlite
-/.librewolf/*/synced-tabs.db
-/.librewolf/*/synced-tabs.db-shm
-/.librewolf/*/synced-tabs.db-wal
-/.librewolf/*/times.json
-/.librewolf/*/weave
-/.librewolf/*/webappsstore.sqlite
-/.librewolf/*/webappsstore.sqlite-wal
+#_________.local__________
+/.local/share/*
+!/.local/share/applications
+!/.local/share/dolphin
+!/.local/share/firefoxpwa
+!/.local/share/konsole
+!/.local/share/kxmlgui5
+!/.local/share/ss
+!/.local/share/media-downloader
+!/.local/share/nwg-look
+!/.local/share/onboard
+/.local/share/onboard/models
+!/.local/share/templates
 
+
+
+#____FireFox(& derivatives)_______
+/.mozilla/*/*
+/.librewolf/*/*
+/.zen/*/*
+!/.*/*/chrome
+!/.*/*/addons.json
+!/.*/*/cotainers.json
+!/.*/*/extension*.json
+!/.*/*/handlesr.json
+!/.*/*/prefs.js
+!/.*/*/xulstore.json
+!/.*/*/zen-themes.json
+
+
+
+#________ Go _______________
+/.config/go
+
+
+
+#________ KDE _______________
+/.config/KDE/UserFeedback*
+/.config/kde*/UserFeedback*
+/.config/baloofileinformationrc
+/.config/filetypesrc
+/.config/knfsshare
+/.config/ktorrent_infowidgetrc
 
 
 #________Libreoffice________________
@@ -184,8 +191,13 @@ KireiSakura-Kit
 /.config/libreoffice/4/**/extensions
 /.config/libreoffice/4/**/config
 /.config/libreoffice/4/**/pack
+/.config/libreoffice/4/**/psprint
 /.config/libreoffice/4/**/gallery
-
+/.config/libreoffice/4/**/soffice.cfg
+/.config/libreoffice/4/**/autobl.fmt
+/.config/libreoffice/4/**/fontnameboxmruentries
+/.config/libreoffice/4/**/javasettings*.xml
+/.config/libreoffice/4/**/uno*
 
 
 #_______Mozilla__________
@@ -234,13 +246,17 @@ KireiSakura-Kit
 
 
 #________OBS Studio______________
+/.config/obs-studio/basic/profiles/*/phld
+/.config/obs-studio/basic/scenes/*.json
+/.config/obs-studio/plugin_config
 /.config/obs-studio/profiler_data
 
 
 
 #_______Okular___________
 /.config/okularpartrc
-
+/.config/okular-generator-popplerrc
+/.config/QtProject.conf
 
 
 #_____________Plasma___________________
@@ -286,18 +302,23 @@ KireiSakura-Kit
 
 #_________VsCode_________
 /.config/Code/Backups
-/.config/Code/Crashpad
-/.config/Code/Dictionaries
-/.config/Code/Service Worker
-/.config/Code/Shared Dictionary
-/.config/Code/User/History
-/.config/Code/User/profiles
-/.config/Code/User/sync
-/.config/Code/.org.chromium.*
-/.config/Code/machineid
-/.config/Code/Network Persistent State
-/.config/Code/Preferences
-/.config/Code/TransportSecurity
+/.config/*/Backups
+/.config/*/Crashpad
+/.config/*/Dictionaries
+/.config/*/Service Worker
+/.config/*/Shared Dictionary
+/.config/*/User/History
+/.config/*/User/profiles
+/.config/*/User/sync
+/.config/*/.org.chromium.*
+/.config/*/machineid
+/.config/*/Network Persistent State
+/.config/*/TransportSecurity
+/.config/*/IndexedDB
+/.config/*/.guid
+/.config/*/Singleton*
+.config/*/window-state.json
+
 
 
 #________WebCord_______
@@ -330,6 +351,17 @@ KireiSakura-Kit
 /.config/YouTube Music/shared_proto_db
 
 
+
+
+#________ user dirs __________
+
+/.config/user-dirs.*
+
+
+#________ Vlc __________
+/.config/vlc/vlc-qt-interface.conf
+
+
 #________ZSH__________
 /.config/zsh/------OLD------
 /.config/zsh/zinit
@@ -339,4 +371,3 @@ KireiSakura-Kit
 #______ZED_______
 #/.config/zed/
 
-.librewolf/SD1/persdict.dat
