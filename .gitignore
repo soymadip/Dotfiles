@@ -29,6 +29,17 @@ Trash
 KireiSakura-Kit
 
 
+
+
+#_________ 64Gram__________
+!/.local/share/64Gram
+/.local/share/64Gram/logs*
+/.local/share/64Gram/tdata/*
+!/.local/share/64Gram/tdata/enhanced-settings-custom.json
+!/.local/share/64Gram/tdata/shortcuts-custom.json
+
+
+
 #__________System__________
 !/.cache
 /.cache/*
