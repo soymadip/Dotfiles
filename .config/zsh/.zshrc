@@ -80,7 +80,7 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 zinit light MichaelAquilina/zsh-auto-notify
 zinit ice depth=1; zinit light jeffreytse/zsh-vi-mode
-zinit load atuinsh/atuin
+#zinit load atuinsh/atuin
 
 #________________Snippets________________
 zinit snippet OMZP::command-not-found
