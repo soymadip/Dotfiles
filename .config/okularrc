@@ -39,26 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM (1).pdf
-File10[$e]=$HOME/Downloads/64Gram Desktop/omniscient-reader.epub
-File2[$e]=$HOME/Downloads/drama for introduction .pdf
-File3[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM.pdf
-File4[$e]=$HOME/Desktop/Skill Badges list.pdf
-File5[$e]=$HOME/Desktop/Study/CSO/Computer_programming_theory assignment 2.pdf
-File6[$e]=$HOME/Pictures/Screenshot_20230806_201818.png
-File7[$e]=$HOME/Desktop/Study/Python/kc/assignment1.pdf
-File8[$e]=$HOME/Downloads/assignment1-1.pdf
-File9[$e]=$HOME/Desktop/CSO ASSIGNMENT.pdf
-Name1[$e]=AY_24-25_Routine_CST_ODD_SEM (1).pdf
-Name10[$e]=omniscient-reader.epub
-Name2[$e]=drama for introduction .pdf
-Name3[$e]=AY_24-25_Routine_CST_ODD_SEM.pdf
-Name4[$e]=Skill Badges list.pdf
-Name5[$e]=Computer_programming_theory assignment 2.pdf
-Name6[$e]=Screenshot_20230806_201818.png
-Name7[$e]=assignment1.pdf
-Name8[$e]=assignment1-1.pdf
-Name9[$e]=CSO ASSIGNMENT.pdf
+File1[$e]=$HOME/Downloads/drama for introduction .pdf
+File10[$e]=$HOME/Dotfiles/README.md
+File2[$e]=$HOME/Downloads/AY_24-25_Routine_CST_ODD_SEM.pdf
+File3[$e]=$HOME/Desktop/Skill Badges list.pdf
+File4[$e]=$HOME/Desktop/Study/CSO/Computer_programming_theory assignment 2.pdf
+File5[$e]=$HOME/Pictures/Screenshot_20230806_201818.png
+File6[$e]=$HOME/Desktop/Study/Python/kc/assignment1.pdf
+File7[$e]=$HOME/Downloads/assignment1-1.pdf
+File8[$e]=$HOME/Desktop/CSO ASSIGNMENT.pdf
+File9[$e]=$HOME/Downloads/64Gram Desktop/omniscient-reader.epub
+Name1[$e]=drama for introduction .pdf
+Name10[$e]=README.md
+Name2[$e]=AY_24-25_Routine_CST_ODD_SEM.pdf
+Name3[$e]=Skill Badges list.pdf
+Name4[$e]=Computer_programming_theory assignment 2.pdf
+Name5[$e]=Screenshot_20230806_201818.png
+Name6[$e]=assignment1.pdf
+Name7[$e]=assignment1-1.pdf
+Name8[$e]=CSO ASSIGNMENT.pdf
+Name9[$e]=omniscient-reader.epub
 
 [Toolbar annotationToolBar]
 IconSize=16

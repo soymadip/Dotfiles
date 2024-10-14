@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Default
+ColorScheme=KvAdaptaDark
 alwaysShowFeedTitles=true
 showPodcastTitle=true
 showTrayIcon=true
@@ -20,4 +20,4 @@ allowMeteredImageDownloads=true
 allowMeteredStreaming=true
 
 [UiSettings]
-ColorScheme=
+ColorScheme=KvAdaptaDark
