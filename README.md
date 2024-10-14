@@ -1,26 +1,36 @@
-<details>
-  <summary>📚 Branches ⇽</summary>
+<!-- -------- Header start --------- -->
 
-- [🏠 Home][1]
-- [💻 dotfiles][2]*
-- [🌐 Website][3]
-<!-- - **🗜 Home Server  -** [HERE][2] -->
+<div align = center>
+  <h1 style="color:#f594a0">
+    ⚙️ My-Dotfiles 🔧 
+  </h1>
+  <p>Space for storing my <a href="https://wiki.archlinux.org/title/Dotfiles">dotfiles</a> of DE/WM, programs, services.
+    <br> 
+    Also documentation about them.
+  </p>
+</div>
+
+<br>
+
+<details>
+  <summary style="color:#a2e3ac">
+    <small>Spaces 🗺️</small>
+  </summary>
+
+- [🗔 dotfiles (current)][dtfls]
+- **💻 dotfiles (Plasma) ⇽**
+- [🪟 dotfiles (Windows)][dtfls_win]
+- [🌐 Website][wbste]
+<!-- - [🗜 Home Server][hmsrvr] -->
 </details>
 
-
-![Welcome][wcm]
-
-<h1 align="center">⚙️ My-dotfiles-plasma 🔧 </h1>
-
-- Here you can find dotfiles of KDE PLASMA DE.
-
+[dtfls]:      https://github.com/soymadip/Dotfiles#----%EF%B8%8F-my-dotfiles----
+[dtfls_plsma]:https://github.com/soymadip/Dotfiles/tree/dotfiles-plasma#----%EF%B8%8F-my-dotfiles----
+[dtfls_win]:  https://github.com/soymadip/Dotfiles/tree/dotfiles-windows#----%EF%B8%8F-my-dotfiles----
+[wbste]:      https://github.com/soymadip/Dotfiles/tree/Website#----%EF%B8%8F-my-dotfiles----
+<!-- [hmsrvr]:     https://github.com/soymadip/Dotfiles/tree/Home-server#%EF%B8%8F-my-website-- -->
 
 
-<!-- ________________LINKS_____________________ -->
-
-
-[wcm]:https://raw.githubusercontent.com/soymadip/Dotfiles/Website/Assets/welcome.gif
-[1]:https://github.com/soymadip/Dotfiles#%EF%B8%8F-my-configs--
-[2]:#%EF%B8%8F-my-dotfiles--
-[3]:https://github.com/soymadip/Dotfiles/tree/Website#%EF%B8%8F-my-website--
-[4]:https://github.com/soymadip/Dotfiles/tree/Home-server#%EF%B8%8F-my-home-server--
+<!-- -------- Header End --------- -->
+---
+<p align="center">This is dotfiles space of KDE Plasma, now switched to Hprland.</p>
