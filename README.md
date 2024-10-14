@@ -5,8 +5,8 @@
     ⚙️ My-Dotfiles 🔧 
   </h1>
   <p>Space for storing my <a href="https://wiki.archlinux.org/title/Dotfiles">dotfiles</a> of DE/WM, programs, services.
-     <br>
-     Info about them & How to use them.
+    <br> 
+    Also documentation about them.
   </p>
 </div>
 
@@ -17,18 +17,18 @@
     <small>Spaces 🗺️</small>
   </summary>
 
-- **💻 dotfiles (current) ⇽**
+- **🗔 dotfiles (current) ⇽**
 - [💻 dotfiles (Plasma)][dtfls_plsma]
-- [💻 dotfiles (Windows)][dtfls_win]
+- [🪟 dotfiles (Windows)][dtfls_win]
 - [🌐 Website][wbste]
 <!-- - [🗜 Home Server][hmsrvr] -->
 </details>
 
-[dtfls]:      https://github.com/soymadip/Dotfiles#%EF%B8%8F-my-dotfiles--
-[dtfls_plsma]:https://github.com/soymadip/Dotfiles/tree/dotfiles-Plasma#%EF%B8%8F-my-dotfiles-plasma--
-[dtfls_win]:  https://github.com/soymadip/Dotfiles/tree/dotfiles-Windows#%EF%B8%8F-my-dotfiles-plasma--
-[wbste]:      https://github.com/soymadip/Dotfiles/tree/Website#%EF%B8%8F-my-website--
-<!-- [hmsrvr]:     https://github.com/soymadip/Dotfiles/tree/Home-server#%EF%B8%8F-my-home-server-- -->
+[dtfls]:      https://github.com/soymadip/Dotfiles#----%EF%B8%8F-my-dotfiles----
+[dtfls_plsma]:https://github.com/soymadip/Dotfiles/tree/dotfiles-plasma#----%EF%B8%8F-my-dotfiles----
+[dtfls_win]:  https://github.com/soymadip/Dotfiles/tree/dotfiles-windows#----%EF%B8%8F-my-dotfiles----
+[wbste]:      https://github.com/soymadip/Dotfiles/tree/Website#----%EF%B8%8F-my-dotfiles----
+<!-- [hmsrvr]:     https://github.com/soymadip/Dotfiles/tree/Home-server#----%EF%B8%8F-my-dotfiles---- -->
 
 
 <!-- -------- Header End --------- -->
@@ -181,7 +181,7 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>Del</kbd>                     | Kill Hyprland session                           |
 
 
-### General Window functions:-
+### General Window functions
 
 | Keys | Action |
 | :--- | :--- |
@@ -191,7 +191,7 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>G</kbd>                    | Toggle the window between focus and group      |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> | Toggle pin on focused window*                  |
 
-### Shift Window focus:-
+### Shift Window focus
 
 | Keys | Action |
 | :--- | :--- |
@@ -203,7 +203,7 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>K</kbd> | Move between grouped windows forward*  |
 
 
-### Move windows:- 
+### Move windows
 
 | Keys | Action |
 | :--- | :--- |
@@ -218,7 +218,7 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>RightClick (Hold)</kbd>      | Resize focused window                                   |
 
 
-### Change Window Size:-
+### Change Window Size
 
 | Keys | Action |
 | :--- | :--- |
@@ -228,7 +228,7 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> +  <kbd>alt</kbd> + <kbd>L</kbd> | Increase size of __right__  side |
 
 
-### Workspace:-
+### Workspace
 
 | Keys | Action |
 | :--- | :--- |
@@ -242,7 +242,7 @@ I try to stick to some basic rules for my binds:-
 <!-- | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd> | Move to the first empty workspace | -->
 
 
-### Audio & Brightess:-
+### Audio & Brightess
 
 | Keys | Action |
 | :--- | :--- |
@@ -257,7 +257,7 @@ I try to stick to some basic rules for my binds:-
 
 
 
-### Screenshot:-
+### Screenshot
 
 | Keys | Action |
 | :--- | :--- |
@@ -294,7 +294,7 @@ I try to stick to some basic rules for my binds:-
 - Jas-SinghFSU for making [Hyprpanel][hprpnll]
 - Aylur for making [ags][agsl]
 - adil090x for [rofi themes][rfil]
-- Me for [KireiSakura-Kit][kskt] :)
+- soymadip for [KireiSakura-Kit][kskt] :)
 
 
 
