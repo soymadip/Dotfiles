@@ -1,9 +1,0 @@
-README.md
-^/LICENCE.*
-^/COPYING
-/.git 
-/.gitignore
-/.prettierignore
-/.directory
-/install
-/init-install.log
