@@ -1,0 +1,1003 @@
+{
+	"schema": 6,
+	"addons": [
+		{
+			"id": "uBlock0@raymondhill.net",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/607/607454-32.png?modified=mcrushed",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/607/607454-64.png?modified=mcrushed",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/607/607454-128.png?modified=mcrushed"
+			},
+			"type": "extension",
+			"name": "uBlock Origin",
+			"version": "1.60.0",
+			"creator": {
+				"name": "Raymond Hill",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/11423598/"
+			},
+			"developers": [],
+			"description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
+			"fullDescription": "uBlock Origin is not an \"ad blocker\", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.\n\n***\n\nOut of the box, uBO blocks ads, trackers, coin miners, popups, etc. through the following lists of filters, enabled by default:\n\n- EasyList (ads)\n- EasyPrivacy (tracking)\n- Peter Lowe’s Ad server list (ads and tracking)\n- Online Malicious URL Blocklist\n- uBO's own lists\n\nMore lists are available for you to select if you wish:\n\n- EasyList Cookie\n- Fanboy Annoyances\n- AdGuard Annoyances\n- Dan Pollock’s hosts file\n- And many others\n\nAdditionally, you can point-and-click to block JavaScript locally or globally, create your own global or local rules to override entries from filter lists, and many more advanced features.\n\n***\n\nFree.\nOpen source with public license (GPLv3)\nFor users by users.\n\nIf ever you really do want to contribute something, think about the people working hard to maintain the filter lists you are using, which were made available to use by all for free.\n\n***\n\n    Documentation\n    Release notes\n    Community support @ Reddit\n    Contributors @ GitHub\n    Contributors @ Crowdin",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/238/238546.png?modified=1622132421",
+					"width": 1011,
+					"height": 758,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/238/238546.jpg?modified=1622132421",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "The popup panel: default mode"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/238/238548.png?modified=1622132423",
+					"width": 1011,
+					"height": 758,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/238/238548.jpg?modified=1622132423",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "The dashboard: stock filter lists"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/238/238547.png?modified=1622132425",
+					"width": 1011,
+					"height": 758,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/238/238547.jpg?modified=1622132425",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "The popup panel: default-deny mode"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/238/238549.png?modified=1622132426",
+					"width": 1011,
+					"height": 758,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/238/238549.jpg?modified=1622132426",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "The dashboard: settings"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/238/238552.png?modified=1622132430",
+					"width": 970,
+					"height": 1800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/238/238552.jpg?modified=1622132430",
+					"thumbnailWidth": 216,
+					"thumbnailHeight": 400,
+					"caption": "The popup panel in Firefox Preview: default mode with more blocking options revealed"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/230/230370.png?modified=1622132432",
+					"width": 800,
+					"height": 600,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/230/230370.jpg?modified=1622132432",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "The unified logger tells you all that uBO is seeing and doing"
+				}
+			],
+			"homepageURL": "https://github.com/gorhill/uBlock#ublock-origin",
+			"supportURL": "https://old.reddit.com/r/uBlockOrigin/",
+			"contributionURL": "",
+			"averageRating": 4.7921,
+			"reviewCount": 4868,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/",
+			"weeklyDownloads": 212068,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4359936/ublock_origin-1.60.0.xpi",
+			"updateDate": 1728739521000
+		},
+		{
+			"id": "addon@darkreader.org",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/855/855413-32.png?modified=3f34e276",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/855/855413-64.png?modified=3f34e276",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/855/855413-128.png?modified=3f34e276"
+			},
+			"type": "extension",
+			"name": "Dark Reader",
+			"version": "4.9.94",
+			"creator": {
+				"name": "Dark Reader Ltd",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/13299734/"
+			},
+			"developers": [],
+			"description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
+			"fullDescription": "This eye-care extension enables night mode creating dark themes for websites on the fly. Dark Reader inverts bright colors making them high contrast and easy to read at night.\n\nYou can adjust brightness, contrast, sepia filter, dark mode, font settings and ignore-list.\n\nDark Reader doesn't show ads and doesn't send user's data anywhere. It is fully open-source https://github.com/darkreader/darkreader\n\nBefore you install disable similar extensions. Enjoy watching!",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/201/201069.png?modified=1638883247",
+					"width": 2400,
+					"height": 1500,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/201/201069.jpg?modified=1638883247",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "Dark Reader night theme mode"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/201/201070.png?modified=1638883247",
+					"width": 2400,
+					"height": 1500,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/201/201070.jpg?modified=1638883247",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "Dark Reader filter settings"
+				}
+			],
+			"homepageURL": "https://darkreader.org/",
+			"supportURL": "https://github.com/darkreader/darkreader",
+			"contributionURL": "https://opencollective.com/darkreader?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+			"averageRating": 4.5269,
+			"reviewCount": 1855,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/reviews/",
+			"weeklyDownloads": 27909,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4359254/darkreader-4.9.94.xpi",
+			"updateDate": 1727950993000
+		},
+		{
+			"id": "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/814/814814-32.png?modified=1542603952",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/814/814814-64.png?modified=1542603952",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/814/814814-128.png?modified=1542603952"
+			},
+			"type": "extension",
+			"name": "Stylus",
+			"version": "1.5.51",
+			"creator": {
+				"name": "Stylus Team",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/13438734/"
+			},
+			"developers": [
+				{
+					"name": "Jeremy Schomery",
+					"url": "https://addons.mozilla.org/en-US/firefox/user/11568224/"
+				}
+			],
+			"description": "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.",
+			"fullDescription": "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.\n\n\nFeatures\n\n    Versatility of theme installation options. Stylus supports installs from popular online repositories. Additionally, styles can now also be installed from .user.css or .user.styl URLs (see Usercss format documentation in our github wiki).\n    A backup feature for your entire database of installed styles which is compatible with other userstyles managers.\n    An intuitive and configurable automatic update function for installed styles.\n    A highly customizable UI, including theming, optional layouts, icon and badge color choices, along with many other tweaks.\n    Two different optional code validators with user configurable rules.\n\n\nUseful Links\n\n    Source code: https://github.com/openstyles/stylus\n    Video tutorial: https://youtu.be/fCVvGwoF5cQ\n    Chat room: https://discord.gg/tzXVNJz\n    Frequently asked questions: https://github.com/openstyles/stylus/wiki/FAQ\n    Technical bug report: https://github.com/openstyles/stylus/issues\n    General discussion and bug report: https://add0n.com/stylus.html#reviews\n    Localization: https://www.transifex.com/github-7/Stylus/dashboard/\n\n\nPermissions\n\nStylus uses only a small subset of each permission. As you can see in WebExtensions API documentation or simplified tutorials, there's no way to apply any modifications to a web page without gaining the full access permission to that page. Stylus is mostly used to apply global themes, which is why it requests a global permission. In the future we might be able to implement a more granular approach but it's not exactly trivial.\n\n    Access your data for all websites - required for the style elements to be added into the page, not to access any of your data.\n    Access browser tabs - required to show styles in the popup, and for some auxiliary features like regexp tester in the editor.\n    Access browser activity during navigation - required to insert the styles at the exact moment the page is navigated to a different URL.\n    Identity - required for access to cloud services to allow importing and exporting of styles (e.g. Dropbox, etc).\n\n\nPrivacy Policy\n\nUnlike other similar extensions, we don't find you to be all that interesting. Your questionable browsing history should remain between you and the NSA. Stylus collects nothing. Period.\n\n\nFirefox related notes\n\n    To import styles from Stylish add-on please read https://github.com/openstyles/stylus/wiki/FAQ#how-can-i-export-my-user-styles-from-stylish-for-firefox-to-stylus\n    Stylus doesn't apply userstyles to the browser UI or the built-in pages like about:addons because there's no WebExtension API for dynamic application of CSS. You may use another extension that runs an externally installed companion utility to modify userChrome.css and userContent.css and restart Firefox. This restriction is imposed intentionally by Mozilla for security purposes. We don't plan to incorporate the above-mentioned workaround. See https://github.com/openstyles/stylus/wiki/Styling-Firefox-UI\n    Export backups of your database frequently. The main reason we've kept the \"beta\" status for so long is because WebExtension support is still a work in progress for Firefox. Many Firefox specific workarounds have been implemented, but backing up your DB regularly will save you a lot of aggravation should something happen to go wrong.",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/184/184539.png?modified=1622132703",
+					"width": 700,
+					"height": 517,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/184/184539.jpg?modified=1622132703",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 394,
+					"caption": "Promo"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/184/184538.png?modified=1622132703",
+					"width": 700,
+					"height": 438,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/184/184538.jpg?modified=1622132703",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 334,
+					"caption": "Editor"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/200/200986.png?modified=1622132705",
+					"width": 843,
+					"height": 597,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/200/200986.jpg?modified=1622132705",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 377,
+					"caption": "Manager - customizing a usercss style"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/200/200987.png?modified=1622132709",
+					"width": 970,
+					"height": 865,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/200/200987.jpg?modified=1622132709",
+					"thumbnailWidth": 449,
+					"thumbnailHeight": 400,
+					"caption": "Editor - showing RegExp tester and colorpicker"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/200/200985.png?modified=1622132711",
+					"width": 538,
+					"height": 610,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/200/200985.jpg?modified=1622132711",
+					"thumbnailWidth": 353,
+					"thumbnailHeight": 400,
+					"caption": "Popup - customizing a usercss style"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/200/200988.png?modified=1622132713",
+					"width": 576,
+					"height": 727,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/200/200988.jpg?modified=1622132713",
+					"thumbnailWidth": 317,
+					"thumbnailHeight": 400,
+					"caption": "Popup - finding styles"
+				}
+			],
+			"homepageURL": "https://add0n.com/stylus.html",
+			"supportURL": "https://github.com/openstyles/stylus/issues",
+			"contributionURL": "",
+			"averageRating": 4.678,
+			"reviewCount": 324,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/styl-us/reviews/",
+			"weeklyDownloads": 1879,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/styl-us/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4338993/styl_us-1.5.51.xpi",
+			"updateDate": 1724320359000
+		},
+		{
+			"id": "{036a55b4-5e72-4d05-a06c-cba2dfcc134a}",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/2623/2623538-32.png?modified=8be60eed",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/2623/2623538-64.png?modified=8be60eed",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/2623/2623538-128.png?modified=8be60eed"
+			},
+			"type": "extension",
+			"name": "TWP - Translate Web Pages",
+			"version": "10.0.1.1",
+			"creator": {
+				"name": "Filipe Dev",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/15610759/"
+			},
+			"developers": [],
+			"description": "Translate your page in real time using Google or Yandex.\nIt is not necessary to open new tabs.\nNow works with the NoScript Extension.",
+			"fullDescription": "What can this extension do?\n\n    Your current page is translated without having to open new tabs.\n    It is possible to change the translation language.\n    You can select to automatically translate.\n    To change the translation engine just touch the Google Translate icon. \n\nWhy do you need to access your data on all the websites you visit?\nTo translate any website it is necessary to access and modify the text of the web pages. And the extension can only do that, with that permission.\n\nHow are the pages translated?\nThe pages are translated using the Google or Yandex translation engine (you choose).\n\nAnd how's my privacy?\nPrivacy policy\nWe do not collect any information. However, to translate, the contents of the web pages will be sent to Google or Yandex servers.\n\nLimitations\nSome pages like support.mozilla.org and addons.mozilla.org will not be translated. For security reasons, the browser blocks extensions from accessing these sites.\n\nHow can I help you?\n\n    Patreon\n    GitHub\n    Crowdin ",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/258/258434.png?modified=1625013971",
+					"width": 291,
+					"height": 150,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/258/258434.jpg?modified=1625013971",
+					"thumbnailWidth": 291,
+					"thumbnailHeight": 150,
+					"caption": "Translate Web Pages - Desktop, Simple interface"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/258/258435.png?modified=1625013971",
+					"width": 393,
+					"height": 198,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/258/258435.jpg?modified=1625013971",
+					"thumbnailWidth": 393,
+					"thumbnailHeight": 198,
+					"caption": "Translate Web Pages - Desktop, Advanced interface"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/258/258436.png?modified=1625013971",
+					"width": 750,
+					"height": 1334,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/258/258436.jpg?modified=1625013971",
+					"thumbnailWidth": 225,
+					"thumbnailHeight": 400,
+					"caption": "Translate Web Pages - Mobile"
+				}
+			],
+			"homepageURL": null,
+			"supportURL": null,
+			"contributionURL": "",
+			"averageRating": 4.7889,
+			"reviewCount": 1245,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/reviews/",
+			"weeklyDownloads": 12222,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4245500/traduzir_paginas_web-10.0.1.1.xpi",
+			"updateDate": 1710145226000
+		},
+		{
+			"id": "@testpilot-containers",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/782/782160-32.png?modified=mcrushed",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/782/782160-64.png?modified=mcrushed",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/782/782160-128.png?modified=mcrushed"
+			},
+			"type": "extension",
+			"name": "Firefox Multi-Account Containers",
+			"version": "8.2.0",
+			"creator": {
+				"name": "Mozilla Firefox",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/4757633/"
+			},
+			"developers": [],
+			"description": "Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy.",
+			"fullDescription": "About This Extension\n\nThe Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!\n\nUnder the hood, it separates website storage into tab-specific Containers. Cookies downloaded by one Container are not available to other Containers. You can even integrate individual Containers with Mozilla VPN to protect your browsing and location. With the Firefox Multi-Account Containers extension, you can...\n\n    Sign in to two different accounts on the same site (for example, you could sign in to work email and home email in two different Container tabs.\n    Keep different kinds of browsing far away from each other (for example, you might use one Container tab for managing your Checking Account and a different Container tab for searching for new songs by your favorite band)\n    Avoid leaving social-network footprints all over the web (for example, you could use a Container tab for signing in to a social network, and use a different tab for visiting online news sites, keeping your social identity separate from tracking scripts on news sites)\n    Protect your browsing activity in individual Containers using Mozilla VPN, so you can shop while travelling abroad but check your bank account from a server in your home country.\n\n\nAfter installing the Firefox Multi-Account Containers extension, click the Containers icon to edit your Containers. Change their colors, names, and icons. Long-click the new tab button to open a new Container tab.\n\nFor more information on how to use Multi-Account Containers, visit our help articles:\n\n\nAll about Multi Account Containers\nMulti Container user - how to use Mozilla VPN\nVPN subscriber - how to use Multi Account Containers",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/266/266157.png?modified=1643906676",
+					"width": 1440,
+					"height": 816,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/266/266157.jpg?modified=1643906676",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 302
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/266/266158.png?modified=1643906676",
+					"width": 1440,
+					"height": 816,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/266/266158.jpg?modified=1643906676",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 302
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/266/266160.png?modified=1643906676",
+					"width": 1440,
+					"height": 816,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/266/266160.jpg?modified=1643906676",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 302
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/266/266159.png?modified=1643906676",
+					"width": 1440,
+					"height": 816,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/266/266159.jpg?modified=1643906676",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 302
+				}
+			],
+			"homepageURL": "https://github.com/mozilla/multi-account-containers/#readme",
+			"supportURL": "https://github.com/mozilla/multi-account-containers/issues",
+			"contributionURL": "",
+			"averageRating": 4.6072,
+			"reviewCount": 3351,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/reviews/",
+			"weeklyDownloads": 13055,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4355970/multi_account_containers-8.2.0.xpi",
+			"updateDate": 1727193014000
+		},
+		{
+			"id": "FirefoxColor@mozilla.com",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/1004/1004409-32.png?modified=25bcff7a",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/1004/1004409-64.png?modified=25bcff7a",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/1004/1004409-128.png?modified=25bcff7a"
+			},
+			"type": "extension",
+			"name": "Firefox Color",
+			"version": "2.1.7",
+			"creator": {
+				"name": "Mozilla Firefox",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/4757633/"
+			},
+			"developers": [],
+			"description": "Build, save and share beautiful Firefox themes.",
+			"fullDescription": null,
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/216/216725.png?modified=1622133685",
+					"width": 2174,
+					"height": 1800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/216/216725.jpg?modified=1622133685",
+					"thumbnailWidth": 483,
+					"thumbnailHeight": 400
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/216/216723.png?modified=1622133697",
+					"width": 2174,
+					"height": 1800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/216/216723.jpg?modified=1622133697",
+					"thumbnailWidth": 483,
+					"thumbnailHeight": 400
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/216/216724.png?modified=1622133707",
+					"width": 2174,
+					"height": 1800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/216/216724.jpg?modified=1622133707",
+					"thumbnailWidth": 483,
+					"thumbnailHeight": 400
+				}
+			],
+			"homepageURL": "https://color.firefox.com",
+			"supportURL": null,
+			"contributionURL": "",
+			"averageRating": 4.4004,
+			"reviewCount": 382,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/firefox-color/reviews/",
+			"weeklyDownloads": 2478,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/firefox-color/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3643624/firefox_color-2.1.7.xpi",
+			"updateDate": 1600966128000
+		},
+		{
+			"id": "keepassxc-browser@keepassxc.org",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/917/917354-32.png?modified=1723572339",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/917/917354-64.png?modified=1723572339",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/917/917354-128.png?modified=1723572339"
+			},
+			"type": "extension",
+			"name": "KeePassXC-Browser",
+			"version": "1.9.3",
+			"creator": {
+				"name": "KeePassXC Team",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/13036987/"
+			},
+			"developers": [],
+			"description": "Official browser plugin for the KeePassXC password manager (https://keepassxc.org).",
+			"fullDescription": "Official browser plugin for the KeePassXC password manager (https://keepassxc.org).\n\nThe thing computers can do best is storing information.\nYou shouldn't waste your time trying to remember and type your passwords.\nKeePassXC can store your passwords safely and auto-type them into your everyday websites and applications.",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/197/197999.png?modified=1622132902",
+					"width": 700,
+					"height": 198,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/197/197999.jpg?modified=1622132902",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 151,
+					"caption": "KeePassXC"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/234/234592.png?modified=1622132905",
+					"width": 1513,
+					"height": 1047,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/234/234592.jpg?modified=1622132905",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 369,
+					"caption": "Settings page"
+				}
+			],
+			"homepageURL": "https://keepassxc.org/",
+			"supportURL": "https://github.com/keepassxreboot/keepassxc-browser",
+			"contributionURL": "https://paypal.me/varjolintu?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+			"averageRating": 4.2465,
+			"reviewCount": 261,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/reviews/",
+			"weeklyDownloads": 3514,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4342010/keepassxc_browser-1.9.3.xpi",
+			"updateDate": 1724918028000
+		},
+		{
+			"id": "{d7742d87-e61d-4b78-b8a1-b469842139fa}",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/808/808538-32.png?modified=683f1684",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/808/808538-64.png?modified=683f1684",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/808/808538-128.png?modified=683f1684"
+			},
+			"type": "extension",
+			"name": "Vimium",
+			"version": "2.1.2",
+			"creator": {
+				"name": "Phil Crosby",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/14971172/"
+			},
+			"developers": [
+				{
+					"name": "Stephen Blott",
+					"url": "https://addons.mozilla.org/en-US/firefox/user/12979436/"
+				}
+			],
+			"description": "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.",
+			"fullDescription": "Keyboard Bindings\n\nModifier keys are specified as <c-x>, <m-x>, and <a-x> for ctrl+x, meta+x, and alt+x respectively. See the next section for how to customize these bindings.\n\nOnce you have Vimium installed, you can see this list of key bindings at any time by typing ?.\n\nNavigating the current page:\n\n? show the help dialog for a list of all available keys\nh scroll left\nj scroll down\nk scroll up\nl scroll right\ngg scroll to top of the page\nG scroll to bottom of the page\nd scroll down half a page\nu scroll up half a page\nf open a link in the current tab\nF open a link in a new tab\nr reload\ngs view source\ni enter insert mode -- all commands will be ignored until you hit Esc to exit\nyy copy the current url to the clipboard\nyf copy a link url to the clipboard\ngf cycle forward to the next frame\ngF focus the main/top frame\n\nNavigating to new pages:\n\no Open URL, bookmark, or history entry\nO Open URL, bookmark, history entry in a new tab\nb Open bookmark\nB Open bookmark in a new tab\n\nUsing find:\n\n/ enter find mode\n-- type your search query and hit enter to search, or Esc to cancel\nn cycle forward to the next find match\nN cycle backward to the previous find match\n\nFor advanced usage, see regular expressions on the wiki.\n\nNavigating your history:\n\nH go back in history\nL go forward in history\n\nManipulating tabs:\n\nJ, gT go one tab left\nK, gt go one tab right\ng0 go to the first tab\ng$ go to the last tab\n^ visit the previously-visited tab\nt create tab\nyt duplicate current tab\nx close current tab\nX restore closed tab (i.e. unwind the 'x' command)\nT search through your open tabs\n<a-p> pin/unpin current tab\n\nUsing marks:\n\nma, mA set local mark \"a\" (global mark \"A\")\n`a, `A jump to local mark \"a\" (global mark \"A\")\n`` jump back to the position before the previous jump\n-- that is, before the previous gg, G, n, N, / or `a\n\nAdditional advanced browsing commands:\n\n]], [[ Follow the link labeled 'next' or '>' ('previous' or '<')\n- helpful for browsing paginated sites\n<a-f> open multiple links in a new tab\ngi focus the first (or n-th) text input box on the page\ngu go up one level in the URL hierarchy\ngU go up to root of the URL hierarchy\nge edit the current URL\ngE edit the current URL and open in a new tab\nzH scroll all the way left\nzL scroll all the way right\nv enter visual mode; use p/P to paste-and-go, use y to yank\nV enter visual line mode\n\nVimium supports command repetition so, for example, hitting 5t will open 5 tabs in rapid succession. <Esc> (or <c-[>) will clear any partial commands in the queue and will also exit insert and find modes.\n\nThere are some advanced commands which aren't documented here; refer to the help dialog (type ?) for a full list.",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/293/293766.png?modified=1704069500",
+					"width": 2400,
+					"height": 1710,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/293/293766.jpg?modified=1704069500",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 380,
+					"caption": "Type \"f\" to show a hint for every link on the page. Type the characters next to a link to click on that link, without using the mouse."
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/293/293763.png?modified=1704069500",
+					"width": 2400,
+					"height": 1710,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/293/293763.jpg?modified=1704069500",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 380
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/293/293765.png?modified=1704069500",
+					"width": 2400,
+					"height": 1710,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/293/293765.jpg?modified=1704069500",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 380,
+					"caption": "Type \"?\" to show the help dialog, with all available commands."
+				}
+			],
+			"homepageURL": "https://github.com/philc/vimium",
+			"supportURL": "https://github.com/philc/vimium/issues",
+			"contributionURL": "",
+			"averageRating": 4.8087,
+			"reviewCount": 181,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/reviews/",
+			"weeklyDownloads": 1682,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4259790/vimium_ff-2.1.2.xpi",
+			"updateDate": 1712234407000
+		},
+		{
+			"id": "{c84d89d9-a826-4015-957b-affebd9eb603}",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/1002/1002080-32.png?modified=6a9fc9ce",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/1002/1002080-64.png?modified=6a9fc9ce",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/1002/1002080-128.png?modified=6a9fc9ce"
+			},
+			"type": "extension",
+			"name": "MAL-Sync",
+			"version": "0.10.4",
+			"creator": {
+				"name": "lolamtisch",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/13616310/"
+			},
+			"developers": [],
+			"description": "MAL-Sync enables automatic episode tracking between MyAnimeList/Anilist/Kitsu/Simkl and multiple anime streaming websites.",
+			"fullDescription": "MAL-Sync — is a powerful extension for anime/manga fans who love tracking their progress and have a convenient access to their library ✨\n\nThis extension syncs with your favorite anime databases: MyAnimeList, AniList, Kitsu, Simkl — and integrates them into your favorite streaming sites with auto episode tracking.\n\nMAL-Sync supports 100+ anime and manga pages like Crunchyroll, Netflix, MangaDex, 9anime — it even has support for Plex and apps alike! 🔥\n\nA full list can be found in our GitHub page:\nhttps://github.com/MALSync/MALSync#mal-sync\n\nSo, what are the core features of MAL-Sync?\n👀 Anime and manga tracking\n📂 Beautiful library — one click away!\n📑 Anime/manga overview with all the necessary information\n🔠 Translated into different languages\n🎨 Design customization\n🔁 List Sync — transfer the progress between different databases, e.g., MAL to AniList, and vice versa\n🎥 Video player improvements\n📺 Full size version (PWA)\n\nAnd much-much more!\n\nJoin our community on Discord:\nhttps://discord.com/invite/cTH4yaw",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/274/274647.png?modified=1667228784",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/274/274647.jpg?modified=1667228784",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/274/274648.png?modified=1667228782",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/274/274648.jpg?modified=1667228782",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/274/274649.png?modified=1667228782",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/274/274649.jpg?modified=1667228782",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/274/274650.png?modified=1667228785",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/274/274650.jpg?modified=1667228785",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/274/274651.png?modified=1667228783",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/274/274651.jpg?modified=1667228783",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/274/274652.png?modified=1667228782",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/274/274652.jpg?modified=1667228782",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				}
+			],
+			"homepageURL": "https://github.com/lolamtisch/MALSync",
+			"supportURL": "https://github.com/lolamtisch/MALSync/issues",
+			"contributionURL": "https://ko-fi.com/lolamtisch?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+			"averageRating": 4.8307,
+			"reviewCount": 46,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/mal-sync/reviews/",
+			"weeklyDownloads": 238,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/mal-sync/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4340167/mal_sync-0.10.4_FEogeJR.xpi",
+			"updateDate": 1728650617000
+		},
+		{
+			"id": "{a8332c60-5b6d-41ee-bfc8-e9bb331d34ad}",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/886/886233-32.png?modified=e2067713",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/886/886233-64.png?modified=e2067713",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/886/886233-128.png?modified=e2067713"
+			},
+			"type": "extension",
+			"name": "Surfingkeys",
+			"version": "1.16.1",
+			"creator": {
+				"name": "brook hong",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/13501342/"
+			},
+			"developers": [],
+			"description": "Rich shortcuts for you to click links / switch tabs / scroll pages or DIVs / capture full page or DIV etc, let you use the browser like vim, plus an embed vim editor.\n\nhttps://github.com/brookhong/Surfingkeys",
+			"fullDescription": null,
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/204/204335.png?modified=1651484358",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/204/204335.jpg?modified=1651484358",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "f to follow links"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/204/204336.png?modified=1651484358",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/204/204336.jpg?modified=1651484358",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "v to enter visual mode to copy text."
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/204/204337.png?modified=1651484358",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/204/204337.jpg?modified=1651484358",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "t to open omnibar to query url."
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/204/204338.png?modified=1651484358",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/204/204338.jpg?modified=1651484358",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "? to show usage."
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/204/204339.png?modified=1651484358",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/204/204339.jpg?modified=1651484358",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333,
+					"caption": "su to edit current url with vim editor."
+				}
+			],
+			"homepageURL": "https://github.com/brookhong/Surfingkeys",
+			"supportURL": "https://github.com/brookhong/Surfingkeys",
+			"contributionURL": "",
+			"averageRating": 4.871,
+			"reviewCount": 37,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/reviews/",
+			"weeklyDownloads": 85,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4221189/surfingkeys_ff-1.16.1.xpi",
+			"updateDate": 1705109114000
+		},
+		{
+			"id": "transmitter@unrelenting.technology",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/808/808592-32.png?modified=1706422257",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/808/808592-64.png?modified=1706422257",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/808/808592-128.png?modified=1706422257"
+			},
+			"type": "extension",
+			"name": "Transmitter for Transmission",
+			"version": "1.2.0",
+			"creator": {
+				"name": "Val Packett",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/7094830/"
+			},
+			"developers": [],
+			"description": "Communicates with the Transmission BitTorrent client. Supports adding .torrent files and magnet: links, also adds an icon for quickly looking at torrent status.",
+			"fullDescription": null,
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/184/184029.png?modified=1622132727",
+					"width": 685,
+					"height": 423,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/184/184029.jpg?modified=1622132727",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 329,
+					"caption": "The popup menu offers a quick view of torrents on the server"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/184/184030.png?modified=1622132727",
+					"width": 634,
+					"height": 525,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/184/184030.jpg?modified=1622132727",
+					"thumbnailWidth": 483,
+					"thumbnailHeight": 400,
+					"caption": "The context menu option lets you quickly add a magnet or torrent file link to the server"
+				}
+			],
+			"homepageURL": "https://github.com/valpackett/transmitter",
+			"supportURL": "https://github.com/valpackett/transmitter",
+			"contributionURL": "https://www.patreon.com/valpackett?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+			"averageRating": 4.22,
+			"reviewCount": 25,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/transmitter-for-transmission/reviews/",
+			"weeklyDownloads": 37,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/transmitter-for-transmission/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4227956/transmitter_for_transmission-1.2.0.xpi",
+			"updateDate": 1706423116000
+		},
+		{
+			"id": "{8446b178-c865-4f5c-8ccc-1d7887811ae3}",
+			"icons": {
+				"32": "https://addons.mozilla.org/static-server/img/addon-icons/default-32.2b26add4b394.png",
+				"64": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png",
+				"128": "https://addons.mozilla.org/static-server/img/addon-icons/default-128.452018499894.png"
+			},
+			"type": "theme",
+			"name": "Catppuccin Mocha - Lavender",
+			"version": "2.0",
+			"creator": {
+				"name": "Catppuccin",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/18350908/"
+			},
+			"developers": [],
+			"description": "🦊 Soothing pastel theme for Firefox (Official)",
+			"fullDescription": "Other versions are available through our website.",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/version-previews/full/3909/3909670.png?modified=1660737262",
+					"width": 680,
+					"height": 92,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/version-previews/thumbs/3909/3909670.png?modified=1660737262",
+					"thumbnailWidth": 473,
+					"thumbnailHeight": 64
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/version-previews/full/3909/3909671.svg?modified=1660737262",
+					"width": 720,
+					"height": 92,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/version-previews/thumbs/3909/3909671.jpg?modified=1660737262",
+					"thumbnailWidth": 720,
+					"thumbnailHeight": 92
+				}
+			],
+			"homepageURL": null,
+			"supportURL": "https://github.com/catppuccin/firefox",
+			"contributionURL": "",
+			"averageRating": 4.8333,
+			"reviewCount": 1,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-lavender-git/reviews/",
+			"weeklyDownloads": 70,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-lavender-git/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3990315/catppuccin_mocha_lavender_git-2.0.xpi",
+			"updateDate": 1660737757000
+		},
+		{
+			"id": "sidebarTabs@asamuzak.jp",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/836/836961-32.png?modified=10e51f1b",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/836/836961-64.png?modified=10e51f1b",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/836/836961-128.png?modified=10e51f1b"
+			},
+			"type": "extension",
+			"name": "Sidebar Tabs",
+			"version": "15.0.0",
+			"creator": {
+				"name": "asamuzaK",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/4777581/"
+			},
+			"developers": [],
+			"description": "Emulate tabs in sidebar and display tabs vertically. In addition, group tabs and collapse / expand them.",
+			"fullDescription": "Display tabs vertically in the sidebar.\nTabs can be grouped.\n\nabout:config\n\nEnable the experimental feature as follows:\n\n    Visit about:config.\n    Search for svg.context-properties.content.enabled and set the value to true.\n\n\nTab groups\n\nGroup tabs:\n\n    Select tabs by Shift + click or Ctrl + click.\n    Drag one of the selected tabs and Shift + drop it on the tab you want to group.\n    Or from the context menu (right click on one of the selected tabs), select \"Tab Group\" -> \"Group Selected Tabs\".\n\n\nAdd group label:\n\n    From the context menu, select \"Tab Group\" -> \"Show Group Label\" and edit.\n\n\nCollapse / expand tab group:\n\n    Click on the colored part will toggle collapsed / expanded state.\n    Or from the context menu, select \"Tab Group\" -> \"Collapse (Expand) Tab Group\".\n\n\nCancel tab group:\n\n    From the context menu, select \"Tab Group\" -> \"Ungroup tabs\".\n\n\nFor further info, see Github repository.",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/199/199091.png?modified=1622132761",
+					"width": 800,
+					"height": 600,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/199/199091.jpg?modified=1622132761",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "Group tabs"
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/199/199092.png?modified=1622132763",
+					"width": 800,
+					"height": 600,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/199/199092.jpg?modified=1622132763",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 400,
+					"caption": "Context menu"
+				}
+			],
+			"homepageURL": "https://github.com/asamuzaK/sidebarTabs",
+			"supportURL": "https://github.com/asamuzaK/sidebarTabs/issues",
+			"contributionURL": "https://paypal.me/asamuzakjp?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+			"averageRating": 4.5,
+			"reviewCount": 15,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/sidebartabs/reviews/",
+			"weeklyDownloads": 50,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/sidebartabs/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4361072/sidebartabs-15.0.0.xpi",
+			"updateDate": 1727587520000
+		},
+		{
+			"id": "{15cb5e64-94bd-41aa-91cf-751bb1a84972}",
+			"icons": {
+				"32": "https://addons.mozilla.org/static-server/img/addon-icons/default-32.2b26add4b394.png",
+				"64": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png",
+				"128": "https://addons.mozilla.org/static-server/img/addon-icons/default-128.452018499894.png"
+			},
+			"type": "theme",
+			"name": "Catppuccin Macchiato - Lavender",
+			"version": "2.0",
+			"creator": {
+				"name": "Catppuccin",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/18350908/"
+			},
+			"developers": [],
+			"description": "🦊 Soothing pastel theme for Firefox (Official)",
+			"fullDescription": "Other versions are available through our website.",
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/version-previews/full/3909/3909666.png?modified=1660736759",
+					"width": 680,
+					"height": 92,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/version-previews/thumbs/3909/3909666.png?modified=1660736759",
+					"thumbnailWidth": 473,
+					"thumbnailHeight": 64
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/version-previews/full/3909/3909667.svg?modified=1660736759",
+					"width": 720,
+					"height": 92,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/version-previews/thumbs/3909/3909667.jpg?modified=1660736759",
+					"thumbnailWidth": 720,
+					"thumbnailHeight": 92
+				}
+			],
+			"homepageURL": null,
+			"supportURL": "https://github.com/catppuccin/firefox",
+			"contributionURL": "",
+			"averageRating": 5,
+			"reviewCount": 1,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/catppuccin-macchiato-lavender2/reviews/",
+			"weeklyDownloads": 20,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/catppuccin-macchiato-lavender2/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3990308/catppuccin_macchiato_lavender2-2.0.xpi",
+			"updateDate": 1660737717000
+		},
+		{
+			"id": "savemd@webext.leloctai",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/2722/2722446-32.png?modified=e70e2e70",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/2722/2722446-64.png?modified=e70e2e70",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/2722/2722446-128.png?modified=e70e2e70"
+			},
+			"type": "extension",
+			"name": "Save as Markdown",
+			"version": "1.0.9",
+			"creator": {
+				"name": "Tai",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/13326222/"
+			},
+			"developers": [],
+			"description": "Save current page as Markdown",
+			"fullDescription": null,
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/261/261691.png?modified=1632576054",
+					"width": 1262,
+					"height": 989,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/261/261691.jpg?modified=1632576054",
+					"thumbnailWidth": 510,
+					"thumbnailHeight": 400
+				}
+			],
+			"homepageURL": "https://github.com/leloctai/savemd",
+			"supportURL": null,
+			"contributionURL": "",
+			"averageRating": 0,
+			"reviewCount": 0,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/save-as-markdown/reviews/",
+			"weeklyDownloads": 0,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/save-as-markdown/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3883555/save_as_markdown-1.0.9.xpi",
+			"updateDate": 1639987739000
+		},
+		{
+			"id": "{7cee975a-4c63-4519-b231-b2f68e5966ea}",
+			"icons": {
+				"32": "https://addons.mozilla.org/static-server/img/addon-icons/default-32.2b26add4b394.png",
+				"64": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png",
+				"128": "https://addons.mozilla.org/static-server/img/addon-icons/default-128.452018499894.png"
+			},
+			"type": "theme",
+			"name": "Nord FF",
+			"version": "1.0",
+			"creator": {
+				"name": "Ben013",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/14609439/"
+			},
+			"developers": [],
+			"description": "Nordic color :\nnordtheme.com",
+			"fullDescription": null,
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/version-previews/full/3838/3838157.png?modified=1623034181",
+					"width": 680,
+					"height": 92,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/version-previews/thumbs/3838/3838157.png?modified=1623034181",
+					"thumbnailWidth": 473,
+					"thumbnailHeight": 64
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/version-previews/full/3838/3838159.svg?modified=1623034182",
+					"width": 720,
+					"height": 92,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/version-previews/thumbs/3838/3838159.jpg?modified=1623034182",
+					"thumbnailWidth": 720,
+					"thumbnailHeight": 92
+				}
+			],
+			"homepageURL": null,
+			"supportURL": null,
+			"contributionURL": "",
+			"averageRating": 5,
+			"reviewCount": 0,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/nord-ff/reviews/",
+			"weeklyDownloads": 1,
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/nord-ff/",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3657933/nord_ff-1.0.xpi",
+			"updateDate": 1602279178000
+		},
+		{
+			"id": "{019b606a-6f61-4d01-af2a-cea528f606da}",
+			"icons": {
+				"32": "https://addons.mozilla.org/user-media/addon_icons/1001/1001698-32.png?modified=01dc1eed",
+				"64": "https://addons.mozilla.org/user-media/addon_icons/1001/1001698-64.png?modified=01dc1eed",
+				"128": "https://addons.mozilla.org/user-media/addon_icons/1001/1001698-128.png?modified=01dc1eed"
+			},
+			"name": "xBrowserSync",
+			"version": "1.5.2",
+			"sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3546070/xbs-1.5.2.xpi",
+			"homepageURL": "https://www.xbrowsersync.org/",
+			"supportURL": "https://github.com/xbrowsersync/app/issues",
+			"amoListingURL": "https://addons.mozilla.org/en-US/firefox/addon/xbs/",
+			"description": "Browser syncing as it should be: secure, anonymous and free! Sync bookmarks across your browsers and devices, no sign up required.",
+			"fullDescription": "xBrowserSync is a completely free and open source tool for syncing your bookmarks and browser data between your desktop browsers. xBrowserSync respects your privacy and gives you complete anonymity — no sign up is required and no personal data is ever collected. It is also completely secure; your data is encrypted client-side with military grade encryption, Even if someone intercepted your data, only you can decrypt it.\n\nxBrowserSync enriches your bookmarks with the addition of descriptions and tags. An intuitive search interface lets you find bookmarks quickly and easily, or simply browse your bookmarks hierarchy by folders. And don’t ever worry about losing your data thanks to the included back up and restore functionality.\n\nThe web extension fully supports your native desktop browser bookmarking features; xBrowserSync will preserve your existing bookmarks hierarchy and any changes you make using the native bookmarking functionality are synced by xBrowserSync automatically. xBrowserSync will even add metadata to new bookmarks automatically!\n\nWith the xBrowserSync mobile app you can use xBrowserSync on the go with your Android device. Once you have created a new sync on your desktop browser using the web extension, simply scan your sync ID code into the app and enter your password to connect to your synced data. Add new bookmarks easily by sharing from your favourite apps (browsers, YouTube, Spotify and any other app that shares URLs), xBrowserSync will even populate the bookmark properties for you.\n\nFor ultimate privacy, configure your very own xBrowserSync cloud service on your Linux or Windows server to sync to. The code for the xBrowserSync cloud service is open source and is easy to set up for any relatively tech savvy individual.\n\nWelcome to browser syncing as it should be: secure, anonymous and free!\n\nKey features:\n\n★ Sync bookmarks between desktop browsers (syncing of additional browser data will be added in future versions), and access bookmarks on the move using the xBrowserSync Android app.\n★ Absolutely free, there are no charges for using the service. Ever.\n★ Totally anonymous, no sign up or submission of personal data required, just install and sync.\n★ Encrypts your browser data client-side using military grade encryption that only you can decrypt.\n★ Browse, find, modify and share bookmarks quickly and easily.\n★ Enrich your bookmarks with descriptions and tags.\n★ Works with native desktop browser bookmarking features.\n★ Add bookmarks with the mobile app by sharing from your favourite apps.\n★ Share bookmarks with friends with the mobile app.\n★ Back up and restore your synced data for total peace of mind.\n★ Run your very own xBrowserSync cloud service for syncing in complete privacy.\n\nFor more information visit www.xbrowsersync.org.\n\nImportant: There are known issues when using the native Firefox bookmark features with xBrowserSync, please review them carefully before use.",
+			"weeklyDownloads": 152,
+			"type": "extension",
+			"creator": {
+				"name": "xBrowserSync",
+				"url": "https://addons.mozilla.org/en-US/firefox/user/14149759/"
+			},
+			"developers": [],
+			"screenshots": [
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/235/235643.png?modified=1622133916",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235643.jpg?modified=1622133916",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/235/235644.png?modified=1622133919",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235644.jpg?modified=1622133919",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/235/235645.png?modified=1622133921",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235645.jpg?modified=1622133921",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/235/235646.png?modified=1622133924",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235646.jpg?modified=1622133924",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				},
+				{
+					"url": "https://addons.mozilla.org/user-media/previews/full/235/235647.png?modified=1622133926",
+					"width": 1280,
+					"height": 800,
+					"thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235647.jpg?modified=1622133926",
+					"thumbnailWidth": 533,
+					"thumbnailHeight": 333
+				}
+			],
+			"contributionURL": "",
+			"averageRating": 4.0778,
+			"reviewCount": 50,
+			"reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/xbs/reviews/",
+			"updateDate": 1640667966000
+		}
+	]
+}
