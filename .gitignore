@@ -27,26 +27,6 @@
 *LOG
 Trash
 KireiSakura-Kit
-.local/state
-
-
-
-#_________ 64Gram__________
-!/.local/share/64Gram
-/.local/share/64Gram/logs*
-/.local/share/64Gram/tdata/*
-!/.local/share/64Gram/tdata/enhanced-settings-custom.json
-!/.local/share/64Gram/tdata/shortcuts-custom.json
-
-
-
-#__________System__________
-!/.cache
-/.cache/*
-!/.cache/ags
-!/.cache/.placeholder
-/.cache/ags/*
-!/.cache/ags/hyprpanel
 
 
 #____________ brave ______________
@@ -55,116 +35,8 @@ KireiSakura-Kit
 !/.config/BraveSoftware/Brave-Browser/NativeMessagingHosts
 
 
-#____________Dolphin______________
-/.config/copyq/.copyq_s
-/.config/copyq/copyq_geometry.ini
-/.config/copyq/*.dat
-
-
-
-#____________Dolphin______________
-/.local/share/dolphin/kuserfeedback
-/.local/share/dolphin/bookmarks.xml
-
-
-#____________FirefoxPWA__________
-/.local/share/firefoxpwa/runtime
-/.local/share/firefoxpwa/profiles/**/*.bin
-/.local/share/firefoxpwa/profiles/*/AlternateServices.bin
-/.local/share/firefoxpwa/profiles/*/activity-stream.weather_feed.json
-/.local/share/firefoxpwa/profiles/*/addonStartup.json.lz4
-/.local/share/firefoxpwa/profiles/*/autofill-profiles.json
-/.local/share/firefoxpwa/profiles/*/broadcast-listeners.json
-/.local/share/firefoxpwa/profiles/*/browser-extension-data
-/.local/share/firefoxpwa/profiles/*/bounce-tracking-protection.sqlite
-/.local/share/firefoxpwa/profiles/*/bookmarkbackups
-/.local/share/firefoxpwa/profiles/*/**/cache2/
-/.local/share/firefoxpwa/profiles/*/cert9.db
-/.local/share/firefoxpwa/profiles/*/cert_override.txt
-/.local/share/firefoxpwa/profiles/*/compatibility.ini
-/.local/share/firefoxpwa/profiles/*/content-prefs.sqlite
-/.local/share/firefoxpwa/profiles/*/cookies.sqlite
-/.local/share/firefoxpwa/profiles/*/cookies.sqlite-wal
-/.local/share/firefoxpwa/profiles/*/crashes
-/.local/share/firefoxpwa/profiles/*/enumerate_devices.txt
-/.local/share/firefoxpwa/profiles/*/datareporting
-/.local/share/firefoxpwa/profiles/**/failover.jsc
-/.local/share/firefoxpwa/profiles/*/favicons.sqlite
-/.local/share/firefoxpwa/profiles/*/favicons.sqlite-wal
-/.local/share/firefoxpwa/profiles/*/formhistory.sqlite
-/.local/share/firefoxpwa/profiles/*/gmp*
-/.local/share/firefoxpwa/profiles/*/key4.db
-/.local/share/firefoxpwa/profiles/*/lock
-/.local/share/firefoxpwa/profiles/*/logins-backup.json
-/.local/share/firefoxpwa/profiles/*/logins.json
-/.local/share/firefoxpwa/profiles/*/minidumps
-/.local/share/firefoxpwa/profiles/*/notificationstore.json
-/.local/share/firefoxpwa/profiles/*/permissions.sqlite
-/.local/share/firefoxpwa/profiles/**/.parentlock
-/.local/share/firefoxpwa/profiles/*/pkcs11.txt
-/.local/share/firefoxpwa/profiles/*/places.sqlite
-/.local/share/firefoxpwa/profiles/*/places.sqlite-wal
-/.local/share/firefoxpwa/profiles/*/protections.sqlite
-/.local/share/firefoxpwa/profiles/*/saved-telemetry-pings
-/.local/share/firefoxpwa/profiles/*/serviceworker.txt
-/.local/share/firefoxpwa/profiles/*/search.json.mozlz4
-/.local/share/firefoxpwa/profiles/*/safebrowsing
-/.local/share/firefoxpwa/profiles/*/sessionCheckpoints.json
-/.local/share/firefoxpwa/profiles/*/security_state
-/.local/share/firefoxpwa/profiles/*/sessionstore-backups
-/.local/share/firefoxpwa/profiles/**/sessionstore.jsonlz4
-/.local/share/firefoxpwa/profiles/*/signedInUser.json
-/.local/share/firefoxpwa/profiles/*/SiteSecurityServiceState.bin
-/.local/share/firefoxpwa/profiles/*/storage
-/.local/share/firefoxpwa/profiles/*/storage-sync-v2.sqlite
-/.local/share/firefoxpwa/profiles/*/storage-sync-v2.sqlite-shm
-/.local/share/firefoxpwa/profiles/*/storage-sync-v2.sqlite-wal
-/.local/share/firefoxpwa/profiles/*/storage.sqlite
-/.local/share/firefoxpwa/profiles/*/synced-tabs.db
-/.local/share/firefoxpwa/profiles/*/synced-tabs.db-shm
-/.local/share/firefoxpwa/profiles/*/synced-tabs.db-wal
-/.local/share/firefoxpwa/profiles/*/times.json
-/.local/share/firefoxpwa/profiles/*/weave
-/.local/share/firefoxpwa/profiles/*/webappsstore.sqlite
-/.local/share/firefoxpwa/profiles/*/webappsstore.sqlite-wal
-
-
-
-#________ HyprPanel _________
-/.config/HyprPanel
-
-
-
-#________KireiSakura-Kit_________
-/Install/KireiSakura-Kit
-/Install/test.sh
-
-
-#____________Kate_______________
-/.config/kate/externaltools
-
-
-#____________Konsole______________
-/.local/share/konsole/bookmarks.xml
-
-
 #_______LazyGit___________
 /.config/lazygit/state.yml
-
-
-#_________.local__________
-/.local/share/*
-!/.local/share/applications
-!/.local/share/dolphin
-!/.local/share/firefoxpwa
-!/.local/share/konsole
-!/.local/share/kxmlgui5
-!/.local/share/ss
-!/.local/share/media-downloader
-!/.local/share/nwg-look
-!/.local/share/onboard
-/.local/share/onboard/models
-!/.local/share/templates
 
 
 
@@ -188,45 +60,9 @@ KireiSakura-Kit
 
 
 
-#________ KDE _______________
-/.config/KDE/UserFeedback*
-/.config/kde*/UserFeedback*
-/.config/baloofileinformationrc
-/.config/filetypesrc
-/.config/knfsshare
-/.config/ktorrent_infowidgetrc
-
-
-#________Libreoffice________________
-/.config/libreoffice/4/*
-!/.config/libreoffice/4/user
-/.config/libreoffice/4/user/*
-!/.config/libreoffice/4/user/pack
-
-!/.config/libreoffice/4/user/registrymodifications.xcu
-
-
-#_______Mozilla__________
-/.mozilla/firefox
-
-
 #________MPV____________
 /.config/mpv/playlists
 /.config/mpv/watch_later
-
-
-
-#____________________Mkv Tool__________
-/.config/bunkus.org/mkvtoolnix-gui/jobQueue
-
-
-
-#______________media-downloader________
-/.local/share/media-downloader/bin
-/.local/share/media-downloader/data
-/.local/share/media-downloader/engines.v1
-
-
 
 
 
@@ -256,121 +92,30 @@ KireiSakura-Kit
 
 
 
-#_______Okular___________
-/.config/okularpartrc
-/.config/okular-generator-popplerrc
-/.config/QtProject.conf
-
-
-#_____________Plasma___________________
-/.local/share/plasma/containmentpreviews
-/.local/share/plasma/plasmoids
-/.local/share/plasma/desktoptheme/Colloid-dark-nord
-/.local/share/plasma/desktoptheme/N-Plasma-Theme
-/.local/share/plasma/desktoptheme/Nordic-round
-/.local/share/plasma/desktoptheme/Nordic-Solid
-/.local/share/plasma/desktoptheme/Wings-Dark-Plasma
-/.local/share/plasma/look-and-feel
-/.local/share/konsole/konsolestaterc
-
-
 #________Spicetify__________
 /.config/spicetify/CustomApps
 /.config/spicetify/Extracted
 
 
-#______theme folder_________
-# /.themes
 
+#_________VsCode (VsCodium, Code OSS)_________
+/.config/Code/*
+/.config/Code/User/*
+!/.config/Code/Preferences
+!/.config/Code/User
+!/.config/Code/User/keybindings.json
+!/.config/Code/User/settings.json
+!/.config/Code/User/snippets
 
-#________VsCodium____________
-/.config/VSCodium/Backups
-/.config/VSCodium/Crashpad
-/.config/VSCodium/databases
-/.config/VSCodium/Dictionaries
-/.config/VSCodium/Local Storage
-/.config/VSCodium/Network Persistent State
-/.config/VSCodium/.org.chromium.*
-/.config/VSCodium/Preferences
-/.config/VSCodium/Shared Dictionary
-/.config/VSCodium/Service Worker/
-/.config/VSCodium/Session Storage/
-/.config/VSCodium/User/History
-/.config/VSCodium/TransportSecurity
-/.config/VSCodium/User/syncLocalSettings.json
-/.config/VSCodium/shared_proto_db
-/.config/VSCodium/machineid
-/.config/VSCodium/Workspaces
+/.config/VSCodium/*
+/.config/VSCodium/User/*
+!/.config/VSCodium/Preferences
+!/.config/VSCodium/User
+!/.config/VSCodium/User/keybindings.json
+!/.config/VSCodium/User/settings.json
+!/.config/VSCodium/User/snippets
 
-
-#_________VsCode_________
-/.config/Code/Backups
-/.config/*/Backups
-/.config/*/Crashpad
-/.config/*/Dictionaries
-/.config/*/Service Worker
-/.config/*/Shared Dictionary
-/.config/*/User/History
-/.config/*/User/profiles
-/.config/*/User/sync
-/.config/*/.org.chromium.*
-/.config/*/machineid
-/.config/*/Network Persistent State
-/.config/*/TransportSecurity
-/.config/*/IndexedDB
-/.config/*/.guid
-/.config/*/Singleton*
-.config/*/window-state.json
-
-
-
-#________WebCord_______
-/.config/WebCord/TransportSecurity
-/.config/WebCord/Crashpad
-/.config/WebCord/Dictionaries
-/.config/WebCord/Shared Dictionary
-/.config/WebCord/Network Persistent State
-/.config/WebCord/windowState
-/.config/VSCodium/VideoDecodeStats
-
-
-#_______Youtube-music______
-/.config/YouTube Music/VideoDecodeStats/LOG.old
-/.config/YouTube Music/Crashpad
-/.config/YouTube Music/Dictionaries
-/.config/YouTube Music/Local Storage
-/.config/YouTube Music/.updaterId
-/.config/YouTube Music/IndexedDB
-/.config/YouTube Music/Network Persistent State
-/.config/YouTube Music/Service Worker
-/.config/YouTube Music/Session Storage
-/.config/YouTube Music/TransportSecurity
-/.config/YouTube Music/VideoDecodeStats
-/.config/YouTube Music/Shared Dictionary
-/.config/YouTube Music/tempIcon.png
-/.config/YouTube Music/SingletonSocket
-/.config/YouTube Music/SingletonLock
-/.config/YouTube Music/SingletonCookie
-/.config/YouTube Music/shared_proto_db
-
-
-
-
-#________ user dirs __________
-
-/.config/user-dirs.*
 
 
 #________ Vlc __________
 /.config/vlc/vlc-qt-interface.conf
-
-
-#________ZSH__________
-/.config/zsh/------OLD------
-/.config/zsh/zinit
-/.config/zsh/*history*
-
-
-#______ZED_______
-#/.config/zed/
-
