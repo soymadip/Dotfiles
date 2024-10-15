@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories=Utility;System;
-Comment=Powermenu using Rofi
-Exec=$XDG_CONFIG_HOME/rofi/rofi-powermenu
-Icon=powermanga
-Name=Rofi Powermenu
-StartupNotify=false
-Terminal=false
-Type=Application

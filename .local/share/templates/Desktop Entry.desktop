@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=Desktop Entry
-Icon=cs-desktop
-Name[en_US]=Desktop Entry
-Name=Desktop Entry
-Type=Link
-URL[$e]=file:$HOME/.local/share/templates/source/example.desktop
