@@ -28,6 +28,7 @@
 Trash
 KireiSakura-Kit
 .local/state
+nohup.*
 
 
 
@@ -57,7 +58,7 @@ KireiSakura-Kit
 
 
 
-#____________Dolphin______________
+#________CopyQ______________
 /.config/copyq/.copyq_s
 /.config/copyq/copyq_geometry.ini
 /.config/copyq/*.dat
